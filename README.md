@@ -3,8 +3,18 @@ Valet is a project that demonstrates the power of generative AI for Open Q&A. Th
 
 With Valet, you can experience the cutting-edge of AI research and explore the potential of natural language processing for your own projects. The demonstrator provides a user-friendly interface for asking questions and receiving responses in real-time, giving you a glimpse into the exciting future of intelligent virtual assistants.
 
-Features:
+## Features:
 
-State-of-the-art generative AI for Open Q&A
-Sources responses from Telegram conversations in a group named Galion's Project
-User-friendly interface for asking questions and receiving responses in real-time
+- State-of-the-art generative AI for Open Q&A
+- Sources responses from Telegram conversations in a group named Galion's Project
+- User-friendly interface for asking questions and receiving responses in real-time
+
+## Data management
+Most of the historical data is used to answer questions. 
+the last part of the dataset is used for validation purpose (i.e. not included in the document store) and therefore not accessible for answer generation
+
+## Services:
+- Vectorize telegram export
+- Answers questions
+- Run the app
+
