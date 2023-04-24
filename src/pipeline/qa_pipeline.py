@@ -1,5 +1,6 @@
 import streamlit as st
 from haystack.pipelines import GenerativeQAPipeline
+
 from src.pipeline.answer_generator import get_answer_generator
 from src.pipeline.document_store import load_document_store
 from src.pipeline.retriever import get_retriever

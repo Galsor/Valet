@@ -28,7 +28,7 @@ def display_ask_tab():
         else:
             st.session_state["submit"] = True
             display_model_answer_and_sources(query)
-    
+
 
 def display_model_answer_and_sources(query: str):
     answer_col, sources_col = st.columns(2)
