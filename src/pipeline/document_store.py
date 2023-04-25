@@ -28,7 +28,7 @@ def load_document_store() -> InMemoryDocumentStore:
 
 def build_document_store() -> InMemoryDocumentStore:
     messages = get_raw_conversation_store()
-    document_store = InMemoryDocumentStore(similarity="cosine")
+    document_store = InMemoryDocumentStore(similarity="dot_product")
     document_store.write_documents(
         [
             Document(
@@ -61,10 +61,3 @@ def save_document_store(
     with open(path, "wb") as pkl:
         pickle.dump(document_store, pkl)
 
-
-if __name__ == "__main__":
-    import os
-    from pathlib import Path
-
-    os.chcwd(Path(__file__).parent.parent.parent)
-    save_document_store()
