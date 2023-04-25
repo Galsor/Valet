@@ -9,4 +9,4 @@ lint:
 	python -m isort .
 
 app:
-	python -m streamlit run app.py
+	python -m streamlit run app.py --server.enableCORS false --server.enableXsrfProtection false
