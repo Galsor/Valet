@@ -1,11 +1,12 @@
 SHELL := /bin/bash
 
-venv:
-	source .venv/bin/activate
+document_store:
+	python -c "from src.pipeline.document_store import save_document_store; save_document_store()"
 
-build_document_store: venv
-	python src/pipeline/document_store.py
 
-lint: venv
+lint:
 	python -m black .
 	python -m isort .
+
+app:
+	python -m streamlit run app.py
