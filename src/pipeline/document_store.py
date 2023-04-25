@@ -1,4 +1,3 @@
-import json
 import logging
 import os
 import pickle
@@ -11,6 +10,7 @@ from haystack.document_stores import InMemoryDocumentStore
 from src.pipeline.data import get_raw_conversation_store
 from src.pipeline.retriever import get_retriever
 from src.utils.constants import DOCUMENT_STORE_PICKLE_PATH
+from src.utils.formatter import format_messages
 
 logger = logging.getLogger(__name__)
 
@@ -28,13 +28,12 @@ def load_document_store() -> InMemoryDocumentStore:
 
 def build_document_store() -> InMemoryDocumentStore:
     messages = get_raw_conversation_store()
+    formated_message = format_messages(messages)
     document_store = InMemoryDocumentStore(similarity="dot_product")
     document_store.write_documents(
         [
-            Document(
-                id=message["id"], content=json.dumps(message), id_hash_keys=["content"]
-            )
-            for message in messages
+            Document(id=id, content=message, id_hash_keys=["content"])
+            for id, message in formated_message.items()
         ]
     )
     retriever = get_retriever(document_store)
@@ -60,4 +59,3 @@ def save_document_store(
         document_store = build_document_store()
     with open(path, "wb") as pkl:
         pickle.dump(document_store, pkl)
-

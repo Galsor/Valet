@@ -6,8 +6,8 @@ import streamlit as st
 from haystack import Document
 from PIL import Image
 
-from src.pipeline.qa_pipeline import load_business_glossary_QA_pipeline
-from src.utils.parser import parse_document
+from src.pipeline.qa_pipeline import load_QA_pipeline
+from src.utils.formatter import reverse_formatting
 
 logger = logging.getLogger(__name__)
 
@@ -33,8 +33,9 @@ def display_ask_tab():
 def display_model_answer_and_sources(query: str):
     answer_col, sources_col = st.columns(2)
     try:
-        pipe = load_business_glossary_QA_pipeline()
+        pipe = load_QA_pipeline()
         results = pipe.run(query)
+        print(results)
         answer = results["answers"][0].answer
         logger.info(f"Generated answer: {answer}")
         sources_documents = results["documents"]
@@ -45,7 +46,7 @@ def display_model_answer_and_sources(query: str):
         with sources_col:
             st.markdown("#### Documents")
             doc_names = []
-            for i, doc in enumerate(sources_documents):
+            for doc in sources_documents:
                 display_recommended_document(doc, doc_names)
         logger.info(f"Document retrieved: {', '.join(doc_names)}")
 
@@ -58,8 +59,8 @@ def format_answer_in_markdown(answer: str) -> str:
 
 
 def display_recommended_document(doc: Document, doc_names: List[str]):
-    doc_content = parse_document(doc)
-    doc_names.append(doc_content["name"])
-    with st.expander("📰 " + doc_content["name"]):
+    doc_content = reverse_formatting(doc.content)
+    doc_names.append(doc_content["from"])
+    with st.expander("📰 " + doc_content["from"]):
         for key, value in doc_content.items():
             st.markdown(f"**{key.capitalize()}**: {value}")

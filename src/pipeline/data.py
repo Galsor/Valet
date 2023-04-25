@@ -1,11 +1,11 @@
 import json
-from typing import Dict, List, Tuple, Union
+from typing import Tuple
 
 import pandas as pd
 
-from src.utils.constants import ARCHIVE_FILE_NAME, TEST_SET_SIZE
-
-MessageList = List[Dict[str, Union[str, int, List[Dict[str, str]]]]]
+from src.utils.constants import (ARCHIVE_FILE_NAME, DOC_STORE_SIZE,
+                                 TEST_SET_SIZE)
+from src.utils.type import MessageList
 
 
 def get_conversations(filename: str = ARCHIVE_FILE_NAME) -> MessageList:
@@ -36,7 +36,9 @@ def get_questions(conversations: MessageList) -> MessageList:
 
 
 def split_store_test_set(
-    conversations: MessageList, n_questions: int = TEST_SET_SIZE
+    conversations: MessageList,
+    n_test_questions: int = TEST_SET_SIZE,
+    store_size: int = DOC_STORE_SIZE,
 ) -> Tuple[MessageList, MessageList]:
     """
     Split a list of conversations into a store and a test set.
@@ -56,18 +58,29 @@ def split_store_test_set(
     The test set is created by appending the last 30 questions and their answers.
     It is returned as the second element of the output tuple.
     """
-    last_30_questions = get_questions(conversations)[-n_questions - 1 : -1]
+    last_30_questions = get_questions(conversations)[-n_test_questions - 1 : -1]
     first_test_questions_id = last_30_questions[0]["id"]
 
     for i, message in enumerate(reversed(conversations)):
         if message["id"] == first_test_questions_id:
             break
 
+    start, end = get_store_indexes(conversations, store_size, i)
     raw_conversation_store, test_set = (
-        conversations[: len(conversations) - i],
+        conversations[start:end],
         conversations[-i:],
     )
     return raw_conversation_store, test_set
+
+
+def get_store_indexes(
+    conversations: MessageList, store_size: int, i: int
+) -> Tuple[int, int]:
+    last_store_conversion_index = len(conversations) - i
+    if store_size > last_store_conversion_index:
+        raise ValueError(f" Max store_size is {last_store_conversion_index}")
+    first_store_conversation_index = last_store_conversion_index - store_size
+    return first_store_conversation_index, last_store_conversion_index
 
 
 def get_raw_conversation_store() -> MessageList:

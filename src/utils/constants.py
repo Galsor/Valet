@@ -7,3 +7,4 @@ DOCUMENT_STORE_PICKLE_PATH = DB_FOLDER / "document_store.pkl"
 ARCHIVE_FILE_NAME = "data/result.json"
 
 TEST_SET_SIZE = 30
+DOC_STORE_SIZE = 500

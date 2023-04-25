@@ -7,7 +7,7 @@ from src.pipeline.retriever import get_retriever
 
 
 @st.cache_resource
-def load_business_glossary_QA_pipeline() -> GenerativeQAPipeline:
+def load_QA_pipeline() -> GenerativeQAPipeline:
     document_store = load_document_store()
 
     retriever = get_retriever(document_store)

@@ -5,18 +5,12 @@ import streamlit as st
 from src.app.ask_page import display_ask_tab
 from src.pipeline.qa_pipeline import load_QA_pipeline
 
-st.title("Business Glossary AI")
+st.title("The Galion's project")
 
 
 def run():
     display_sidebar()
-    with st.spinner("🥁 Initializing the application. Average duration: ⏱ 2 minutes. "):
-        load_business_glossary_QA_pipeline()
-    ask_tab, add_tab = st.tabs(["🔮 Ask a question", "✒️ Add an entry"])
-    with ask_tab:
-        display_ask_tab()
-    with add_tab:
-        display_add_tab()
+    display_ask_tab()
 
 
 def display_sidebar():
