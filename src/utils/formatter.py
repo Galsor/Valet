@@ -36,7 +36,7 @@ def stringify_message(message: Message) -> str:
 
 
 def format_messages(conversations: MessageList) -> Dict[int, str]:
-    """Destructive formating """
+    """Destructive formating"""
     conv_mapping = build_conversation_mapping(conversations)
     formated_messages = {}
     for message in conversations:
@@ -71,10 +71,7 @@ def reverse_formatting(content: str) -> Message:
     message = {}
     lines = content.split("\n|")
     for line in lines:
-        print(line)
         dict_item = line.split(":")
-        message[dict_item[0][1:]]=dict_item[1]
-    print(message)
+        key = dict_item[0].replace("|", "").replace("- ", "").strip().lower()
+        message[key] = dict_item[1].strip()
     return message
-
-

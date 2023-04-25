@@ -62,5 +62,6 @@ def display_recommended_document(doc: Document, doc_names: List[str]):
     doc_content = reverse_formatting(doc.content)
     doc_names.append(doc_content["from"])
     with st.expander("📰 " + doc_content["from"]):
+        del doc_content["from"]
         for key, value in doc_content.items():
             st.markdown(f"**{key.capitalize()}**: {value}")
