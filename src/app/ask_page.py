@@ -35,7 +35,6 @@ def display_model_answer_and_sources(query: str):
     try:
         pipe = load_QA_pipeline()
         results = pipe.run(query)
-        print(results)
         answer = results["answers"][0].answer
         logger.info(f"Generated answer: {answer}")
         sources_documents = results["documents"]

@@ -9,7 +9,7 @@ from haystack.document_stores import InMemoryDocumentStore
 
 from src.pipeline.data import get_raw_conversation_store
 from src.pipeline.retriever import get_retriever
-from src.utils.constants import DOCUMENT_STORE_PICKLE_PATH
+from src.utils.constants import DOCUMENT_STORE_PICKLE_PATH, EMBEDDING_DIM
 from src.utils.formatter import format_messages
 
 logger = logging.getLogger(__name__)
@@ -28,12 +28,14 @@ def load_document_store() -> InMemoryDocumentStore:
 
 def build_document_store() -> InMemoryDocumentStore:
     messages = get_raw_conversation_store()
-    formated_message = format_messages(messages)
-    document_store = InMemoryDocumentStore(similarity="dot_product")
+    formated_messages = format_messages(messages)
+    document_store = InMemoryDocumentStore(
+        similarity="dot_product", embedding_dim=EMBEDDING_DIM
+    )
     document_store.write_documents(
         [
             Document(id=id, content=message, id_hash_keys=["content"])
-            for id, message in formated_message.items()
+            for id, message in formated_messages.items()
         ]
     )
     retriever = get_retriever(document_store)

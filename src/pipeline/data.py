@@ -6,7 +6,8 @@ import pandas as pd
 from src.utils.constants import (ARCHIVE_FILE_NAME, DOC_STORE_SIZE,
                                  TEST_SET_SIZE)
 from src.utils.type import MessageList
-
+from src.utils.nlp import is_question
+from src.utils.formatter import get_raw_text
 
 def get_conversations(filename: str = ARCHIVE_FILE_NAME) -> MessageList:
     raw_data = get_raw_conversations(filename)
@@ -32,7 +33,7 @@ def get_conversation_dataframe(conversations: MessageList) -> pd.DataFrame:
 
 
 def get_questions(conversations: MessageList) -> MessageList:
-    return [message for message in conversations if "?" in message["text"]]
+    return [message for message in conversations if is_question(get_raw_text(message))]
 
 
 def split_store_test_set(

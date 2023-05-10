@@ -10,3 +10,9 @@ lint:
 
 app:
 	python -m streamlit run app.py --server.enableCORS false --server.enableXsrfProtection false
+
+validation:
+	python -c "from tests.integration.responses import build_validation_results; build_validation_results(label='$(if $(label),$(label),)')"
+
+unit_test:
+	python -m pytest tests/unit
