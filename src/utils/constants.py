@@ -11,7 +11,7 @@ PRESTA_ARCHIVE_FILE_NAME = "data/result prestas.json"
 
 # Test sample size
 TEST_SET_SIZE = 30
-DOC_STORE_SIZE = 3000
+DOC_STORE_SIZE = 1e6
 
 # Embedding
 EMBEDDING_MODEL = "sentence-transformers/distiluse-base-multilingual-cased-v1"
