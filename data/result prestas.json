@@ -1,0 +1,5836 @@
+{
+ "name": "GALION PRESTAS",
+ "type": "private_supergroup",
+ "id": 1851997000,
+ "messages": [
+  {
+   "id": -999852712,
+   "type": "service",
+   "date": "2022-10-10T11:10:20",
+   "date_unixtime": "1665393020",
+   "actor": "Thomas Solignac",
+   "actor_id": "user5148126370",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852710,
+   "type": "service",
+   "date": "2022-10-10T11:22:40",
+   "date_unixtime": "1665393760",
+   "actor": "Haïkel Balti - Faircraft",
+   "actor_id": "user1162427137",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852701,
+   "type": "service",
+   "date": "2022-10-10T11:28:54",
+   "date_unixtime": "1665394134",
+   "actor": "Alexandre COGNARD",
+   "actor_id": "user217436150",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852699,
+   "type": "service",
+   "date": "2022-10-10T11:36:39",
+   "date_unixtime": "1665394599",
+   "actor": "Pierre-Emmanuel BERCEGEAY",
+   "actor_id": "user804281905",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852688,
+   "type": "service",
+   "date": "2022-10-10T12:01:37",
+   "date_unixtime": "1665396097",
+   "actor": "Adrien CHALTIEL",
+   "actor_id": "user812519615",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852676,
+   "type": "service",
+   "date": "2022-10-10T13:15:58",
+   "date_unixtime": "1665400558",
+   "actor": "Delphine GROLL",
+   "actor_id": "user375819286",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852674,
+   "type": "service",
+   "date": "2022-10-10T13:22:27",
+   "date_unixtime": "1665400947",
+   "actor": "Jonathan Vidor",
+   "actor_id": "user5281878073",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852669,
+   "type": "service",
+   "date": "2022-10-10T13:27:38",
+   "date_unixtime": "1665401258",
+   "actor": "Quentin Bordage (Kolsquare)",
+   "actor_id": "user5222759328",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852668,
+   "type": "service",
+   "date": "2022-10-10T13:29:14",
+   "date_unixtime": "1665401354",
+   "actor": "Alexandre Paepegaey",
+   "actor_id": "user1530330591",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852667,
+   "type": "service",
+   "date": "2022-10-10T13:36:34",
+   "date_unixtime": "1665401794",
+   "actor": "Ouriel DARMON",
+   "actor_id": "user1069534778",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852660,
+   "type": "service",
+   "date": "2022-10-10T14:07:02",
+   "date_unixtime": "1665403622",
+   "actor": "Pierre Hebrard - Pricemoov",
+   "actor_id": "user5270531637",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852648,
+   "type": "service",
+   "date": "2022-10-10T14:35:50",
+   "date_unixtime": "1665405350",
+   "actor": "Philippe @Advitam",
+   "actor_id": "user862522844",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852645,
+   "type": "service",
+   "date": "2022-10-10T14:56:46",
+   "date_unixtime": "1665406606",
+   "actor": "Luigi Kassir",
+   "actor_id": "user5411491620",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852643,
+   "type": "service",
+   "date": "2022-10-10T15:55:21",
+   "date_unixtime": "1665410121",
+   "actor": "Victor PAYAN",
+   "actor_id": "user5175099870",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852594,
+   "type": "service",
+   "date": "2022-10-10T21:12:11",
+   "date_unixtime": "1665429131",
+   "actor": "Thomas Bonnenfant (Alegria)",
+   "actor_id": "user5369227145",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852592,
+   "type": "service",
+   "date": "2022-10-10T22:37:23",
+   "date_unixtime": "1665434243",
+   "actor": "Emeric Ernoult | Agorapulse",
+   "actor_id": "user1905249589",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852591,
+   "type": "service",
+   "date": "2022-10-10T22:45:36",
+   "date_unixtime": "1665434736",
+   "actor": "Lionel Chouraqui (Pitchy)",
+   "actor_id": "user747363705",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852587,
+   "type": "service",
+   "date": "2022-10-11T01:15:18",
+   "date_unixtime": "1665443718",
+   "actor": "Paul-Adrien Menez - Smartway",
+   "actor_id": "user396760856",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852586,
+   "type": "service",
+   "date": "2022-10-11T03:43:22",
+   "date_unixtime": "1665452602",
+   "actor": "Rodolphe BARRERE",
+   "actor_id": "user540027987",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852585,
+   "type": "service",
+   "date": "2022-10-11T07:56:14",
+   "date_unixtime": "1665467774",
+   "actor": "Saskia Fiszel",
+   "actor_id": "user5066688336",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852490,
+   "type": "service",
+   "date": "2022-10-11T10:41:28",
+   "date_unixtime": "1665477688",
+   "actor": "Geoffrey BERTHON",
+   "actor_id": "user842504874",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852487,
+   "type": "message",
+   "date": "2022-10-11T10:44:55",
+   "date_unixtime": "1665477895",
+   "from": "Geoffrey BERTHON",
+   "from_id": "user842504874",
+   "text": "Hello! Quelqu'un connait un bon CAC? J'ai besoin d'en changer sous 7 jours 😅 le mien vient de démissionner et je profite d'une opération pour en nommer un nouveau. Merci!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello! Quelqu'un connait un bon CAC? J'ai besoin d'en changer sous 7 jours 😅 le mien vient de démissionner et je profite d'une opération pour en nommer un nouveau. Merci!"
+    }
+   ]
+  },
+  {
+   "id": -999852476,
+   "type": "message",
+   "date": "2022-10-11T11:02:39",
+   "date_unixtime": "1665478959",
+   "from": "Bianka LOPEZ PONCE",
+   "from_id": "user5099991248",
+   "forwarded_from": "Alexandre HUCKERT",
+   "text": "Hello le Galion, est ce que certains d’entre vous ont un feed-back/reco sur les boites qui proposent des FCPI Remploi dans l’Immobilier ? Je pense notamment à M-Capital, Inter Invest, Apicap etc … ? Preneur de vos insights en mp 🙏 merci bcp",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello le Galion, est ce que certains d’entre vous ont un feed-back/reco sur les boites qui proposent des FCPI Remploi dans l’Immobilier ? Je pense notamment à M-Capital, Inter Invest, Apicap etc … ? Preneur de vos insights en mp 🙏 merci bcp"
+    }
+   ]
+  },
+  {
+   "id": -999852473,
+   "type": "service",
+   "date": "2022-10-11T11:05:07",
+   "date_unixtime": "1665479107",
+   "actor": "Alyssa EMMUNGIL",
+   "actor_id": "user1850788525",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852466,
+   "type": "service",
+   "date": "2022-10-11T11:07:04",
+   "date_unixtime": "1665479224",
+   "actor": "Victor WACRENIER",
+   "actor_id": "user741619138",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852462,
+   "type": "message",
+   "date": "2022-10-11T11:07:17",
+   "date_unixtime": "1665479237",
+   "edited": "2022-10-11T13:43:23",
+   "edited_unixtime": "1665488603",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "text": [
+    "Bonjour ",
+    {
+     "type": "mention",
+     "text": "@margotshorty"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bonjour "
+    },
+    {
+     "type": "mention",
+     "text": "@margotshorty"
+    }
+   ]
+  },
+  {
+   "id": -999852461,
+   "type": "message",
+   "date": "2022-10-11T11:07:37",
+   "date_unixtime": "1665479257",
+   "edited": "2022-10-11T11:07:43",
+   "edited_unixtime": "1665479263",
+   "from": "Margot Courty",
+   "from_id": "user853840554",
+   "reply_to_message_id": -999852462,
+   "text": [
+    "Bonjour ",
+    {
+     "type": "mention_name",
+     "text": "Victor",
+     "user_id": 741619138
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bonjour "
+    },
+    {
+     "type": "mention_name",
+     "text": "Victor",
+     "user_id": 741619138
+    }
+   ]
+  },
+  {
+   "id": -999852393,
+   "type": "service",
+   "date": "2022-10-11T13:06:30",
+   "date_unixtime": "1665486390",
+   "actor": "Grégoire SCHILLER",
+   "actor_id": "user1095461014",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852363,
+   "type": "service",
+   "date": "2022-10-11T13:31:34",
+   "date_unixtime": "1665487894",
+   "actor": "Camille TYAN",
+   "actor_id": "user886181365",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852362,
+   "type": "message",
+   "date": "2022-10-11T13:42:47",
+   "date_unixtime": "1665488567",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "reply_to_message_id": -999852487,
+   "text": [
+    "Thomas LEVY <",
+    {
+     "type": "email",
+     "text": "tlevy@groupeaf.com"
+    },
+    ">\n\nTu peux le contacter de ma part"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thomas LEVY <"
+    },
+    {
+     "type": "email",
+     "text": "tlevy@groupeaf.com"
+    },
+    {
+     "type": "plain",
+     "text": ">\n\nTu peux le contacter de ma part"
+    }
+   ]
+  },
+  {
+   "id": -999852361,
+   "type": "message",
+   "date": "2022-10-11T13:43:26",
+   "date_unixtime": "1665488606",
+   "from": "Geoffrey BERTHON",
+   "from_id": "user842504874",
+   "reply_to_message_id": -999852362,
+   "text": "Merci!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci!"
+    }
+   ]
+  },
+  {
+   "id": -999852359,
+   "type": "message",
+   "date": "2022-10-11T13:45:22",
+   "date_unixtime": "1665488722",
+   "from": "Luigi Kassir",
+   "from_id": "user5411491620",
+   "reply_to_message_id": -999852487,
+   "text": [
+    "Autre option thé office Franck narquin ",
+    {
+     "type": "email",
+     "text": "fnarquin@theoffice-conseil.fr"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Autre option thé office Franck narquin "
+    },
+    {
+     "type": "email",
+     "text": "fnarquin@theoffice-conseil.fr"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": -999852358,
+   "type": "message",
+   "date": "2022-10-11T13:52:44",
+   "date_unixtime": "1665489164",
+   "from": "Geoffrey BERTHON",
+   "from_id": "user842504874",
+   "reply_to_message_id": -999852359,
+   "text": "Merci! Je contacte",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci! Je contacte"
+    }
+   ]
+  },
+  {
+   "id": -999852357,
+   "type": "service",
+   "date": "2022-10-11T13:57:09",
+   "date_unixtime": "1665489429",
+   "actor": "Francis LELONG",
+   "actor_id": "user1176172391",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852330,
+   "type": "service",
+   "date": "2022-10-11T15:46:57",
+   "date_unixtime": "1665496017",
+   "actor": "Freddy Milesi (sekoia.io)",
+   "actor_id": "user5172061295",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852323,
+   "type": "message",
+   "date": "2022-10-11T16:21:35",
+   "date_unixtime": "1665498095",
+   "from": "Alexandre Paepegaey",
+   "from_id": "user1530330591",
+   "reply_to_message_id": -999852487,
+   "text": [
+    "Nicolas Poncet, KPMG, très bien. ",
+    {
+     "type": "email",
+     "text": "nponcet@kpmg.fr"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Nicolas Poncet, KPMG, très bien. "
+    },
+    {
+     "type": "email",
+     "text": "nponcet@kpmg.fr"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": -999852277,
+   "type": "service",
+   "date": "2022-10-11T16:32:55",
+   "date_unixtime": "1665498775",
+   "actor": "Julien JACOB",
+   "actor_id": "user1021396297",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852263,
+   "type": "message",
+   "date": "2022-10-11T16:40:48",
+   "date_unixtime": "1665499248",
+   "from": "Geoffrey BERTHON",
+   "from_id": "user842504874",
+   "reply_to_message_id": -999852323,
+   "text": "Merci!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci!"
+    }
+   ]
+  },
+  {
+   "id": -999852237,
+   "type": "service",
+   "date": "2022-10-11T17:36:58",
+   "date_unixtime": "1665502618",
+   "actor": "Sébastien MONTEIL",
+   "actor_id": "user871925654",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852217,
+   "type": "service",
+   "date": "2022-10-11T18:00:51",
+   "date_unixtime": "1665504051",
+   "actor": "Nicolas BOUVATTIER",
+   "actor_id": "user5164969765",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852214,
+   "type": "message",
+   "date": "2022-10-11T18:32:11",
+   "date_unixtime": "1665505931",
+   "from": "Bianka LOPEZ PONCE",
+   "from_id": "user5099991248",
+   "forwarded_from": "Geoffroy DE BECDELIEVRE",
+   "text": "Hello, est-ce que vous connaîtrez une société qui organise des Calls experts (dans le cadre de duedill M&A). Merci beaucoup! Geoffroy",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello, est-ce que vous connaîtrez une société qui organise des Calls experts (dans le cadre de duedill M&A). Merci beaucoup! Geoffroy"
+    }
+   ]
+  },
+  {
+   "id": -999852213,
+   "type": "service",
+   "date": "2022-10-11T18:32:20",
+   "date_unixtime": "1665505940",
+   "actor": "Bianka LOPEZ PONCE",
+   "actor_id": "user5099991248",
+   "action": "invite_members",
+   "members": [
+    "Geoffroy DE BECDELIEVRE"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852209,
+   "type": "message",
+   "date": "2022-10-11T18:32:45",
+   "date_unixtime": "1665505965",
+   "from": "Bianka LOPEZ PONCE",
+   "from_id": "user5099991248",
+   "text": [
+    {
+     "type": "mention_name",
+     "text": "Geoffroy",
+     "user_id": 874353455
+    },
+    " je transmets ta question par ici 😉"
+   ],
+   "text_entities": [
+    {
+     "type": "mention_name",
+     "text": "Geoffroy",
+     "user_id": 874353455
+    },
+    {
+     "type": "plain",
+     "text": " je transmets ta question par ici 😉"
+    }
+   ]
+  },
+  {
+   "id": -999852207,
+   "type": "message",
+   "date": "2022-10-11T18:33:53",
+   "date_unixtime": "1665506033",
+   "from": "Philippe @Advitam",
+   "from_id": "user862522844",
+   "text": "Hello, est-ce que vous auriez des noms de bons freelances SEA pour faire un audit de campagnes svp ? 🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello, est-ce que vous auriez des noms de bons freelances SEA pour faire un audit de campagnes svp ? 🙏"
+    }
+   ]
+  },
+  {
+   "id": -999852205,
+   "type": "service",
+   "date": "2022-10-11T19:00:39",
+   "date_unixtime": "1665507639",
+   "actor": "Jean-Philippe Poisson | yzr",
+   "actor_id": "user1391516568",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852193,
+   "type": "service",
+   "date": "2022-10-11T19:32:05",
+   "date_unixtime": "1665509525",
+   "actor": "Yanis KIANSKY",
+   "actor_id": "user404468476",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852192,
+   "type": "message",
+   "date": "2022-10-11T19:32:24",
+   "date_unixtime": "1665509544",
+   "edited": "2022-10-11T22:10:09",
+   "edited_unixtime": "1665519009",
+   "from": "Yanis KIANSKY",
+   "from_id": "user404468476",
+   "text": "Test test 1 2 1 2",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Test test 1 2 1 2"
+    }
+   ]
+  },
+  {
+   "id": -999852181,
+   "type": "message",
+   "date": "2022-10-11T20:03:15",
+   "date_unixtime": "1665511395",
+   "from": "Jonathan Vidor",
+   "from_id": "user5281878073",
+   "reply_to_message_id": -999852214,
+   "text": "Third Bridge. Pas testé par contre",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Third Bridge. Pas testé par contre"
+    }
+   ]
+  },
+  {
+   "id": -999852180,
+   "type": "service",
+   "date": "2022-10-11T20:38:55",
+   "date_unixtime": "1665513535",
+   "actor": "Raphaël LABBÉ FR",
+   "actor_id": "user5210397240",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852179,
+   "type": "service",
+   "date": "2022-10-11T21:43:53",
+   "date_unixtime": "1665517433",
+   "actor": "Vianney @Collective",
+   "actor_id": "user943306701",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852177,
+   "type": "service",
+   "date": "2022-10-11T22:57:35",
+   "date_unixtime": "1665521855",
+   "actor": "Guillaume Fournier | Supervan",
+   "actor_id": "user5387015265",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852174,
+   "type": "service",
+   "date": "2022-10-11T23:38:40",
+   "date_unixtime": "1665524320",
+   "actor": "Colombe MANDULA",
+   "actor_id": "user2081914938",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852173,
+   "type": "service",
+   "date": "2022-10-12T00:37:00",
+   "date_unixtime": "1665527820",
+   "actor": "Nikolay RODIONOV",
+   "actor_id": "user73935535",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999852097,
+   "type": "service",
+   "date": "2022-10-12T09:46:01",
+   "date_unixtime": "1665560761",
+   "actor": "Bertrand Vialle",
+   "actor_id": "user5623752225",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999851988,
+   "type": "service",
+   "date": "2022-10-12T13:22:31",
+   "date_unixtime": "1665573751",
+   "actor": "Aldric Emié",
+   "actor_id": "user5027609749",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999851959,
+   "type": "message",
+   "date": "2022-10-12T15:49:53",
+   "date_unixtime": "1665582593",
+   "from": "Paul-Adrien Menez - Smartway",
+   "from_id": "user396760856",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 617,
+   "height": 1280,
+   "text": "Quelqu'un connaît Sastrify ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Quelqu'un connaît Sastrify ?"
+    }
+   ]
+  },
+  {
+   "id": -999851949,
+   "type": "message",
+   "date": "2022-10-12T16:53:29",
+   "date_unixtime": "1665586409",
+   "from": "Philippe @Advitam",
+   "from_id": "user862522844",
+   "text": "Un freelance SEA (AdWords) a recommander svp ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Un freelance SEA (AdWords) a recommander svp ?"
+    }
+   ]
+  },
+  {
+   "id": -999851910,
+   "type": "message",
+   "date": "2022-10-12T18:23:34",
+   "date_unixtime": "1665591814",
+   "edited": "2022-10-14T22:05:04",
+   "edited_unixtime": "1665777904",
+   "from": "Jonathan Vidor",
+   "from_id": "user5281878073",
+   "text": "Philippe je suis une agence Google Ads mais on peut discuter pour comprendre ta demande  si tu veux (je me permets car tu repost donc j'imagine que tu as pas eu de réponse ok)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Philippe je suis une agence Google Ads mais on peut discuter pour comprendre ta demande  si tu veux (je me permets car tu repost donc j'imagine que tu as pas eu de réponse ok)"
+    }
+   ]
+  },
+  {
+   "id": -999851835,
+   "type": "service",
+   "date": "2022-10-12T22:23:18",
+   "date_unixtime": "1665606198",
+   "actor": "Arnaud MULLER",
+   "actor_id": "user808404195",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999851803,
+   "type": "service",
+   "date": "2022-10-13T04:38:00",
+   "date_unixtime": "1665628680",
+   "actor": "Arnaud De La Taille",
+   "actor_id": "user701001873",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999851445,
+   "type": "service",
+   "date": "2022-10-14T10:00:15",
+   "date_unixtime": "1665734415",
+   "actor": "Pierre-Étienne BIDON",
+   "actor_id": "user2124540150",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999851391,
+   "type": "service",
+   "date": "2022-10-14T11:31:12",
+   "date_unixtime": "1665739872",
+   "actor": "William Rosenfeld",
+   "actor_id": "user5677908829",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999851281,
+   "type": "service",
+   "date": "2022-10-15T07:38:19",
+   "date_unixtime": "1665812299",
+   "actor": "Kilian Bazin - ex Toucan Toco",
+   "actor_id": "user1384735207",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999851070,
+   "type": "message",
+   "date": "2022-10-17T18:56:20",
+   "date_unixtime": "1666025780",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "text": [
+    "Bonjour, Est ce que qqn a deja travaille avec un DAF externalise pour mettre des process en place etc.\nSo far j'ai contacte \"",
+    {
+     "type": "bold",
+     "text": "peregryne\" "
+    },
+    "pour l'instant. Des conseils ?"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bonjour, Est ce que qqn a deja travaille avec un DAF externalise pour mettre des process en place etc.\nSo far j'ai contacte \""
+    },
+    {
+     "type": "bold",
+     "text": "peregryne\" "
+    },
+    {
+     "type": "plain",
+     "text": "pour l'instant. Des conseils ?"
+    }
+   ]
+  },
+  {
+   "id": -999851059,
+   "type": "message",
+   "date": "2022-10-17T19:10:07",
+   "date_unixtime": "1666026607",
+   "edited": "2022-10-17T19:44:06",
+   "edited_unixtime": "1666028646",
+   "from": "Quentin Bordage (Kolsquare)",
+   "from_id": "user5222759328",
+   "reply_to_message_id": -999851070,
+   "text": "Hello Pierre. Process finance / compta tu veux dire ? T’as 2C Finance qui est vraiment top, contacte moi en MP si tu veux une intro (Benjamin Bitton).",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello Pierre. Process finance / compta tu veux dire ? T’as 2C Finance qui est vraiment top, contacte moi en MP si tu veux une intro (Benjamin Bitton)."
+    }
+   ]
+  },
+  {
+   "id": -999851058,
+   "type": "message",
+   "date": "2022-10-17T19:10:09",
+   "date_unixtime": "1666026609",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "reply_to_message_id": -999851070,
+   "text": "Lisan Finance ou 2c Finance. Les kings du game côté Galion.\n\nTu peux contacter Lisan de ma part",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Lisan Finance ou 2c Finance. Les kings du game côté Galion.\n\nTu peux contacter Lisan de ma part"
+    }
+   ]
+  },
+  {
+   "id": -999851052,
+   "type": "message",
+   "date": "2022-10-17T19:44:21",
+   "date_unixtime": "1666028661",
+   "from": "Martin CATINEAU",
+   "from_id": "user5307390685",
+   "reply_to_message_id": -999851070,
+   "text": "Yes top Benjamin et 2C Finance 🙂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes top Benjamin et 2C Finance 🙂"
+    }
+   ]
+  },
+  {
+   "id": -999851051,
+   "type": "message",
+   "date": "2022-10-17T19:45:12",
+   "date_unixtime": "1666028712",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "text": "Rencontre les deux, clairement ce sont les 2 acteurs de référence de la place. Tu te feras ton avis",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Rencontre les deux, clairement ce sont les 2 acteurs de référence de la place. Tu te feras ton avis"
+    }
+   ]
+  },
+  {
+   "id": -999851049,
+   "type": "message",
+   "date": "2022-10-17T21:00:33",
+   "date_unixtime": "1666033233",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "text": "super",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "super"
+    }
+   ]
+  },
+  {
+   "id": -999851048,
+   "type": "message",
+   "date": "2022-10-17T21:00:43",
+   "date_unixtime": "1666033243",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "reply_to_message_id": -999851058,
+   "text": "je fais ca pour Lisan",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "je fais ca pour Lisan"
+    }
+   ]
+  },
+  {
+   "id": -999851047,
+   "type": "message",
+   "date": "2022-10-17T21:01:03",
+   "date_unixtime": "1666033263",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "reply_to_message_id": -999851059,
+   "text": "C'est bon je t'ai MP",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "C'est bon je t'ai MP"
+    }
+   ]
+  },
+  {
+   "id": -999851043,
+   "type": "message",
+   "date": "2022-10-18T08:47:30",
+   "date_unixtime": "1666075650",
+   "from": "Nicolas BOUVATTIER",
+   "from_id": "user5164969765",
+   "text": "2c finance ici aussi et j’adore",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "2c finance ici aussi et j’adore"
+    }
+   ]
+  },
+  {
+   "id": -999850846,
+   "type": "service",
+   "date": "2022-10-18T20:53:43",
+   "date_unixtime": "1666119223",
+   "actor": "Philippe CANTET",
+   "actor_id": "user5720608150",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999850800,
+   "type": "service",
+   "date": "2022-10-19T11:33:49",
+   "date_unixtime": "1666172029",
+   "actor": "Morgane Le Cornet",
+   "actor_id": "user5203255669",
+   "action": "invite_members",
+   "members": [
+    "Yohan BENTOLILA"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999850799,
+   "type": "service",
+   "date": "2022-10-19T11:33:54",
+   "date_unixtime": "1666172034",
+   "actor": "Morgane Le Cornet",
+   "actor_id": "user5203255669",
+   "action": "invite_members",
+   "members": [
+    "Michael BENTOLILA"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999850685,
+   "type": "message",
+   "date": "2022-10-19T20:12:07",
+   "date_unixtime": "1666203127",
+   "from": "William Rosenfeld",
+   "from_id": "user5677908829",
+   "text": "Je confirme : Lisan Finance est très bien. On a testé avant d’embaucher. \nC’était Virginie Vincent qui nous avait accompagné. Entre temps, elle a créé Wi Advise qui fait la même chose que Lisan. Elle était très pro et est bien rentrée dans notre modèle assez complexe. Du coup, je pense que ça vaut le coup de benchmarker Wi Advise.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je confirme : Lisan Finance est très bien. On a testé avant d’embaucher. \nC’était Virginie Vincent qui nous avait accompagné. Entre temps, elle a créé Wi Advise qui fait la même chose que Lisan. Elle était très pro et est bien rentrée dans notre modèle assez complexe. Du coup, je pense que ça vaut le coup de benchmarker Wi Advise."
+    }
+   ]
+  },
+  {
+   "id": -999850684,
+   "type": "message",
+   "date": "2022-10-19T20:13:07",
+   "date_unixtime": "1666203187",
+   "from": "William Rosenfeld",
+   "from_id": "user5677908829",
+   "text": "Intro possible, sans pb.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Intro possible, sans pb."
+    }
+   ]
+  },
+  {
+   "id": -999850494,
+   "type": "service",
+   "date": "2022-10-21T22:08:08",
+   "date_unixtime": "1666382888",
+   "actor": "Magalie Safar | Koliving",
+   "actor_id": "user2086923272",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999850359,
+   "type": "message",
+   "date": "2022-10-25T10:18:26",
+   "date_unixtime": "1666685906",
+   "from": "Lionel Chouraqui (Pitchy)",
+   "from_id": "user747363705",
+   "text": "Hello à tous, suite à la 2e augmentation de l'année d'Alan, on se pose la question de switcher. Avez-vous une solution avec une bonne couverture (on a Alan Blue qui est leur couverture premium) et une belle expérience utilisateur digitale ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello à tous, suite à la 2e augmentation de l'année d'Alan, on se pose la question de switcher. Avez-vous une solution avec une bonne couverture (on a Alan Blue qui est leur couverture premium) et une belle expérience utilisateur digitale ?"
+    }
+   ]
+  },
+  {
+   "id": -999850343,
+   "type": "message",
+   "date": "2022-10-25T11:02:11",
+   "date_unixtime": "1666688531",
+   "from": "Alexandre Paepegaey",
+   "from_id": "user1530330591",
+   "text": [
+    "J'ai entendu de bons échos de ",
+    {
+     "type": "link",
+     "text": "https://www.hoggo.com/"
+    },
+    " mais je n'ai pas testé par moi même"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "J'ai entendu de bons échos de "
+    },
+    {
+     "type": "link",
+     "text": "https://www.hoggo.com/"
+    },
+    {
+     "type": "plain",
+     "text": " mais je n'ai pas testé par moi même"
+    }
+   ]
+  },
+  {
+   "id": -999850340,
+   "type": "message",
+   "date": "2022-10-25T11:14:43",
+   "date_unixtime": "1666689283",
+   "from": "Alexandre COGNARD",
+   "from_id": "user217436150",
+   "reply_to_message_id": -999850343,
+   "text": "C’est Anna la CEO, qui est au galion",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "C’est Anna la CEO, qui est au galion"
+    }
+   ]
+  },
+  {
+   "id": -999850320,
+   "type": "message",
+   "date": "2022-10-25T13:19:24",
+   "date_unixtime": "1666696764",
+   "edited": "2022-10-25T13:56:33",
+   "edited_unixtime": "1666698993",
+   "from": "Raphaël LABBÉ FR",
+   "from_id": "user5210397240",
+   "text": "J’ai enclenché avec HoGgo la semaine dernière pour les raisons de hausse mais surtout après avoir comparé les avantages pour les collaborateurs. Résultats mieux pour moins cher pour 90% des collaborateurs) un peu plus cher et beaucoup mieux pour les familles.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "J’ai enclenché avec HoGgo la semaine dernière pour les raisons de hausse mais surtout après avoir comparé les avantages pour les collaborateurs. Résultats mieux pour moins cher pour 90% des collaborateurs) un peu plus cher et beaucoup mieux pour les familles."
+    }
+   ]
+  },
+  {
+   "id": -999850317,
+   "type": "message",
+   "date": "2022-10-25T13:49:58",
+   "date_unixtime": "1666698598",
+   "from": "Adrien CHALTIEL",
+   "from_id": "user812519615",
+   "reply_to_message_id": -999850343,
+   "text": "Je peux te mettre en relation ce sont des clients",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je peux te mettre en relation ce sont des clients"
+    }
+   ]
+  },
+  {
+   "id": -999849849,
+   "type": "service",
+   "date": "2022-10-26T18:26:52",
+   "date_unixtime": "1666801612",
+   "actor": "Camille Rumani - Eatwith",
+   "actor_id": "user5713827217",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849839,
+   "type": "message",
+   "date": "2022-10-27T10:35:01",
+   "date_unixtime": "1666859701",
+   "from": "Paul-Adrien Menez - Smartway",
+   "from_id": "user396760856",
+   "text": "Hello! Combien de discount vous arrivez à avoir chez Tableau ces temps-ci ? Jsuis à -38% mais je sens qu'on peut faire plus. (sur de l'unlimited, 200k€ annuel avant nego)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello! Combien de discount vous arrivez à avoir chez Tableau ces temps-ci ? Jsuis à -38% mais je sens qu'on peut faire plus. (sur de l'unlimited, 200k€ annuel avant nego)"
+    }
+   ]
+  },
+  {
+   "id": -999849506,
+   "type": "service",
+   "date": "2022-10-28T23:56:16",
+   "date_unixtime": "1666994176",
+   "actor": "Édouard RUDOLF",
+   "actor_id": "user724634936",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849500,
+   "type": "message",
+   "date": "2022-10-29T07:29:50",
+   "date_unixtime": "1667021390",
+   "edited": "2022-10-29T10:38:06",
+   "edited_unixtime": "1667032686",
+   "from": "Emeric Ernoult | Agorapulse",
+   "from_id": "user1905249589",
+   "reply_to_message_id": -999849839,
+   "text": "On a pris datastudio, super discount, c’est gratuit 😉\nMa data team a regardé tous les outils et m’a dit que Datastudio était aussi bien.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "On a pris datastudio, super discount, c’est gratuit 😉\nMa data team a regardé tous les outils et m’a dit que Datastudio était aussi bien."
+    }
+   ]
+  },
+  {
+   "id": -999849497,
+   "type": "service",
+   "date": "2022-10-30T14:14:30",
+   "date_unixtime": "1667135670",
+   "actor": "Christelle Curcio",
+   "actor_id": "user5508393803",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849349,
+   "type": "message",
+   "date": "2022-11-02T14:26:17",
+   "date_unixtime": "1667395577",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "text": [
+    "Si jamais vous cherchez un coach sportif pour vos équipes, je vous recommande Alix (coach crossfit/renfo) qui donne des cours chez nous depuis ~6 mois.\n\nJ'ai franchement vu l'impact en terme de bien-être sur les équipes, pour un prix quasi indolore (vs un off-site à 5k€ ou une soirée au bureau qui n'apporte qu'une grosse gueule de bois à tout le monde).\n\nOn a aussi une coach de yoga et si jamais vous cherchez à compléter l'offre (Marie Yalap).\n\n",
+    {
+     "type": "link",
+     "text": "https://www.trainwithalix.com/"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Si jamais vous cherchez un coach sportif pour vos équipes, je vous recommande Alix (coach crossfit/renfo) qui donne des cours chez nous depuis ~6 mois.\n\nJ'ai franchement vu l'impact en terme de bien-être sur les équipes, pour un prix quasi indolore (vs un off-site à 5k€ ou une soirée au bureau qui n'apporte qu'une grosse gueule de bois à tout le monde).\n\nOn a aussi une coach de yoga et si jamais vous cherchez à compléter l'offre (Marie Yalap).\n\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.trainwithalix.com/"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": -999849264,
+   "type": "message",
+   "date": "2022-11-03T03:27:43",
+   "date_unixtime": "1667442463",
+   "from": "Yanis KIANSKY",
+   "from_id": "user404468476",
+   "reply_to_message_id": -999849349,
+   "text": "Hello Victor, côté logistique, vous avez une salle de sport avec vestiaires et douches ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello Victor, côté logistique, vous avez une salle de sport avec vestiaires et douches ?"
+    }
+   ]
+  },
+  {
+   "id": -999849262,
+   "type": "message",
+   "date": "2022-11-03T08:26:55",
+   "date_unixtime": "1667460415",
+   "edited": "2022-11-08T01:53:57",
+   "edited_unixtime": "1667868837",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "reply_to_message_id": -999849264,
+   "text": "Yes on a installé une petite salle au sous-sol, avec un minimum de matos.\nOn a une douche, mais pas de vestiaire (on se change dans une salle de réunion) !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes on a installé une petite salle au sous-sol, avec un minimum de matos.\nOn a une douche, mais pas de vestiaire (on se change dans une salle de réunion) !"
+    }
+   ]
+  },
+  {
+   "id": -999849235,
+   "type": "message",
+   "date": "2022-11-03T11:15:00",
+   "date_unixtime": "1667470500",
+   "from": "Alyssa EMMUNGIL",
+   "from_id": "user1850788525",
+   "text": "Hello les Galions 👋\nEst-ce que quelqu’un connaît un bon coach / manager de transition pour BDR / SDR svp ? \nen dehors de Franck Bossel, Uppercut et Cocorigrow : eux 3 déjà contactés mais si vous en connaissez d’autres ? \nMerci 🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello les Galions 👋\nEst-ce que quelqu’un connaît un bon coach / manager de transition pour BDR / SDR svp ? \nen dehors de Franck Bossel, Uppercut et Cocorigrow : eux 3 déjà contactés mais si vous en connaissez d’autres ? \nMerci 🙏"
+    }
+   ]
+  },
+  {
+   "id": -999849234,
+   "type": "message",
+   "date": "2022-11-03T11:17:17",
+   "date_unixtime": "1667470637",
+   "from": "Thomas Solignac",
+   "from_id": "user5148126370",
+   "reply_to_message_id": -999849235,
+   "text": [
+    "Tu peux essayer de contacter ",
+    {
+     "type": "link",
+     "text": "https://www.linkedin.com/in/laetitiafall"
+    },
+    " et voir ce qu'elle te propose"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Tu peux essayer de contacter "
+    },
+    {
+     "type": "link",
+     "text": "https://www.linkedin.com/in/laetitiafall"
+    },
+    {
+     "type": "plain",
+     "text": " et voir ce qu'elle te propose"
+    }
+   ]
+  },
+  {
+   "id": -999849233,
+   "type": "message",
+   "date": "2022-11-03T11:19:48",
+   "date_unixtime": "1667470788",
+   "from": "Alyssa EMMUNGIL",
+   "from_id": "user1850788525",
+   "text": [
+    "Top merci ",
+    {
+     "type": "mention_name",
+     "text": "Thomas",
+     "user_id": 5148126370
+    },
+    " ! Tu as bossé avec elle ?"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Top merci "
+    },
+    {
+     "type": "mention_name",
+     "text": "Thomas",
+     "user_id": 5148126370
+    },
+    {
+     "type": "plain",
+     "text": " ! Tu as bossé avec elle ?"
+    }
+   ]
+  },
+  {
+   "id": -999849230,
+   "type": "message",
+   "date": "2022-11-03T11:21:37",
+   "date_unixtime": "1667470897",
+   "edited": "2022-11-03T13:23:01",
+   "edited_unixtime": "1667478181",
+   "from": "Thomas Solignac",
+   "from_id": "user5148126370",
+   "reply_to_message_id": -999849233,
+   "text": "Je l'ai rencontré quand j'enseignais à Epitech. Il semblerait qu'elle est ait porté beaucoup de choses seules dans ses expériences B2B, avec un certain succès. J'ai pas travaillé avec elle dans ce cadre",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je l'ai rencontré quand j'enseignais à Epitech. Il semblerait qu'elle est ait porté beaucoup de choses seules dans ses expériences B2B, avec un certain succès. J'ai pas travaillé avec elle dans ce cadre"
+    }
+   ]
+  },
+  {
+   "id": -999849187,
+   "type": "service",
+   "date": "2022-11-03T15:00:35",
+   "date_unixtime": "1667484035",
+   "actor": "Lara ROUYRES",
+   "actor_id": "user854156280",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849177,
+   "type": "service",
+   "date": "2022-11-03T15:04:41",
+   "date_unixtime": "1667484281",
+   "actor": "Cyril PIERRE DE GEYER",
+   "actor_id": "user840572794",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849176,
+   "type": "message",
+   "date": "2022-11-03T15:04:58",
+   "date_unixtime": "1667484298",
+   "from": "Cyril PIERRE DE GEYER",
+   "from_id": "user840572794",
+   "text": "🙌",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "🙌"
+    }
+   ]
+  },
+  {
+   "id": -999849175,
+   "type": "service",
+   "date": "2022-11-03T15:14:40",
+   "date_unixtime": "1667484880",
+   "actor": "Guillaume TASSETTO",
+   "actor_id": "user1675276545",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849138,
+   "type": "service",
+   "date": "2022-11-03T18:41:27",
+   "date_unixtime": "1667497287",
+   "actor": "Sébastien CARON",
+   "actor_id": "user851865518",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849137,
+   "type": "service",
+   "date": "2022-11-03T18:43:14",
+   "date_unixtime": "1667497394",
+   "actor": "Antoine LORON",
+   "actor_id": "user1565970507",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849136,
+   "type": "service",
+   "date": "2022-11-03T18:43:34",
+   "date_unixtime": "1667497414",
+   "actor": "Alexis TEPLITCHI",
+   "actor_id": "user809995202",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849135,
+   "type": "service",
+   "date": "2022-11-03T19:21:58",
+   "date_unixtime": "1667499718",
+   "actor": "Mélanie ROZENCWAJG",
+   "actor_id": "user791204248",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849134,
+   "type": "service",
+   "date": "2022-11-03T19:29:12",
+   "date_unixtime": "1667500152",
+   "actor": "Jean-Michel MAURER",
+   "actor_id": "user1405966356",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849133,
+   "type": "message",
+   "date": "2022-11-03T19:29:28",
+   "date_unixtime": "1667500168",
+   "from": "Jean-Michel MAURER",
+   "from_id": "user1405966356",
+   "text": "Je ne connaissais pas ce groupe !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je ne connaissais pas ce groupe !"
+    }
+   ]
+  },
+  {
+   "id": -999849132,
+   "type": "message",
+   "date": "2022-11-03T19:30:59",
+   "date_unixtime": "1667500259",
+   "from": "Morgane Le Cornet",
+   "from_id": "user5203255669",
+   "text": "Oui c'est un nouveau groupe, plus adapté pour partager vos recos de prestataires ! 🙂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Oui c'est un nouveau groupe, plus adapté pour partager vos recos de prestataires ! 🙂"
+    }
+   ]
+  },
+  {
+   "id": -999849131,
+   "type": "message",
+   "date": "2022-11-03T19:33:07",
+   "date_unixtime": "1667500387",
+   "from": "Jean-Michel MAURER",
+   "from_id": "user1405966356",
+   "text": "Très bonne idée.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Très bonne idée."
+    }
+   ]
+  },
+  {
+   "id": -999849100,
+   "type": "service",
+   "date": "2022-11-03T20:10:18",
+   "date_unixtime": "1667502618",
+   "actor": "Maxime RENAULT",
+   "actor_id": "user103449026",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849099,
+   "type": "service",
+   "date": "2022-11-03T20:30:29",
+   "date_unixtime": "1667503829",
+   "actor": "Arnaud BLACHON",
+   "actor_id": "user1288788717",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849098,
+   "type": "message",
+   "date": "2022-11-03T20:37:49",
+   "date_unixtime": "1667504269",
+   "edited": "2022-11-03T23:33:12",
+   "edited_unixtime": "1667514792",
+   "from": "Antoine LORON",
+   "from_id": "user1565970507",
+   "text": [
+    "Hello,\nAuriez-vous des contacts de coachs de prise de parole en public ",
+    {
+     "type": "bold",
+     "text": "anglophones"
+    },
+    " ",
+    {
+     "type": "bold",
+     "text": "natifs"
+    },
+    " (voire profil comédien(ne)) ? J'aimerais organiser une journée de formation et mise en pratique pour mon équipe de direction.\nMerci !"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello,\nAuriez-vous des contacts de coachs de prise de parole en public "
+    },
+    {
+     "type": "bold",
+     "text": "anglophones"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "bold",
+     "text": "natifs"
+    },
+    {
+     "type": "plain",
+     "text": " (voire profil comédien(ne)) ? J'aimerais organiser une journée de formation et mise en pratique pour mon équipe de direction.\nMerci !"
+    }
+   ]
+  },
+  {
+   "id": -999849097,
+   "type": "service",
+   "date": "2022-11-03T20:45:58",
+   "date_unixtime": "1667504758",
+   "actor": "Guillaume (Pubstack)",
+   "actor_id": "user5266111294",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849095,
+   "type": "service",
+   "date": "2022-11-03T22:58:56",
+   "date_unixtime": "1667512736",
+   "actor": "Loic Sfiligoi - pubstack",
+   "actor_id": "user5131320437",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849094,
+   "type": "message",
+   "date": "2022-11-03T23:34:05",
+   "date_unixtime": "1667514845",
+   "from": "Agathe WAUTIER",
+   "from_id": "user809124790",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 591,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849093,
+   "type": "message",
+   "date": "2022-11-03T23:34:09",
+   "date_unixtime": "1667514849",
+   "edited": "2022-11-04T07:30:56",
+   "edited_unixtime": "1667543456",
+   "from": "Agathe WAUTIER",
+   "from_id": "user809124790",
+   "text": "Elle est génial!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Elle est génial!"
+    }
+   ]
+  },
+  {
+   "id": -999849092,
+   "type": "service",
+   "date": "2022-11-04T07:04:55",
+   "date_unixtime": "1667541895",
+   "actor": "Olivier LEVY",
+   "actor_id": "user897479942",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999849091,
+   "type": "service",
+   "date": "2022-11-04T07:57:23",
+   "date_unixtime": "1667545043",
+   "actor": "Edouard Morhange",
+   "actor_id": "user2104228236",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848792,
+   "type": "service",
+   "date": "2022-11-04T21:06:03",
+   "date_unixtime": "1667592363",
+   "actor": "Édouard Mandon de Numeral",
+   "actor_id": "user1378442933",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848791,
+   "type": "service",
+   "date": "2022-11-04T21:30:36",
+   "date_unixtime": "1667593836",
+   "actor": "Sébastien BEQUART",
+   "actor_id": "user820396110",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848790,
+   "type": "service",
+   "date": "2022-11-05T13:53:48",
+   "date_unixtime": "1667652828",
+   "actor": "Alexandre DE CHAVAGNAC",
+   "actor_id": "user864685030",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848789,
+   "type": "service",
+   "date": "2022-11-06T14:58:04",
+   "date_unixtime": "1667743084",
+   "actor": "Xavier ZEITOUN",
+   "actor_id": "user421759755",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848687,
+   "type": "service",
+   "date": "2022-11-07T13:40:41",
+   "date_unixtime": "1667824841",
+   "actor": "Alexandre HUCKERT",
+   "actor_id": "user898956328",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848676,
+   "type": "service",
+   "date": "2022-11-07T14:08:15",
+   "date_unixtime": "1667826495",
+   "actor": "Rodrigue",
+   "actor_id": "user5225109729",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848675,
+   "type": "message",
+   "date": "2022-11-07T14:09:27",
+   "date_unixtime": "1667826567",
+   "from": "Rodrigue",
+   "from_id": "user5225109729",
+   "text": "Bonjour qqun aurait un retour d'exp sur le cabinet Auditex pour du CIR ? Et une reco d'un autre cabinet pour que je benchmark ? Merci bcp !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bonjour qqun aurait un retour d'exp sur le cabinet Auditex pour du CIR ? Et une reco d'un autre cabinet pour que je benchmark ? Merci bcp !"
+    }
+   ]
+  },
+  {
+   "id": -999848661,
+   "type": "service",
+   "date": "2022-11-07T14:19:33",
+   "date_unixtime": "1667827173",
+   "actor": "Morgane Le Cornet",
+   "actor_id": "user5203255669",
+   "action": "invite_members",
+   "members": [
+    "Caroline Noublanche"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848659,
+   "type": "message",
+   "date": "2022-11-07T16:19:05",
+   "date_unixtime": "1667834345",
+   "from": "Raphaël LABBÉ FR",
+   "from_id": "user5210397240",
+   "text": "Pour ceux qui sont sur GCP ils ont passé les sondes en payant le mois dernier. Un belle hausse d 5000$ pour nous. Donc hésitez pas à regarder votre facture mensuel et interroger vos ops",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Pour ceux qui sont sur GCP ils ont passé les sondes en payant le mois dernier. Un belle hausse d 5000$ pour nous. Donc hésitez pas à regarder votre facture mensuel et interroger vos ops"
+    }
+   ]
+  },
+  {
+   "id": -999848658,
+   "type": "message",
+   "date": "2022-11-07T16:28:05",
+   "date_unixtime": "1667834885",
+   "from": "Luigi Kassir",
+   "from_id": "user5411491620",
+   "text": "On utilise KPMG, très bon service pour un prix raisonnable",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "On utilise KPMG, très bon service pour un prix raisonnable"
+    }
+   ]
+  },
+  {
+   "id": -999848657,
+   "type": "message",
+   "date": "2022-11-07T16:28:46",
+   "date_unixtime": "1667834926",
+   "from": "Luigi Kassir",
+   "from_id": "user5411491620",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 828,
+   "height": 267,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848656,
+   "type": "message",
+   "date": "2022-11-07T16:48:41",
+   "date_unixtime": "1667836121",
+   "from": "Camille Rumani - Eatwith",
+   "from_id": "user5713827217",
+   "reply_to_message_id": -999848675,
+   "text": "Hello ! On bosse depuis 4 ans avec R4Innov et on est super contents !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello ! On bosse depuis 4 ans avec R4Innov et on est super contents !"
+    }
+   ]
+  },
+  {
+   "id": -999848655,
+   "type": "service",
+   "date": "2022-11-07T16:51:23",
+   "date_unixtime": "1667836283",
+   "actor": "Morgane Le Cornet",
+   "actor_id": "user5203255669",
+   "action": "invite_members",
+   "members": [
+    "Laurent LAPORTE"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848653,
+   "type": "message",
+   "date": "2022-11-07T17:03:06",
+   "date_unixtime": "1667836986",
+   "from": "Rodrigue",
+   "from_id": "user5225109729",
+   "text": "Merci beaucoup",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci beaucoup"
+    }
+   ]
+  },
+  {
+   "id": -999848652,
+   "type": "service",
+   "date": "2022-11-07T17:13:57",
+   "date_unixtime": "1667837637",
+   "actor": "Morgane Le Cornet",
+   "actor_id": "user5203255669",
+   "action": "invite_members",
+   "members": [
+    "Anne-Sophie VASSEUR"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848597,
+   "type": "message",
+   "date": "2022-11-07T18:41:12",
+   "date_unixtime": "1667842872",
+   "from": "Rudy Cohen",
+   "from_id": "user1548541353",
+   "text": "Hello, on cherche à recruter un Software Engineering Manager, est-ce que vous auriez un bon chasseur pour ce genre de profils ? Merci 🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello, on cherche à recruter un Software Engineering Manager, est-ce que vous auriez un bon chasseur pour ce genre de profils ? Merci 🙏"
+    }
+   ]
+  },
+  {
+   "id": -999848581,
+   "type": "service",
+   "date": "2022-11-08T03:05:12",
+   "date_unixtime": "1667873112",
+   "actor": "Guillaume DUVAUX",
+   "actor_id": "user1076364379",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848573,
+   "type": "message",
+   "date": "2022-11-08T10:16:19",
+   "date_unixtime": "1667898979",
+   "from": "Jean-Michel MAURER",
+   "from_id": "user1405966356",
+   "text": "Hello Galion\n\nJe cherche un growth Hacker en free-lance pour nous aider sur la lead génération. \nCible B2B, ETI/Grands Comptes, France uniquement, persona : DSI\n\nVous auriez une star à me recommander ? Merci",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello Galion\n\nJe cherche un growth Hacker en free-lance pour nous aider sur la lead génération. \nCible B2B, ETI/Grands Comptes, France uniquement, persona : DSI\n\nVous auriez une star à me recommander ? Merci"
+    }
+   ]
+  },
+  {
+   "id": -999848511,
+   "type": "service",
+   "date": "2022-11-08T11:41:56",
+   "date_unixtime": "1667904116",
+   "actor": "Hugo SAAD",
+   "actor_id": "user5017997770",
+   "action": "invite_members",
+   "members": [
+    "Baudouin Vercken"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848510,
+   "type": "message",
+   "date": "2022-11-08T11:42:12",
+   "date_unixtime": "1667904132",
+   "from": "Hugo SAAD",
+   "from_id": "user5017997770",
+   "forwarded_from": "Baudouin Vercken",
+   "text": "Hello, Est-ce que vous connaitriez des coachs pour Managers ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello, Est-ce que vous connaitriez des coachs pour Managers ?"
+    }
+   ]
+  },
+  {
+   "id": -999848509,
+   "type": "message",
+   "date": "2022-11-08T11:42:40",
+   "date_unixtime": "1667904160",
+   "from": "Hugo SAAD",
+   "from_id": "user5017997770",
+   "text": [
+    {
+     "type": "mention_name",
+     "text": "Baudouin",
+     "user_id": 5029752883
+    },
+    " en plus du Control F tu auras plus de chances de trouver ton bonheur ici 😉"
+   ],
+   "text_entities": [
+    {
+     "type": "mention_name",
+     "text": "Baudouin",
+     "user_id": 5029752883
+    },
+    {
+     "type": "plain",
+     "text": " en plus du Control F tu auras plus de chances de trouver ton bonheur ici 😉"
+    }
+   ]
+  },
+  {
+   "id": -999848506,
+   "type": "message",
+   "date": "2022-11-08T11:43:50",
+   "date_unixtime": "1667904230",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "text": "Oui, on a bossé avec Yaniro et qualité inégale en fonction des coachs. Par contre récemment on a bossé avec Florence Sisso, coache dirigeant et managers et je la trouve top. Beaucoup d’impact.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Oui, on a bossé avec Yaniro et qualité inégale en fonction des coachs. Par contre récemment on a bossé avec Florence Sisso, coache dirigeant et managers et je la trouve top. Beaucoup d’impact."
+    }
+   ]
+  },
+  {
+   "id": -999848429,
+   "type": "message",
+   "date": "2022-11-08T16:24:41",
+   "date_unixtime": "1667921081",
+   "from": "Alyssa EMMUNGIL",
+   "from_id": "user1850788525",
+   "text": "Hello par ici 👋\nEst ce que vous connaissez un bon presta DPO externalisé pas trop cher svp ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello par ici 👋\nEst ce que vous connaissez un bon presta DPO externalisé pas trop cher svp ?"
+    }
+   ]
+  },
+  {
+   "id": -999848202,
+   "type": "message",
+   "date": "2022-11-10T06:51:02",
+   "date_unixtime": "1668059462",
+   "from": "Emeric Ernoult | Agorapulse",
+   "from_id": "user1905249589",
+   "reply_to_message_id": -999848429,
+   "text": [
+    "Pauline JACQUEMIN CUNY, ",
+    {
+     "type": "email",
+     "text": "pjc@jaake.law"
+    },
+    ", de ma part."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Pauline JACQUEMIN CUNY, "
+    },
+    {
+     "type": "email",
+     "text": "pjc@jaake.law"
+    },
+    {
+     "type": "plain",
+     "text": ", de ma part."
+    }
+   ]
+  },
+  {
+   "id": -999848140,
+   "type": "service",
+   "date": "2022-11-14T14:41:43",
+   "date_unixtime": "1668433303",
+   "actor": "Sophie Cahen (Ganymed Robotics)",
+   "actor_id": "user1873042335",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999848139,
+   "type": "message",
+   "date": "2022-11-14T14:42:27",
+   "date_unixtime": "1668433347",
+   "from": "Sophie Cahen (Ganymed Robotics)",
+   "from_id": "user1873042335",
+   "text": "Hello à tous !\nJe recherche un lieu d’offsite pour 30 personnes pas trop cher - ile de France ou accessible en train depuis paris \nMerci pour vos recommandations !\nSophie",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello à tous !\nJe recherche un lieu d’offsite pour 30 personnes pas trop cher - ile de France ou accessible en train depuis paris \nMerci pour vos recommandations !\nSophie"
+    }
+   ]
+  },
+  {
+   "id": -999848138,
+   "type": "message",
+   "date": "2022-11-14T14:57:59",
+   "date_unixtime": "1668434279",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "reply_to_message_id": -999848139,
+   "text": "On a adoré le Domaine d'Orgemont.\nLes prestas sont géniales, le site est NEUF (<2 ans), chaque piaule a sa sdb, énorme barnum à l'extérieur si tu veux faire des réunions d'équipe, et le staff sur place est aux petits soins.\n\nLe prix est étonnement peu cher",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "On a adoré le Domaine d'Orgemont.\nLes prestas sont géniales, le site est NEUF (<2 ans), chaque piaule a sa sdb, énorme barnum à l'extérieur si tu veux faire des réunions d'équipe, et le staff sur place est aux petits soins.\n\nLe prix est étonnement peu cher"
+    }
+   ]
+  },
+  {
+   "id": -999848137,
+   "type": "message",
+   "date": "2022-11-14T14:59:05",
+   "date_unixtime": "1668434345",
+   "edited": "2022-11-14T14:59:13",
+   "edited_unixtime": "1668434353",
+   "from": "Adrien CHALTIEL",
+   "from_id": "user812519615",
+   "reply_to_message_id": -999848139,
+   "text": "Chateauform direct. Melo ou chanteau de Mery sur oise. Meilleur rapport qualité / prix / soirée d'équipe ;)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Chateauform direct. Melo ou chanteau de Mery sur oise. Meilleur rapport qualité / prix / soirée d'équipe ;)"
+    }
+   ]
+  },
+  {
+   "id": -999848136,
+   "type": "message",
+   "date": "2022-11-14T14:59:31",
+   "date_unixtime": "1668434371",
+   "from": "Lionel Chouraqui (Pitchy)",
+   "from_id": "user747363705",
+   "text": "Mais oui Chateauform TRÈS TRÈS bien",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Mais oui Chateauform TRÈS TRÈS bien"
+    }
+   ]
+  },
+  {
+   "id": -999848033,
+   "type": "message",
+   "date": "2022-11-15T11:46:02",
+   "date_unixtime": "1668509162",
+   "from": "Colombe MANDULA",
+   "from_id": "user2081914938",
+   "reply_to_message_id": -999848139,
+   "text": "Hello ! Le moulin inattendu c’est très sympa, près de Paris, un peu plus alternatif mais très cool. A voir si ils ont de la place pour 30 personnes",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello ! Le moulin inattendu c’est très sympa, près de Paris, un peu plus alternatif mais très cool. A voir si ils ont de la place pour 30 personnes"
+    }
+   ]
+  },
+  {
+   "id": -999848032,
+   "type": "service",
+   "date": "2022-11-15T11:51:57",
+   "date_unixtime": "1668509517",
+   "actor": "Morgane Le Cornet",
+   "actor_id": "user5203255669",
+   "action": "invite_members",
+   "members": [
+    "Thomas Effantin (trusk)"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999847987,
+   "type": "message",
+   "date": "2022-11-15T15:21:36",
+   "date_unixtime": "1668522096",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "reply_to_message_id": -999848139,
+   "text": "on va faire amsterdam nous. je te dirai ce que ca done",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "on va faire amsterdam nous. je te dirai ce que ca done"
+    }
+   ]
+  },
+  {
+   "id": -999847952,
+   "type": "message",
+   "date": "2022-11-15T15:38:25",
+   "date_unixtime": "1668523105",
+   "from": "Thomas Effantin (trusk)",
+   "from_id": "user5606008044",
+   "text": "Hello à tous, \nJe suis à la recherche d’un intervenant pour noel pour mes équipes (surpassement de soi/ resilience ….)  \nEst-ce quelqu’un en connait un?\nMerci beaucoup",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello à tous, \nJe suis à la recherche d’un intervenant pour noel pour mes équipes (surpassement de soi/ resilience ….)  \nEst-ce quelqu’un en connait un?\nMerci beaucoup"
+    }
+   ]
+  },
+  {
+   "id": -999847933,
+   "type": "message",
+   "date": "2022-11-15T16:32:42",
+   "date_unixtime": "1668526362",
+   "from": "Adrien CHALTIEL",
+   "from_id": "user812519615",
+   "reply_to_message_id": -999847987,
+   "text": "Dangereux Amsterdam !!!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Dangereux Amsterdam !!!"
+    }
+   ]
+  },
+  {
+   "id": -999847931,
+   "type": "message",
+   "date": "2022-11-15T16:39:44",
+   "date_unixtime": "1668526784",
+   "from": "Raphaël LABBÉ FR",
+   "from_id": "user5210397240",
+   "reply_to_message_id": -999847987,
+   "text": "Si tu veux un intervenant extérieur fait moi signe. A défaut je t’emmène faire un tour en bateau ;-)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Si tu veux un intervenant extérieur fait moi signe. A défaut je t’emmène faire un tour en bateau ;-)"
+    }
+   ]
+  },
+  {
+   "id": -999847918,
+   "type": "message",
+   "date": "2022-11-15T18:23:59",
+   "date_unixtime": "1668533039",
+   "edited": "2022-11-15T18:45:41",
+   "edited_unixtime": "1668534341",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "reply_to_message_id": -999847931,
+   "text": "Nice! Of course je te ping au moins pour un café",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Nice! Of course je te ping au moins pour un café"
+    }
+   ]
+  },
+  {
+   "id": -999847865,
+   "type": "message",
+   "date": "2022-11-16T09:59:30",
+   "date_unixtime": "1668589170",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "text": "Quelqu'un aurait un bon électricien à me reco pour nos bureaux ? Pour intervention rapide (<7 jours).\nPas très compliqué mais l'actuel (et reco par le proprio des bureau) est une trompette.\n\nMerci",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Quelqu'un aurait un bon électricien à me reco pour nos bureaux ? Pour intervention rapide (<7 jours).\nPas très compliqué mais l'actuel (et reco par le proprio des bureau) est une trompette.\n\nMerci"
+    }
+   ]
+  },
+  {
+   "id": -999847855,
+   "type": "service",
+   "date": "2022-11-16T11:04:40",
+   "date_unixtime": "1668593080",
+   "actor": "Vincent Torres",
+   "actor_id": "user1721686495",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999847852,
+   "type": "message",
+   "date": "2022-11-16T12:36:23",
+   "date_unixtime": "1668598583",
+   "from": "Jean-Michel MAURER",
+   "from_id": "user1405966356",
+   "text": "Quelqu’un aurait une reco pour une agence ou mieux un free-lance capable de définir, mettre en place et surtout opérer une machine à lead ? (Cible : B2B ETI et Grands Comptes, France uniquement, ICP : DSI / dir logistique) avec toutes les techniques de Growth (emailing, content, SEA ciblé, etc) ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Quelqu’un aurait une reco pour une agence ou mieux un free-lance capable de définir, mettre en place et surtout opérer une machine à lead ? (Cible : B2B ETI et Grands Comptes, France uniquement, ICP : DSI / dir logistique) avec toutes les techniques de Growth (emailing, content, SEA ciblé, etc) ?"
+    }
+   ]
+  },
+  {
+   "id": -999847822,
+   "type": "service",
+   "date": "2022-11-16T14:45:26",
+   "date_unixtime": "1668606326",
+   "actor": "Morgane Le Cornet",
+   "actor_id": "user5203255669",
+   "action": "invite_members",
+   "members": [
+    "Nicolas Davoust - Gens de Confiance"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999847821,
+   "type": "service",
+   "date": "2022-11-16T14:45:36",
+   "date_unixtime": "1668606336",
+   "actor": "Morgane Le Cornet",
+   "actor_id": "user5203255669",
+   "action": "invite_members",
+   "members": [
+    "Ulric Le Grand - GDC"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999847820,
+   "type": "message",
+   "date": "2022-11-16T16:25:42",
+   "date_unixtime": "1668612342",
+   "from": "Nicolas BOUVATTIER",
+   "from_id": "user5164969765",
+   "reply_to_message_id": -999847865,
+   "contact_information": {
+    "first_name": "Jean",
+    "last_name": "Electricien",
+    "phone_number": "+33633270520"
+   },
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999847819,
+   "type": "message",
+   "date": "2022-11-16T16:25:48",
+   "date_unixtime": "1668612348",
+   "edited": "2022-11-17T08:28:52",
+   "edited_unixtime": "1668670132",
+   "from": "Nicolas BOUVATTIER",
+   "from_id": "user5164969765",
+   "text": "Une perle !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Une perle !"
+    }
+   ]
+  },
+  {
+   "id": -999847803,
+   "type": "message",
+   "date": "2022-11-16T18:34:16",
+   "date_unixtime": "1668620056",
+   "from": "Jonathan Vidor",
+   "from_id": "user5281878073",
+   "reply_to_message_id": -999847852,
+   "text": "J'ai un bon candidat freelance pour toi (c'est un ex Client). Contact moi en MP",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "J'ai un bon candidat freelance pour toi (c'est un ex Client). Contact moi en MP"
+    }
+   ]
+  },
+  {
+   "id": -999847798,
+   "type": "message",
+   "date": "2022-11-17T08:29:04",
+   "date_unixtime": "1668670144",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "reply_to_message_id": -999847820,
+   "text": "Merci !!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci !!"
+    }
+   ]
+  },
+  {
+   "id": -999847767,
+   "type": "service",
+   "date": "2022-11-17T11:47:27",
+   "date_unixtime": "1668682047",
+   "actor": "Morgane Le Cornet",
+   "actor_id": "user5203255669",
+   "action": "invite_members",
+   "members": [
+    "Victor SEBAG | Ouihelp"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999847766,
+   "type": "service",
+   "date": "2022-11-17T11:47:32",
+   "date_unixtime": "1668682052",
+   "actor": "Morgane Le Cornet",
+   "actor_id": "user5203255669",
+   "action": "invite_members",
+   "members": [
+    "Guillaume d'Ayguesvives"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999847752,
+   "type": "message",
+   "date": "2022-11-17T12:37:51",
+   "date_unixtime": "1668685071",
+   "from": "Rodrigue",
+   "from_id": "user5225109729",
+   "text": "Hello à tous, on cherche un presta pour nous aider à publier une page Wikipédia sur notre boîte. Des recos ? Merci beaucoup",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello à tous, on cherche un presta pour nous aider à publier une page Wikipédia sur notre boîte. Des recos ? Merci beaucoup"
+    }
+   ]
+  },
+  {
+   "id": -999847745,
+   "type": "message",
+   "date": "2022-11-17T13:14:40",
+   "date_unixtime": "1668687280",
+   "edited": "2022-11-17T13:27:42",
+   "edited_unixtime": "1668688062",
+   "from": "Cyril PIERRE DE GEYER",
+   "from_id": "user840572794",
+   "reply_to_message_id": -999847752,
+   "text": "Si tu trouves je suis preneur de l'info. Ils sont très relou si tu le fais toi",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Si tu trouves je suis preneur de l'info. Ils sont très relou si tu le fais toi"
+    }
+   ]
+  },
+  {
+   "id": -999847732,
+   "type": "service",
+   "date": "2022-11-17T22:54:08",
+   "date_unixtime": "1668722048",
+   "actor": "Freddy Milesi (sekoia.io)",
+   "actor_id": "user5172061295",
+   "action": "pin_message",
+   "message_id": -999847752,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999847731,
+   "type": "message",
+   "date": "2022-11-17T23:13:46",
+   "date_unixtime": "1668723226",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "reply_to_message_id": -999847752,
+   "text": "Curieux de savoir l’intérêt",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Curieux de savoir l’intérêt"
+    }
+   ]
+  },
+  {
+   "id": -999847730,
+   "type": "message",
+   "date": "2022-11-17T23:13:51",
+   "date_unixtime": "1668723231",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "text": "Lead acquisition ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Lead acquisition ?"
+    }
+   ]
+  },
+  {
+   "id": -999847729,
+   "type": "message",
+   "date": "2022-11-17T23:14:03",
+   "date_unixtime": "1668723243",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "text": "Pas de risque de modif et bad rep après ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Pas de risque de modif et bad rep après ?"
+    }
+   ]
+  },
+  {
+   "id": -999847728,
+   "type": "message",
+   "date": "2022-11-17T23:19:13",
+   "date_unixtime": "1668723553",
+   "from": "Raphaël LABBÉ FR",
+   "from_id": "user5210397240",
+   "text": "C’est un sujet assez compliqué. J’ai pratiqué la chose à une autre époque en tant que tigre à dents de sabre donc ma reco c’est de nous vous lancer qu’avec des étapes et des reconnaissances très significatives. Les inclusionnistes (dont je fais parti) ont perdu la bataille interne il y a qq années au profit d’une vision plus stricte. Le risque est de le faire trop tôt, que la page soit annulée et que tu ne puisse jamais la remettre. Donc c’est vraiment recommandable dans un nombre de cas restreint. Après le risque de bad buzz est faible. La page sera annulé simplement. En espérant que cela aide.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "C’est un sujet assez compliqué. J’ai pratiqué la chose à une autre époque en tant que tigre à dents de sabre donc ma reco c’est de nous vous lancer qu’avec des étapes et des reconnaissances très significatives. Les inclusionnistes (dont je fais parti) ont perdu la bataille interne il y a qq années au profit d’une vision plus stricte. Le risque est de le faire trop tôt, que la page soit annulée et que tu ne puisse jamais la remettre. Donc c’est vraiment recommandable dans un nombre de cas restreint. Après le risque de bad buzz est faible. La page sera annulé simplement. En espérant que cela aide."
+    }
+   ]
+  },
+  {
+   "id": -999847727,
+   "type": "message",
+   "date": "2022-11-17T23:20:30",
+   "date_unixtime": "1668723630",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "text": "Je vois ce que tu veux dire",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je vois ce que tu veux dire"
+    }
+   ]
+  },
+  {
+   "id": -999847726,
+   "type": "message",
+   "date": "2022-11-17T23:20:49",
+   "date_unixtime": "1668723649",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "text": "Il faut attendre d’avoir assez d’article à écrire pour que ça ne soit pas vu comme un entrefilet mais au pire c’est annulé",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Il faut attendre d’avoir assez d’article à écrire pour que ça ne soit pas vu comme un entrefilet mais au pire c’est annulé"
+    }
+   ]
+  },
+  {
+   "id": -999847725,
+   "type": "service",
+   "date": "2022-11-18T00:02:15",
+   "date_unixtime": "1668726135",
+   "actor": "Timothée SAUMET",
+   "actor_id": "user681224793",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999847724,
+   "type": "message",
+   "date": "2022-11-18T08:45:11",
+   "date_unixtime": "1668757511",
+   "from": "Cyril PIERRE DE GEYER",
+   "from_id": "user840572794",
+   "text": "L'intérêt de wikipédia c'est la visibilité. Ça apparait en première page généralement. \n\nC'est pas si simple sur wikipédia, ta page n'est plus visible mais il y a l'historique d'affiché en interne. Donc quand quelqu'un recommence a écrire tu te fais bouler. Et beaucoup de personnes impliquées dans la communauté sont des extrémistes assez virulents.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "L'intérêt de wikipédia c'est la visibilité. Ça apparait en première page généralement. \n\nC'est pas si simple sur wikipédia, ta page n'est plus visible mais il y a l'historique d'affiché en interne. Donc quand quelqu'un recommence a écrire tu te fais bouler. Et beaucoup de personnes impliquées dans la communauté sont des extrémistes assez virulents."
+    }
+   ]
+  },
+  {
+   "id": -999847723,
+   "type": "message",
+   "date": "2022-11-18T09:33:48",
+   "date_unixtime": "1668760428",
+   "edited": "2022-11-18T09:55:55",
+   "edited_unixtime": "1668761755",
+   "from": "Raphaël LABBÉ FR",
+   "from_id": "user5210397240",
+   "reply_to_message_id": -999847724,
+   "text": [
+    "C’est exact. Le vrai sujet c’est que les non virulent ont lâché l’affaire et ont laissé les autres prendre le contrôle. Mais il y a une nouvelle génération intéressante qui essaye de refaire bouger les lignes. Voir article. En tout cas ravi d’exposer plus la chose à ceux que cela intéresse car cela fait 12 ans que je contribue. ",
+    {
+     "type": "link",
+     "text": "https://www.ladn.eu/actualite/jess-wade-biographie-femmes-scientifiques-wikipedia/"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "C’est exact. Le vrai sujet c’est que les non virulent ont lâché l’affaire et ont laissé les autres prendre le contrôle. Mais il y a une nouvelle génération intéressante qui essaye de refaire bouger les lignes. Voir article. En tout cas ravi d’exposer plus la chose à ceux que cela intéresse car cela fait 12 ans que je contribue. "
+    },
+    {
+     "type": "link",
+     "text": "https://www.ladn.eu/actualite/jess-wade-biographie-femmes-scientifiques-wikipedia/"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": -999847722,
+   "type": "service",
+   "date": "2022-11-18T10:31:24",
+   "date_unixtime": "1668763884",
+   "actor": "Morgane Le Cornet",
+   "actor_id": "user5203255669",
+   "action": "invite_members",
+   "members": [
+    "Julien MARDAS"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999847714,
+   "type": "message",
+   "date": "2022-11-18T11:19:15",
+   "date_unixtime": "1668766755",
+   "from": "Philippe @Advitam",
+   "from_id": "user862522844",
+   "reply_to_message_id": -999847724,
+   "text": "Je confirme la présence d'extrémistes, souvent pas très corpos friendly, dans les modérateurs wikipedia. T'as beau essayer de leur faire comprendre que ce qui est dit sur la page est faux, à partir du moment ou un journaliste (qui leur convient) l'a écrit, c'est parole d'évangile et tu fais ban. Des fois il est préférable de ne pas avoir de page plutôt qu'une page qui raconte n'importe quoi",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je confirme la présence d'extrémistes, souvent pas très corpos friendly, dans les modérateurs wikipedia. T'as beau essayer de leur faire comprendre que ce qui est dit sur la page est faux, à partir du moment ou un journaliste (qui leur convient) l'a écrit, c'est parole d'évangile et tu fais ban. Des fois il est préférable de ne pas avoir de page plutôt qu'une page qui raconte n'importe quoi"
+    }
+   ]
+  },
+  {
+   "id": -999847713,
+   "type": "message",
+   "date": "2022-11-18T11:29:23",
+   "date_unixtime": "1668767363",
+   "from": "Raphaël LABBÉ FR",
+   "from_id": "user5210397240",
+   "text": [
+    {
+     "type": "mention",
+     "text": "@PhilMeyr"
+    },
+    " a raison. Il suffit de lire les pages en économie pour se rendre compte. C’est dommage mais je n’ai jamais réussi à entraîner assez de paires pour travailler sur ce genre de choses. Peut être àla retraite ;-)"
+   ],
+   "text_entities": [
+    {
+     "type": "mention",
+     "text": "@PhilMeyr"
+    },
+    {
+     "type": "plain",
+     "text": " a raison. Il suffit de lire les pages en économie pour se rendre compte. C’est dommage mais je n’ai jamais réussi à entraîner assez de paires pour travailler sur ce genre de choses. Peut être àla retraite ;-)"
+    }
+   ]
+  },
+  {
+   "id": -999847703,
+   "type": "message",
+   "date": "2022-11-18T13:46:17",
+   "date_unixtime": "1668775577",
+   "from": "Julien MARDAS",
+   "from_id": "user165558379",
+   "reply_to_message_id": -999847745,
+   "text": [
+    "Juste pour info on scrap tout wikipedia (diff ",
+    {
+     "type": "bot_command",
+     "text": "/24h"
+    },
+    " full j+5) on les connait très bien :D"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Juste pour info on scrap tout wikipedia (diff "
+    },
+    {
+     "type": "bot_command",
+     "text": "/24h"
+    },
+    {
+     "type": "plain",
+     "text": " full j+5) on les connait très bien :D"
+    }
+   ]
+  },
+  {
+   "id": -999847611,
+   "type": "service",
+   "date": "2022-11-24T16:16:13",
+   "date_unixtime": "1669302973",
+   "actor": "Morgane Le Cornet",
+   "actor_id": "user5203255669",
+   "action": "invite_members",
+   "members": [
+    "Enguerrand L"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999847573,
+   "type": "message",
+   "date": "2022-11-25T17:42:42",
+   "date_unixtime": "1669394562",
+   "from": "Vianney @Collective",
+   "from_id": "user943306701",
+   "reply_to_message_id": -999847728,
+   "text": "Qu'est-ce que ça veut dire tigre à dent de sabre ? Je suppose que c'est une expression ici 😅",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Qu'est-ce que ça veut dire tigre à dent de sabre ? Je suppose que c'est une expression ici 😅"
+    }
+   ]
+  },
+  {
+   "id": -999847567,
+   "type": "message",
+   "date": "2022-11-25T17:59:19",
+   "date_unixtime": "1669395559",
+   "from": "Raphaël LABBÉ FR",
+   "from_id": "user5210397240",
+   "text": [
+    {
+     "type": "mention",
+     "text": "@vianney2d"
+    },
+    " tres Wikipedia ",
+    {
+     "type": "link",
+     "text": "https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Wikip%C3%A9dia:Tigre_%C3%A0_dents_de_sabre"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "mention",
+     "text": "@vianney2d"
+    },
+    {
+     "type": "plain",
+     "text": " tres Wikipedia "
+    },
+    {
+     "type": "link",
+     "text": "https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Wikip%C3%A9dia:Tigre_%C3%A0_dents_de_sabre"
+    }
+   ]
+  },
+  {
+   "id": -999847566,
+   "type": "message",
+   "date": "2022-11-25T18:05:15",
+   "date_unixtime": "1669395915",
+   "from": "Vianney @Collective",
+   "from_id": "user943306701",
+   "text": "Ah oui rien d'évident ! Merci pour l'explication !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ah oui rien d'évident ! Merci pour l'explication !"
+    }
+   ]
+  },
+  {
+   "id": -999845867,
+   "type": "service",
+   "date": "2022-12-03T17:50:36",
+   "date_unixtime": "1670086236",
+   "actor": "Benoît GROUCHKO",
+   "actor_id": "user813964088",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999845648,
+   "type": "service",
+   "date": "2022-12-06T19:04:33",
+   "date_unixtime": "1670349873",
+   "actor": "Hugo SAAD",
+   "actor_id": "user5017997770",
+   "action": "invite_members",
+   "members": [
+    "Arnaud Rongier (bigbagngo)"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": -999844974,
+   "type": "message",
+   "date": "2022-12-12T10:09:14",
+   "date_unixtime": "1670836154",
+   "from": "Philippe @Advitam",
+   "from_id": "user862522844",
+   "text": [
+    "Hello, quelqu'un aurait le format d'emails chez Alan (",
+    {
+     "type": "email",
+     "text": "prenom.nom@alan.eu"
+    },
+    " ?) svp ?"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello, quelqu'un aurait le format d'emails chez Alan ("
+    },
+    {
+     "type": "email",
+     "text": "prenom.nom@alan.eu"
+    },
+    {
+     "type": "plain",
+     "text": " ?) svp ?"
+    }
+   ]
+  },
+  {
+   "id": -999844941,
+   "type": "message",
+   "date": "2022-12-12T12:28:18",
+   "date_unixtime": "1670844498",
+   "edited": "2022-12-12T12:30:05",
+   "edited_unixtime": "1670844605",
+   "from": "Édouard Mandon de Numeral",
+   "from_id": "user1378442933",
+   "reply_to_message_id": -999844974,
+   "text": [
+    {
+     "type": "email",
+     "text": "prenom.nom@alan.eu"
+    },
+    " effectivement"
+   ],
+   "text_entities": [
+    {
+     "type": "email",
+     "text": "prenom.nom@alan.eu"
+    },
+    {
+     "type": "plain",
+     "text": " effectivement"
+    }
+   ]
+  },
+  {
+   "id": -999844659,
+   "type": "service",
+   "date": "2022-12-13T17:36:34",
+   "date_unixtime": "1670949394",
+   "actor": "Hugo SAAD",
+   "actor_id": "user5017997770",
+   "action": "migrate_to_supergroup",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 1,
+   "type": "service",
+   "date": "2022-12-13T17:36:34",
+   "date_unixtime": "1670949394",
+   "actor": "GALION PRESTAS",
+   "actor_id": "channel1851997000",
+   "action": "migrate_from_group",
+   "title": "GALION PRESTAS",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 2,
+   "type": "service",
+   "date": "2022-12-18T04:26:20",
+   "date_unixtime": "1671333980",
+   "actor": "Philippe TESLER",
+   "actor_id": "user552350190",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 3,
+   "type": "message",
+   "date": "2022-12-18T09:12:36",
+   "date_unixtime": "1671351156",
+   "from": "Arnaud Rongier (bigbagngo)",
+   "from_id": "user5448926160",
+   "text": "Si qqun cherche une claquettiste pour un évent, j’en ai une en or. Bon we à tous !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Si qqun cherche une claquettiste pour un évent, j’en ai une en or. Bon we à tous !"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "type": "message",
+   "date": "2022-12-18T11:21:29",
+   "date_unixtime": "1671358889",
+   "from": "Michael BENTOLILA",
+   "from_id": "user757569360",
+   "text": "Oui ça m’intéresse elle gère quoi sur l’évent ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Oui ça m’intéresse elle gère quoi sur l’évent ?"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "type": "message",
+   "date": "2022-12-18T21:19:51",
+   "date_unixtime": "1671394791",
+   "edited": "2022-12-18T21:20:05",
+   "edited_unixtime": "1671394805",
+   "from": "Arnaud Rongier (bigbagngo)",
+   "from_id": "user5448926160",
+   "text": "Ben, elle fait un spectacle de claquettes ou de charleston, au choix 🤷",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ben, elle fait un spectacle de claquettes ou de charleston, au choix 🤷"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "type": "message",
+   "date": "2022-12-19T11:22:44",
+   "date_unixtime": "1671445364",
+   "from": "Rudy Cohen",
+   "from_id": "user1548541353",
+   "text": "Hello, serait-il possible d’avoir une mise en relation avec Lisan finance et 2c finance ? J’ai vu qu’ils étaient pas mal appréciés ici et on recherche un cfo part time. \nMerci ! 🔥🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello, serait-il possible d’avoir une mise en relation avec Lisan finance et 2c finance ? J’ai vu qu’ils étaient pas mal appréciés ici et on recherche un cfo part time. \nMerci ! 🔥🙏"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "type": "message",
+   "date": "2022-12-19T11:23:02",
+   "date_unixtime": "1671445382",
+   "edited": "2022-12-19T11:25:55",
+   "edited_unixtime": "1671445555",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "reply_to_message_id": 6,
+   "text": "Je te fais ça pour Lisan - passe ton mail en MP !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je te fais ça pour Lisan - passe ton mail en MP !"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "type": "message",
+   "date": "2022-12-19T13:21:52",
+   "date_unixtime": "1671452512",
+   "edited": "2022-12-19T13:30:40",
+   "edited_unixtime": "1671453040",
+   "from": "Jean-Michel MAURER",
+   "from_id": "user1405966356",
+   "reply_to_message_id": 6,
+   "text": "Je peux le faire pour 2C, passe moi ton e-mail en MP",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je peux le faire pour 2C, passe moi ton e-mail en MP"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "type": "service",
+   "date": "2022-12-21T11:26:34",
+   "date_unixtime": "1671618394",
+   "actor": "Morgane Le Cornet",
+   "actor_id": "user5203255669",
+   "action": "invite_members",
+   "members": [
+    "Nicolas BERBIGIER"
+   ],
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 10,
+   "type": "message",
+   "date": "2023-01-03T17:24:50",
+   "date_unixtime": "1672763090",
+   "edited": "2023-01-03T18:24:17",
+   "edited_unixtime": "1672766657",
+   "from": "Nicolas BOUVATTIER",
+   "from_id": "user5164969765",
+   "text": "Hello les Galion, \nEst-ce qu'un d'entre vous utilise Pipedrive pour crm + FACTURATION (avec un module complémentaire?) et serait dispo pour un petit REX ?  \nOn utilise Axonaut pour l'instant pour des ventes BtoB mais on n'est pas satisfait \nMERCI",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello les Galion, \nEst-ce qu'un d'entre vous utilise Pipedrive pour crm + FACTURATION (avec un module complémentaire?) et serait dispo pour un petit REX ?  \nOn utilise Axonaut pour l'instant pour des ventes BtoB mais on n'est pas satisfait \nMERCI"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "type": "service",
+   "date": "2023-01-03T18:16:26",
+   "date_unixtime": "1672766186",
+   "actor": "Isabelle MASHOLA",
+   "actor_id": "user928624707",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 12,
+   "type": "message",
+   "date": "2023-01-03T19:04:58",
+   "date_unixtime": "1672769098",
+   "from": "Nicolas BOUVATTIER",
+   "from_id": "user5164969765",
+   "text": [
+    {
+     "type": "mention",
+     "text": "@martinpannier"
+    },
+    " qu’entends tu par 👎?"
+   ],
+   "text_entities": [
+    {
+     "type": "mention",
+     "text": "@martinpannier"
+    },
+    {
+     "type": "plain",
+     "text": " qu’entends tu par 👎?"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "type": "message",
+   "date": "2023-01-03T19:45:57",
+   "date_unixtime": "1672771557",
+   "edited": "2023-01-03T19:48:00",
+   "edited_unixtime": "1672771680",
+   "from": "Arnaud Rongier (bigbagngo)",
+   "from_id": "user5448926160",
+   "text": "Hello les Galions! D’abord meilleurs vœux à tous 🎉☀️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello les Galions! D’abord meilleurs vœux à tous 🎉☀️"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "type": "message",
+   "date": "2023-01-03T19:47:49",
+   "date_unixtime": "1672771669",
+   "from": "Arnaud Rongier (bigbagngo)",
+   "from_id": "user5448926160",
+   "text": "Auriez vous un contact avocat droit de la construction/immobilier? Il s’agit de montrer les dents dans un conflit avec un constructeur de maisons individuelles. Gracias todos 🤗🙏🏻",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Auriez vous un contact avocat droit de la construction/immobilier? Il s’agit de montrer les dents dans un conflit avec un constructeur de maisons individuelles. Gracias todos 🤗🙏🏻"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "type": "message",
+   "date": "2023-01-03T20:17:40",
+   "date_unixtime": "1672773460",
+   "from": "Philippe TESLER",
+   "from_id": "user552350190",
+   "reply_to_message_id": 14,
+   "text": "Demande à titre perso ou sujet corporate?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Demande à titre perso ou sujet corporate?"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "type": "message",
+   "date": "2023-01-03T20:18:02",
+   "date_unixtime": "1672773482",
+   "from": "Arnaud Rongier (bigbagngo)",
+   "from_id": "user5448926160",
+   "text": "Perso",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Perso"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "type": "service",
+   "date": "2023-01-03T21:42:14",
+   "date_unixtime": "1672778534",
+   "actor": "Youssef TAGEMOUATI",
+   "actor_id": "user1098162565",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 18,
+   "type": "service",
+   "date": "2023-01-03T21:55:44",
+   "date_unixtime": "1672779344",
+   "actor": "Anna BALEZ",
+   "actor_id": "user5259792348",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 19,
+   "type": "service",
+   "date": "2023-01-04T07:49:12",
+   "date_unixtime": "1672814952",
+   "actor": "Antoine Fort Qobra",
+   "actor_id": "user1983806962",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 21,
+   "type": "message",
+   "date": "2023-01-04T15:30:16",
+   "date_unixtime": "1672842616",
+   "edited": "2023-01-04T18:42:28",
+   "edited_unixtime": "1672854148",
+   "from": "Martin Pannier",
+   "from_id": "user5856227484",
+   "reply_to_message_id": 12,
+   "text": "la façon la plus rapide que j'ai trouvé de répondre \"ack mais pas moi\" 😊 rien de négatif of course",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "la façon la plus rapide que j'ai trouvé de répondre \"ack mais pas moi\" 😊 rien de négatif of course"
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "type": "message",
+   "date": "2023-01-04T15:30:34",
+   "date_unixtime": "1672842634",
+   "from": "Martin Pannier",
+   "from_id": "user5856227484",
+   "text": "c'est pour éviter le vide sidéral d'absence de réponse ¯\\_(ツ)_/¯",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "c'est pour éviter le vide sidéral d'absence de réponse ¯\\_(ツ)_/¯"
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "type": "message",
+   "date": "2023-01-04T18:22:14",
+   "date_unixtime": "1672852934",
+   "from": "Edouard Morhange",
+   "from_id": "user2104228236",
+   "reply_to_message_id": 14,
+   "text": [
+    "Laura Ouaniche (",
+    {
+     "type": "email",
+     "text": "lauraouaniche@gmail.com"
+    },
+    "), c’est sa spécialité"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Laura Ouaniche ("
+    },
+    {
+     "type": "email",
+     "text": "lauraouaniche@gmail.com"
+    },
+    {
+     "type": "plain",
+     "text": "), c’est sa spécialité"
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "type": "message",
+   "date": "2023-01-05T10:19:10",
+   "date_unixtime": "1672910350",
+   "from": "Arnaud Rongier (bigbagngo)",
+   "from_id": "user5448926160",
+   "reply_to_message_id": 23,
+   "text": "Merci bcp Edouard 🙏🏻",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci bcp Edouard 🙏🏻"
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "type": "message",
+   "date": "2023-01-11T18:25:51",
+   "date_unixtime": "1673457951",
+   "from": "Julien MARDAS",
+   "from_id": "user165558379",
+   "reply_to_message_id": 7,
+   "text": "Quelqu'un a déjà fqit un passagr lisan->2C?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Quelqu'un a déjà fqit un passagr lisan->2C?"
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "type": "message",
+   "date": "2023-01-11T18:26:08",
+   "date_unixtime": "1673457968",
+   "from": "Julien MARDAS",
+   "from_id": "user165558379",
+   "text": "Ou le contraire",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ou le contraire"
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "type": "message",
+   "date": "2023-01-11T22:33:09",
+   "date_unixtime": "1673472789",
+   "from": "Geoffroy DE BECDELIEVRE",
+   "from_id": "user874353455",
+   "text": "Bonsoir, est-ce que vous auriez un prestataire / consultant à me recommander pour du growth hacking / generation de leads en Btob? Many thanks 🙏🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bonsoir, est-ce que vous auriez un prestataire / consultant à me recommander pour du growth hacking / generation de leads en Btob? Many thanks 🙏🙏"
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "type": "message",
+   "date": "2023-01-11T23:09:52",
+   "date_unixtime": "1673474992",
+   "from": "Michael BENTOLILA",
+   "from_id": "user757569360",
+   "reply_to_message_id": 25,
+   "text": "C est en cours avec Lisan  il est cash ! Plutôt du côté des entrepreneurs et très solide de ce que je peux voir après deux mois de mission \nIl te fera un super reporting saas",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "C est en cours avec Lisan  il est cash ! Plutôt du côté des entrepreneurs et très solide de ce que je peux voir après deux mois de mission \nIl te fera un super reporting saas"
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "type": "message",
+   "date": "2023-01-12T21:43:50",
+   "date_unixtime": "1673556230",
+   "from": "Jonathan Vidor",
+   "from_id": "user5281878073",
+   "reply_to_message_id": 27,
+   "text": "Hello. On génère des leads b2b depuis Google Ads. Ça dépend ce que tu cherches comme cible.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello. On génère des leads b2b depuis Google Ads. Ça dépend ce que tu cherches comme cible."
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "type": "message",
+   "date": "2023-01-12T23:35:02",
+   "date_unixtime": "1673562902",
+   "from": "Antoine Fort Qobra",
+   "from_id": "user1983806962",
+   "text": "Hello, des bonnes idées de prestas pour organiser un offsite pour 30 en début juillet svp ? Plus possible de trouver des trucs pertinents via Airbnb",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello, des bonnes idées de prestas pour organiser un offsite pour 30 en début juillet svp ? Plus possible de trouver des trucs pertinents via Airbnb"
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "type": "message",
+   "date": "2023-01-13T15:17:55",
+   "date_unixtime": "1673619475",
+   "from": "William Rosenfeld",
+   "from_id": "user5677908829",
+   "text": [
+    "Hello 👋 \nNous sommes en train de choisir un outil d’attribution marketing / CDP. Est-ce que vous auriez un rex sur Wizaly ? Ils nous proposent 29 k€ ",
+    {
+     "type": "bot_command",
+     "text": "/an"
+    },
+    ", ça vous semble dans le marché ? Thx 🙏"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello 👋 \nNous sommes en train de choisir un outil d’attribution marketing / CDP. Est-ce que vous auriez un rex sur Wizaly ? Ils nous proposent 29 k€ "
+    },
+    {
+     "type": "bot_command",
+     "text": "/an"
+    },
+    {
+     "type": "plain",
+     "text": ", ça vous semble dans le marché ? Thx 🙏"
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "type": "message",
+   "date": "2023-01-13T16:26:16",
+   "date_unixtime": "1673623576",
+   "edited": "2023-01-13T18:41:26",
+   "edited_unixtime": "1673631686",
+   "from": "Quentin Bordage (Kolsquare)",
+   "from_id": "user5222759328",
+   "reply_to_message_id": 31,
+   "text": "Demande à Prochaine Escale, ils sont top (ils nous ont organisé un truc canon pour 25 en mai dernier, mais ils savent faire aussi Payfit à 1000). Je peux te faire une intro avec Thomas le CEO ou tu peux les contacter de ma part, dis moi.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Demande à Prochaine Escale, ils sont top (ils nous ont organisé un truc canon pour 25 en mai dernier, mais ils savent faire aussi Payfit à 1000). Je peux te faire une intro avec Thomas le CEO ou tu peux les contacter de ma part, dis moi."
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "type": "message",
+   "date": "2023-01-13T18:30:15",
+   "date_unixtime": "1673631015",
+   "edited": "2023-01-13T18:41:33",
+   "edited_unixtime": "1673631693",
+   "from": "Vincent Torres",
+   "from_id": "user1721686495",
+   "reply_to_message_id": 31,
+   "text": [
+    "Hello Antoine\nPour 30 -> ",
+    {
+     "type": "link",
+     "text": "so.villas"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello Antoine\nPour 30 -> "
+    },
+    {
+     "type": "link",
+     "text": "so.villas"
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "type": "message",
+   "date": "2023-01-15T15:44:15",
+   "date_unixtime": "1673793855",
+   "edited": "2023-01-16T23:50:20",
+   "edited_unixtime": "1673909420",
+   "from": "Arnaud Rongier (bigbagngo)",
+   "from_id": "user5448926160",
+   "reply_to_message_id": 31,
+   "text": [
+    "On vient d’en faire un à 25 ici: ",
+    {
+     "type": "link",
+     "text": "https://www.portesdedeauville.com"
+    },
+    "\nJe recommande."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "On vient d’en faire un à 25 ici: "
+    },
+    {
+     "type": "link",
+     "text": "https://www.portesdedeauville.com"
+    },
+    {
+     "type": "plain",
+     "text": "\nJe recommande."
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "type": "message",
+   "date": "2023-01-16T17:51:13",
+   "date_unixtime": "1673887873",
+   "edited": "2023-01-16T19:58:38",
+   "edited_unixtime": "1673895518",
+   "from": "Antoine Fort Qobra",
+   "from_id": "user1983806962",
+   "text": "Merci à tous les 3 pour vos recos!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci à tous les 3 pour vos recos!"
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "type": "message",
+   "date": "2023-01-17T09:26:35",
+   "date_unixtime": "1673943995",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "text": "hello! je souhaite créer ma holding perso (pour y mettre les shares, etc). Nos conseils (Bold Avocats) m'ont fait une proposition à 2500€ (que je paye en perso ofc) + frais formalistes et commissaire aux apports pour 2000€ environ. ça vous parait cohérent pour ce type de presta?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "hello! je souhaite créer ma holding perso (pour y mettre les shares, etc). Nos conseils (Bold Avocats) m'ont fait une proposition à 2500€ (que je paye en perso ofc) + frais formalistes et commissaire aux apports pour 2000€ environ. ça vous parait cohérent pour ce type de presta?"
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "type": "message",
+   "date": "2023-01-17T12:00:22",
+   "date_unixtime": "1673953222",
+   "from": "Adrien CHALTIEL",
+   "from_id": "user812519615",
+   "reply_to_message_id": 37,
+   "text": "Oui plutôt cohérent après tu peux toujours benchmark. Je peux te faire 1 ou 2 intros",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Oui plutôt cohérent après tu peux toujours benchmark. Je peux te faire 1 ou 2 intros"
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "type": "message",
+   "date": "2023-01-17T12:05:31",
+   "date_unixtime": "1673953531",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "text": [
+    "Top,merci ",
+    {
+     "type": "mention_name",
+     "text": "Adrien",
+     "user_id": 812519615
+    },
+    "! écoute si c’est cohérent je vais pas pousser… on bosse avec eux depuis 3 ans, ils connaissent bien le dossier. Merci beaucoup!"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Top,merci "
+    },
+    {
+     "type": "mention_name",
+     "text": "Adrien",
+     "user_id": 812519615
+    },
+    {
+     "type": "plain",
+     "text": "! écoute si c’est cohérent je vais pas pousser… on bosse avec eux depuis 3 ans, ils connaissent bien le dossier. Merci beaucoup!"
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "type": "message",
+   "date": "2023-01-17T12:05:56",
+   "date_unixtime": "1673953556",
+   "from": "Adrien CHALTIEL",
+   "from_id": "user812519615",
+   "text": "Ils sont bons. Serge et Thomas sont supers.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ils sont bons. Serge et Thomas sont supers."
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "type": "message",
+   "date": "2023-01-17T12:23:54",
+   "date_unixtime": "1673954634",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "text": "Bon alors Go :)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bon alors Go :)"
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "type": "message",
+   "date": "2023-01-17T14:34:14",
+   "date_unixtime": "1673962454",
+   "from": "Sophie Cahen (Ganymed Robotics)",
+   "from_id": "user1873042335",
+   "text": "J’ai payé pas mal plus donc oui ça paraît cohérent :)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "J’ai payé pas mal plus donc oui ça paraît cohérent :)"
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "type": "message",
+   "date": "2023-01-18T07:42:57",
+   "date_unixtime": "1674024177",
+   "from": "Arnaud Rongier (bigbagngo)",
+   "from_id": "user5448926160",
+   "reply_to_message_id": 37,
+   "text": [
+    "Super deal ",
+    {
+     "type": "mention",
+     "text": "@loic_pubstack"
+    },
+    " ! Pour la mienne, J’ai payé le double. Du coup je suis vénère maintenant 😭"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Super deal "
+    },
+    {
+     "type": "mention",
+     "text": "@loic_pubstack"
+    },
+    {
+     "type": "plain",
+     "text": " ! Pour la mienne, J’ai payé le double. Du coup je suis vénère maintenant 😭"
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "type": "message",
+   "date": "2023-01-18T09:37:53",
+   "date_unixtime": "1674031073",
+   "from": "Sébastien MONTEIL",
+   "from_id": "user871925654",
+   "text": "J’ai payé la moitié en faisant tout par l’expert comptable sur un conseil d’ici d’ailleurs",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "J’ai payé la moitié en faisant tout par l’expert comptable sur un conseil d’ici d’ailleurs"
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "type": "message",
+   "date": "2023-01-18T09:38:40",
+   "date_unixtime": "1674031120",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "text": "Ah oui! Interessant! C’est qui ton expert-comptable?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ah oui! Interessant! C’est qui ton expert-comptable?"
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "type": "message",
+   "date": "2023-01-18T09:39:57",
+   "date_unixtime": "1674031197",
+   "edited": "2023-01-18T09:42:31",
+   "edited_unixtime": "1674031351",
+   "from": "Sébastien MONTEIL",
+   "from_id": "user871925654",
+   "text": "Un petit gars de province.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Un petit gars de province."
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "type": "message",
+   "date": "2023-01-18T09:40:22",
+   "date_unixtime": "1674031222",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "text": "Ah ok. Good to know. Je vais donc consulter mon expert comptable",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ah ok. Good to know. Je vais donc consulter mon expert comptable"
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "type": "message",
+   "date": "2023-01-18T09:47:41",
+   "date_unixtime": "1674031661",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "text": "Autre questions - désolé, je SPAM le channel... 😄\nJe me pose des questions sur notre expert comptable actuel pour deux raisons : \n- on s'est tapé début janvier un controle fiscal TVA car ils se sont plantés sur une déclaration de TVA ce qui a attiré l'attention de notre chère administration (bon au final, on s'en sort sans dommages) \n- ils ne sont pas réactifs. Quand j'envoie un mail, j'attends parfois 4-5 jours pour avoir une réponse. Bref, je trouve qu'ils sont désorganisé sur le suivi client, et peu/pas proactifs.\nDonc deux questions en une : est-ce normal? Dois-je revoir mes attentes à la baisse? Ou bien est-ce le moment de tourner la page? (auquel cas, je prends vos recos)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Autre questions - désolé, je SPAM le channel... 😄\nJe me pose des questions sur notre expert comptable actuel pour deux raisons : \n- on s'est tapé début janvier un controle fiscal TVA car ils se sont plantés sur une déclaration de TVA ce qui a attiré l'attention de notre chère administration (bon au final, on s'en sort sans dommages) \n- ils ne sont pas réactifs. Quand j'envoie un mail, j'attends parfois 4-5 jours pour avoir une réponse. Bref, je trouve qu'ils sont désorganisé sur le suivi client, et peu/pas proactifs.\nDonc deux questions en une : est-ce normal? Dois-je revoir mes attentes à la baisse? Ou bien est-ce le moment de tourner la page? (auquel cas, je prends vos recos)"
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "type": "message",
+   "date": "2023-01-18T14:36:10",
+   "date_unixtime": "1674048970",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "reply_to_message_id": 50,
+   "text": "Je suis dans la même situation avec « CPA » (pour les 2 sujets) et après avoir demandé autour de moi c’est inacceptable et il faut changer",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je suis dans la même situation avec « CPA » (pour les 2 sujets) et après avoir demandé autour de moi c’est inacceptable et il faut changer"
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "type": "message",
+   "date": "2023-01-18T14:45:33",
+   "date_unixtime": "1674049533",
+   "from": "Olivier LEVY",
+   "from_id": "user897479942",
+   "reply_to_message_id": 51,
+   "text": "Je suis d’accord : une erreur sur ta TVA est inacceptable, la réactivité peut dépendre des sujets mais je trouve le délai moyen de 4-5 jours trop long.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je suis d’accord : une erreur sur ta TVA est inacceptable, la réactivité peut dépendre des sujets mais je trouve le délai moyen de 4-5 jours trop long."
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "type": "message",
+   "date": "2023-01-18T15:00:22",
+   "date_unixtime": "1674050422",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "text": "Merci beaucoup pour votre retour à tout les deux qui confirme mon ressenti",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci beaucoup pour votre retour à tout les deux qui confirme mon ressenti"
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "type": "message",
+   "date": "2023-01-18T15:04:57",
+   "date_unixtime": "1674050697",
+   "edited": "2023-01-18T17:32:25",
+   "edited_unixtime": "1674059545",
+   "from": "Cyril PIERRE DE GEYER",
+   "from_id": "user840572794",
+   "photo": "(File not included. Change data exporting settings to download.)",
+   "width": 1006,
+   "height": 601,
+   "text": "Hier soir avec Frederic Mazzella nous avons organisé un welcome dîner. C'était très sympa, de belles rencontres. \n\nA cette occasion j'ai partagé une citation qui est affichée au fronton de la bibliothèque du Trocadéro et qui correspond bien au Galion.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hier soir avec Frederic Mazzella nous avons organisé un welcome dîner. C'était très sympa, de belles rencontres. \n\nA cette occasion j'ai partagé une citation qui est affichée au fronton de la bibliothèque du Trocadéro et qui correspond bien au Galion."
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "type": "message",
+   "date": "2023-01-18T18:02:35",
+   "date_unixtime": "1674061355",
+   "from": "Raphaël LABBÉ FR",
+   "from_id": "user5210397240",
+   "text": "Bonsoir, je cherche un prestataire d’infogerance pour une infra sur GCP. Vers qui puis je me tourner ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bonsoir, je cherche un prestataire d’infogerance pour une infra sur GCP. Vers qui puis je me tourner ?"
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "type": "message",
+   "date": "2023-01-19T16:45:31",
+   "date_unixtime": "1674143131",
+   "from": "Martin Pellet",
+   "from_id": "user5158916175",
+   "text": "Bonsoir à tous ! Je recherche des contacts de banquiers pour un prêt. Si vous avez des reçus, je suis super preneur 🙂 merci !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bonsoir à tous ! Je recherche des contacts de banquiers pour un prêt. Si vous avez des reçus, je suis super preneur 🙂 merci !"
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "type": "message",
+   "date": "2023-01-20T18:46:35",
+   "date_unixtime": "1674236795",
+   "from": "Martin Pannier",
+   "from_id": "user5856227484",
+   "reply_to_message_id": 27,
+   "text": "Sorry late response mais Malt marche très très bien",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sorry late response mais Malt marche très très bien"
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "type": "service",
+   "date": "2023-01-21T09:07:00",
+   "date_unixtime": "1674288420",
+   "actor": "Boris Pourreau",
+   "actor_id": "user825948427",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 59,
+   "type": "message",
+   "date": "2023-01-21T12:09:01",
+   "date_unixtime": "1674299341",
+   "edited": "2023-01-21T18:47:38",
+   "edited_unixtime": "1674323258",
+   "from": "Michael BENTOLILA",
+   "from_id": "user757569360",
+   "text": "Hello un de mes VP qui sous performs que je veux sortir me fait le coup de : « je veux rester » qui connaît un avocat en droit social redoutable ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello un de mes VP qui sous performs que je veux sortir me fait le coup de : « je veux rester » qui connaît un avocat en droit social redoutable ?"
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "type": "message",
+   "date": "2023-01-21T12:11:03",
+   "date_unixtime": "1674299463",
+   "edited": "2023-01-21T12:57:27",
+   "edited_unixtime": "1674302247",
+   "from": "Michael BENTOLILA",
+   "from_id": "user757569360",
+   "reply_to_message_id": 50,
+   "text": "Time to move !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Time to move !"
+    }
+   ]
+  },
+  {
+   "id": 61,
+   "type": "message",
+   "date": "2023-01-21T12:55:22",
+   "date_unixtime": "1674302122",
+   "edited": "2023-01-21T13:54:29",
+   "edited_unixtime": "1674305669",
+   "from": "Sophie Cahen (Ganymed Robotics)",
+   "from_id": "user1873042335",
+   "reply_to_message_id": 59,
+   "text": "Meme pb !!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Meme pb !!"
+    }
+   ]
+  },
+  {
+   "id": 62,
+   "type": "message",
+   "date": "2023-01-21T13:17:29",
+   "date_unixtime": "1674303449",
+   "from": "Haïkel Balti - Faircraft",
+   "from_id": "user1162427137",
+   "reply_to_message_id": 51,
+   "text": "Same, on est passé chez CPA quand Pennylane leur a cédé l’activité expertise-comptable. On a eu les mêmes problèmes. On est maintenant chez AGK sur les conseils de 2C Finance (toujours en utilisant Pennylane dont on est très contents), c’est le jour et la nuit : ils sont réactifs et c’est un plaisir de bosser avec eux (notamment sur des sujets d’optimisation de la prod. immo, valorisation des brevets etc).",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Same, on est passé chez CPA quand Pennylane leur a cédé l’activité expertise-comptable. On a eu les mêmes problèmes. On est maintenant chez AGK sur les conseils de 2C Finance (toujours en utilisant Pennylane dont on est très contents), c’est le jour et la nuit : ils sont réactifs et c’est un plaisir de bosser avec eux (notamment sur des sujets d’optimisation de la prod. immo, valorisation des brevets etc)."
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "type": "message",
+   "date": "2023-01-21T14:00:56",
+   "date_unixtime": "1674306056",
+   "from": "Michael BENTOLILA",
+   "from_id": "user757569360",
+   "text": "Je peux vous donner le nom de notre expert comptable petite structure très bon et rapide je vous fais la mise en relation",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je peux vous donner le nom de notre expert comptable petite structure très bon et rapide je vous fais la mise en relation"
+    }
+   ]
+  },
+  {
+   "id": 64,
+   "type": "message",
+   "date": "2023-01-21T14:50:35",
+   "date_unixtime": "1674309035",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "reply_to_message_id": 63,
+   "text": [
+    "Go! ",
+    {
+     "type": "email",
+     "text": "Loic@pubstack.io"
+    },
+    " - merci Michael"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Go! "
+    },
+    {
+     "type": "email",
+     "text": "Loic@pubstack.io"
+    },
+    {
+     "type": "plain",
+     "text": " - merci Michael"
+    }
+   ]
+  },
+  {
+   "id": 65,
+   "type": "message",
+   "date": "2023-01-21T15:30:33",
+   "date_unixtime": "1674311433",
+   "edited": "2023-01-21T22:42:52",
+   "edited_unixtime": "1674337372",
+   "from": "Quentin Bordage (Kolsquare)",
+   "from_id": "user5222759328",
+   "reply_to_message_id": 61,
+   "text": [
+    "« Redoutable » je sais pas, mais très competent et très sympa oui :-) Je peux vous conseiller notre conseil spécialisé en droit social Frédéric Calinaud que vous pouvez contacter de ma part ",
+    {
+     "type": "email",
+     "text": "frederic@calinaud-david.com"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "« Redoutable » je sais pas, mais très competent et très sympa oui :-) Je peux vous conseiller notre conseil spécialisé en droit social Frédéric Calinaud que vous pouvez contacter de ma part "
+    },
+    {
+     "type": "email",
+     "text": "frederic@calinaud-david.com"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 66,
+   "type": "message",
+   "date": "2023-01-21T22:17:37",
+   "date_unixtime": "1674335857",
+   "edited": "2023-01-21T22:42:50",
+   "edited_unixtime": "1674337370",
+   "from": "Alexandre Paepegaey",
+   "from_id": "user1530330591",
+   "reply_to_message_id": 59,
+   "text": [
+    "Frédéric proposé par Quentin est une bonne option.\nJe suggère aussi Stéphanie Dumas ",
+    {
+     "type": "email",
+     "text": "dumas@flichy.com"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Frédéric proposé par Quentin est une bonne option.\nJe suggère aussi Stéphanie Dumas "
+    },
+    {
+     "type": "email",
+     "text": "dumas@flichy.com"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 67,
+   "type": "message",
+   "date": "2023-01-24T14:20:32",
+   "date_unixtime": "1674566432",
+   "from": "Victor SEBAG | Ouihelp",
+   "from_id": "user2072227027",
+   "text": "Hello. On regarde pour Ouihelp à prendre une agence pour intermédier nos budgets visibilité sur les jobboards emploi (Indeed, Hellowork, CleverConnect). On cherche à avoir des remises tarifaires sur les dépenses marketing sur ces sites et à avoir un peu de conseil sur sponsoring et marque employeur. Vous avez des reco ? On nous a parlé de TBWA, Zcomme et Ideuzo. Merci !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello. On regarde pour Ouihelp à prendre une agence pour intermédier nos budgets visibilité sur les jobboards emploi (Indeed, Hellowork, CleverConnect). On cherche à avoir des remises tarifaires sur les dépenses marketing sur ces sites et à avoir un peu de conseil sur sponsoring et marque employeur. Vous avez des reco ? On nous a parlé de TBWA, Zcomme et Ideuzo. Merci !"
+    }
+   ]
+  },
+  {
+   "id": 68,
+   "type": "message",
+   "date": "2023-01-24T15:45:12",
+   "date_unixtime": "1674571512",
+   "from": "Francis LELONG",
+   "from_id": "user1176172391",
+   "text": "Hello les galions. Je cherche des experts de la mise en place de grosse infra B2C pour un gros média pour une plateforme qui accueillera plusieurs millions d’utilisateurs. Urgent. Merxiiiiii 🙏🙏🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello les galions. Je cherche des experts de la mise en place de grosse infra B2C pour un gros média pour une plateforme qui accueillera plusieurs millions d’utilisateurs. Urgent. Merxiiiiii 🙏🙏🙏"
+    }
+   ]
+  },
+  {
+   "id": 69,
+   "type": "message",
+   "date": "2023-01-24T15:54:34",
+   "date_unixtime": "1674572074",
+   "from": "Sébastien MONTEIL",
+   "from_id": "user871925654",
+   "reply_to_message_id": 68,
+   "text": [
+    {
+     "type": "email",
+     "text": "adrien.pestel@fr.clara.net"
+    },
+    ", je ne suis pas sûr qu'ils accompagnent sur de l'archi pure sans l'infogérance derrière. Mais je bosse depuis très longtemps avec eux, c'est très solide. Avant Realytics, j'avais monté une société de social gaming avec 60M+ de joueurs, ils étaient déjà en support sur la scalabilité."
+   ],
+   "text_entities": [
+    {
+     "type": "email",
+     "text": "adrien.pestel@fr.clara.net"
+    },
+    {
+     "type": "plain",
+     "text": ", je ne suis pas sûr qu'ils accompagnent sur de l'archi pure sans l'infogérance derrière. Mais je bosse depuis très longtemps avec eux, c'est très solide. Avant Realytics, j'avais monté une société de social gaming avec 60M+ de joueurs, ils étaient déjà en support sur la scalabilité."
+    }
+   ]
+  },
+  {
+   "id": 70,
+   "type": "message",
+   "date": "2023-01-24T15:55:33",
+   "date_unixtime": "1674572133",
+   "from": "Arnaud Rongier (bigbagngo)",
+   "from_id": "user5448926160",
+   "text": "Bonjour à tous, je suis à la recherche d’une agence RP dynamique, accessible en terme de budget et orientée B2B. Auriez-vous des prestas à recommander ? Muchas gracias ☺️🙏🏻",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bonjour à tous, je suis à la recherche d’une agence RP dynamique, accessible en terme de budget et orientée B2B. Auriez-vous des prestas à recommander ? Muchas gracias ☺️🙏🏻"
+    }
+   ]
+  },
+  {
+   "id": 71,
+   "type": "message",
+   "date": "2023-01-24T15:56:53",
+   "date_unixtime": "1674572213",
+   "from": "Sébastien MONTEIL",
+   "from_id": "user871925654",
+   "reply_to_message_id": 69,
+   "text": "Adrien est le CTO du groupe, tu peux venir de ma part, MP si tu veux le 06.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Adrien est le CTO du groupe, tu peux venir de ma part, MP si tu veux le 06."
+    }
+   ]
+  },
+  {
+   "id": 72,
+   "type": "message",
+   "date": "2023-01-24T22:44:23",
+   "date_unixtime": "1674596663",
+   "edited": "2023-01-24T22:51:14",
+   "edited_unixtime": "1674597074",
+   "from": "Magalie Safar | Koliving",
+   "from_id": "user2086923272",
+   "reply_to_message_id": 70,
+   "text": [
+    "Agence Licence K. Tu peux contacter Jean François Kitten de ma part. Très bon !\n",
+    {
+     "type": "email",
+     "text": "jf@licencek.com"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Agence Licence K. Tu peux contacter Jean François Kitten de ma part. Très bon !\n"
+    },
+    {
+     "type": "email",
+     "text": "jf@licencek.com"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 73,
+   "type": "message",
+   "date": "2023-01-26T15:03:36",
+   "date_unixtime": "1674741816",
+   "from": "Antoine LORON",
+   "from_id": "user1565970507",
+   "text": "Hello,\nOn vient de recevoir un e-mail comme quoi Payfit fermait en Allemagne : vous connaissez un équivalent (pour une filiale de 5-20 personnes) ?\nMerci",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello,\nOn vient de recevoir un e-mail comme quoi Payfit fermait en Allemagne : vous connaissez un équivalent (pour une filiale de 5-20 personnes) ?\nMerci"
+    }
+   ]
+  },
+  {
+   "id": 74,
+   "type": "message",
+   "date": "2023-01-27T17:47:58",
+   "date_unixtime": "1674838078",
+   "edited": "2023-01-27T17:49:00",
+   "edited_unixtime": "1674838140",
+   "from": "Alexandre HUCKERT",
+   "from_id": "user898956328",
+   "text": "Hello ! Vous avez un tip pour accéder aux études Xerfi a moindre coût 😊 ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello ! Vous avez un tip pour accéder aux études Xerfi a moindre coût 😊 ?"
+    }
+   ]
+  },
+  {
+   "id": 75,
+   "type": "message",
+   "date": "2023-01-27T17:51:11",
+   "date_unixtime": "1674838271",
+   "from": "Arnaud Rongier (bigbagngo)",
+   "from_id": "user5448926160",
+   "reply_to_message_id": 74,
+   "text": "+1",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "+1"
+    }
+   ]
+  },
+  {
+   "id": 76,
+   "type": "message",
+   "date": "2023-01-27T18:19:32",
+   "date_unixtime": "1674839972",
+   "edited": "2023-01-27T18:29:33",
+   "edited_unixtime": "1674840573",
+   "from": "Philippe @Advitam",
+   "from_id": "user862522844",
+   "reply_to_message_id": 74,
+   "text": "La bibliothèque de votre école de commerce a sans doute des accès, au moins partiel",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "La bibliothèque de votre école de commerce a sans doute des accès, au moins partiel"
+    }
+   ]
+  },
+  {
+   "id": 77,
+   "type": "message",
+   "date": "2023-01-27T18:39:34",
+   "date_unixtime": "1674841174",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "text": "Pour les avoir pratiqué, j’ai l’impression que c’est du niveau de statista Cets a dire pas incroyable",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Pour les avoir pratiqué, j’ai l’impression que c’est du niveau de statista Cets a dire pas incroyable"
+    }
+   ]
+  },
+  {
+   "id": 78,
+   "type": "message",
+   "date": "2023-01-27T18:39:57",
+   "date_unixtime": "1674841197",
+   "from": "Pierre Hebrard - Pricemoov",
+   "from_id": "user5270531637",
+   "text": "Tes stagiaires si tu en as auront sûrement accès",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Tes stagiaires si tu en as auront sûrement accès"
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "type": "message",
+   "date": "2023-01-28T12:52:14",
+   "date_unixtime": "1674906734",
+   "from": "Emeric Ernoult | Agorapulse",
+   "from_id": "user1905249589",
+   "text": "Hello! Vous avez fait appel a du management de transition pour votre équipe sales? Des recos? Merci!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello! Vous avez fait appel a du management de transition pour votre équipe sales? Des recos? Merci!"
+    }
+   ]
+  },
+  {
+   "id": 80,
+   "type": "message",
+   "date": "2023-01-30T15:05:46",
+   "date_unixtime": "1675087546",
+   "edited": "2023-01-30T17:40:44",
+   "edited_unixtime": "1675096844",
+   "from": "Geoffroy DE BECDELIEVRE",
+   "from_id": "user874353455",
+   "reply_to_message_id": 79,
+   "text": "Oui avec mon directeur des ventes chez Marco Vasco il y a 4ans. MP si besoin",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Oui avec mon directeur des ventes chez Marco Vasco il y a 4ans. MP si besoin"
+    }
+   ]
+  },
+  {
+   "id": 81,
+   "type": "message",
+   "date": "2023-02-03T20:27:42",
+   "date_unixtime": "1675452462",
+   "from": "Victor PAYAN",
+   "from_id": "user5175099870",
+   "text": "Hello! Quelqu’un a une reco de presta pour faire un site internet (vitrine a priori, pas forcément compliqué)? Pour un ami, ne veulent pas faire par eux même.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello! Quelqu’un a une reco de presta pour faire un site internet (vitrine a priori, pas forcément compliqué)? Pour un ami, ne veulent pas faire par eux même."
+    }
+   ]
+  },
+  {
+   "id": 82,
+   "type": "message",
+   "date": "2023-02-03T20:28:17",
+   "date_unixtime": "1675452497",
+   "edited": "2023-02-03T20:28:42",
+   "edited_unixtime": "1675452522",
+   "from": "Francis LELONG",
+   "from_id": "user1176172391",
+   "reply_to_message_id": 81,
+   "text": "Hello Victor. Tu peux me l’envoyer si tu veux",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello Victor. Tu peux me l’envoyer si tu veux"
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "type": "message",
+   "date": "2023-02-08T15:04:55",
+   "date_unixtime": "1675865095",
+   "from": "Alexandre HUCKERT",
+   "from_id": "user898956328",
+   "text": [
+    "Hello, est ce que quelqu’un ici a fait appel à un service de procurement/achat (pour manager, renégocier les contrats des SaaS notamment) type ",
+    {
+     "type": "link",
+     "text": "welii.io"
+    },
+    " ? Mon CFO regarde ça et serait intéressé pour en discuter."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello, est ce que quelqu’un ici a fait appel à un service de procurement/achat (pour manager, renégocier les contrats des SaaS notamment) type "
+    },
+    {
+     "type": "link",
+     "text": "welii.io"
+    },
+    {
+     "type": "plain",
+     "text": " ? Mon CFO regarde ça et serait intéressé pour en discuter."
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "type": "service",
+   "date": "2023-02-21T13:10:29",
+   "date_unixtime": "1676981429",
+   "actor": "Emna Everard - Kazidomi",
+   "actor_id": "user6144740157",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 89,
+   "type": "message",
+   "date": "2023-02-23T10:55:01",
+   "date_unixtime": "1677146101",
+   "from": "Julien JACOB",
+   "from_id": "user1021396297",
+   "text": [
+    "Quelqu'un est client de ",
+    {
+     "type": "link",
+     "text": "https://www.rzilient.club/"
+    },
+    " ou de toute autre solution de gestion de parc IT responsable ?"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Quelqu'un est client de "
+    },
+    {
+     "type": "link",
+     "text": "https://www.rzilient.club/"
+    },
+    {
+     "type": "plain",
+     "text": " ou de toute autre solution de gestion de parc IT responsable ?"
+    }
+   ]
+  },
+  {
+   "id": 90,
+   "type": "message",
+   "date": "2023-02-23T10:55:14",
+   "date_unixtime": "1677146114",
+   "from": "Francis LELONG",
+   "from_id": "user1176172391",
+   "text": "Yes nous",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes nous"
+    }
+   ]
+  },
+  {
+   "id": 91,
+   "type": "message",
+   "date": "2023-02-23T10:56:29",
+   "date_unixtime": "1677146189",
+   "from": "Julien JACOB",
+   "from_id": "user1021396297",
+   "text": "Et alors, content ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Et alors, content ?"
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "type": "message",
+   "date": "2023-02-28T12:39:38",
+   "date_unixtime": "1677584378",
+   "from": "Geoffrey BERTHON",
+   "from_id": "user842504874",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "mime_type": "application/pdf",
+   "text": [
+    "Bonjour à tous,\nSi vous avez des besoins en dev/tech, j’ai rencontré Eleks qui fournit des services de conseil et de développement de très haut niveau dans des domaines variés: Fintech, Santé & Pharma, Logistique, Retail, Énergies, … . Vous pouvez contacter Frédéric Chevallier le ma part ",
+    {
+     "type": "link",
+     "text": "frederic.chevallier@eleks.com/"
+    },
+    " ",
+    {
+     "type": "link",
+     "text": "https://www.linkedin.com/in/fredericchevallier/"
+    },
+    ", ou bien le rencontrer lors du Hello Tomorrow Summit la semaine prochaine."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bonjour à tous,\nSi vous avez des besoins en dev/tech, j’ai rencontré Eleks qui fournit des services de conseil et de développement de très haut niveau dans des domaines variés: Fintech, Santé & Pharma, Logistique, Retail, Énergies, … . Vous pouvez contacter Frédéric Chevallier le ma part "
+    },
+    {
+     "type": "link",
+     "text": "frederic.chevallier@eleks.com/"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "link",
+     "text": "https://www.linkedin.com/in/fredericchevallier/"
+    },
+    {
+     "type": "plain",
+     "text": ", ou bien le rencontrer lors du Hello Tomorrow Summit la semaine prochaine."
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "type": "message",
+   "date": "2023-02-28T15:20:42",
+   "date_unixtime": "1677594042",
+   "from": "Victor SEBAG | Ouihelp",
+   "from_id": "user2072227027",
+   "text": "Hello. Qqun est client de TBWA ou Zcomme (agences d’achat média) ? Merci",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello. Qqun est client de TBWA ou Zcomme (agences d’achat média) ? Merci"
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "type": "message",
+   "date": "2023-03-03T18:40:47",
+   "date_unixtime": "1677865247",
+   "from": "Alyssa EMMUNGIL",
+   "from_id": "user1850788525",
+   "text": "Hello ! \nEst ce que quelqu’un a un rex sur l’offre coaching de Ignition ? Pour un manager sales",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello ! \nEst ce que quelqu’un a un rex sur l’offre coaching de Ignition ? Pour un manager sales"
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "type": "message",
+   "date": "2023-03-04T20:48:00",
+   "date_unixtime": "1677959280",
+   "from": "Emeric Ernoult | Agorapulse",
+   "from_id": "user1905249589",
+   "reply_to_message_id": 94,
+   "text": "J’utilise et je recommande !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "J’utilise et je recommande !"
+    }
+   ]
+  },
+  {
+   "id": 96,
+   "type": "message",
+   "date": "2023-03-08T17:15:58",
+   "date_unixtime": "1678292158",
+   "from": "Morgane Le Cornet",
+   "from_id": "user5203255669",
+   "text": "Hello ! Un membre cherche un bon cabinet d'avocats, spécialisé Saas / Tech, pour traiter d'un litige potentiel avec un client (grosse entreprise), any ideas ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello ! Un membre cherche un bon cabinet d'avocats, spécialisé Saas / Tech, pour traiter d'un litige potentiel avec un client (grosse entreprise), any ideas ?"
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "type": "message",
+   "date": "2023-03-08T17:51:29",
+   "date_unixtime": "1678294289",
+   "from": "Lara ROUYRES",
+   "from_id": "user854156280",
+   "reply_to_message_id": 96,
+   "text": "Loïc Henriot de ma part - je peux trouver contact",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Loïc Henriot de ma part - je peux trouver contact"
+    }
+   ]
+  },
+  {
+   "id": 98,
+   "type": "message",
+   "date": "2023-03-09T11:00:42",
+   "date_unixtime": "1678356042",
+   "from": "Morgane Le Cornet",
+   "from_id": "user5203255669",
+   "text": "Merci Lara, je te mp",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci Lara, je te mp"
+    }
+   ]
+  },
+  {
+   "id": 99,
+   "type": "service",
+   "date": "2023-03-09T11:58:55",
+   "date_unixtime": "1678359535",
+   "actor": "Grace Mehrabe",
+   "actor_id": "user5387183080",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 100,
+   "type": "message",
+   "date": "2023-03-10T09:21:24",
+   "date_unixtime": "1678436484",
+   "edited": "2023-03-10T09:21:33",
+   "edited_unixtime": "1678436493",
+   "from": "Geoffrey BERTHON",
+   "from_id": "user842504874",
+   "reply_to_message_id": 96,
+   "text": "Frédéric Guenin du cabinet qualiens. Je peux te mettre en contact.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Frédéric Guenin du cabinet qualiens. Je peux te mettre en contact."
+    }
+   ]
+  },
+  {
+   "id": 101,
+   "type": "message",
+   "date": "2023-03-10T11:36:47",
+   "date_unixtime": "1678444607",
+   "from": "Victor SEBAG | Ouihelp",
+   "from_id": "user2072227027",
+   "text": "Hello. On veut changer d’outil de Knowledge Management : on a regardé Notion (cher pour notre nombre de salariés) et Slite, et aussi Document360 : des recos ? Merci !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello. On veut changer d’outil de Knowledge Management : on a regardé Notion (cher pour notre nombre de salariés) et Slite, et aussi Document360 : des recos ? Merci !"
+    }
+   ]
+  },
+  {
+   "id": 102,
+   "type": "message",
+   "date": "2023-03-10T11:44:15",
+   "date_unixtime": "1678445055",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "reply_to_message_id": 101,
+   "text": "On est sur Confluence nous, on a migré depuis Notion car trop cher.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "On est sur Confluence nous, on a migré depuis Notion car trop cher."
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "type": "message",
+   "date": "2023-03-10T11:44:34",
+   "date_unixtime": "1678445074",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "text": "Même suite que Jira (Atlassian) donc très pratique si tu l'utilise",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Même suite que Jira (Atlassian) donc très pratique si tu l'utilise"
+    }
+   ]
+  },
+  {
+   "id": 104,
+   "type": "message",
+   "date": "2023-03-10T11:45:29",
+   "date_unixtime": "1678445129",
+   "from": "Sébastien MONTEIL",
+   "from_id": "user871925654",
+   "reply_to_message_id": 103,
+   "text": "On se tate a faire le chemin inverse… ca vieillit mal confluence",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "On se tate a faire le chemin inverse… ca vieillit mal confluence"
+    }
+   ]
+  },
+  {
+   "id": 105,
+   "type": "message",
+   "date": "2023-03-10T16:37:12",
+   "date_unixtime": "1678462632",
+   "edited": "2023-03-10T16:59:59",
+   "edited_unixtime": "1678463999",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "reply_to_message_id": 104,
+   "text": "Tu vis dans le déni frère",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Tu vis dans le déni frère"
+    }
+   ]
+  },
+  {
+   "id": 106,
+   "type": "message",
+   "date": "2023-03-10T16:37:20",
+   "date_unixtime": "1678462640",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "text": "Confluence is bae",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Confluence is bae"
+    }
+   ]
+  },
+  {
+   "id": 107,
+   "type": "message",
+   "date": "2023-03-10T17:16:54",
+   "date_unixtime": "1678465014",
+   "from": "Francis LELONG",
+   "from_id": "user1176172391",
+   "reply_to_message_id": 104,
+   "text": "Beaucoup quittent confluence pour Notion en ce moment et sont très satisfaits. Faut négocier les prix avec Notion",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Beaucoup quittent confluence pour Notion en ce moment et sont très satisfaits. Faut négocier les prix avec Notion"
+    }
+   ]
+  },
+  {
+   "id": 108,
+   "type": "message",
+   "date": "2023-03-10T17:59:23",
+   "date_unixtime": "1678467563",
+   "from": "Victor SEBAG | Ouihelp",
+   "from_id": "user2072227027",
+   "reply_to_message_id": 107,
+   "text": "Merci pour ton retour. Tu peux me dire à combien tu as réussi à descendre ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci pour ton retour. Tu peux me dire à combien tu as réussi à descendre ?"
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "type": "message",
+   "date": "2023-03-14T14:42:10",
+   "date_unixtime": "1678801330",
+   "from": "Francis LELONG",
+   "from_id": "user1176172391",
+   "text": "Tu as besoin de combien de licences ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Tu as besoin de combien de licences ?"
+    }
+   ]
+  },
+  {
+   "id": 110,
+   "type": "message",
+   "date": "2023-03-14T14:46:44",
+   "date_unixtime": "1678801604",
+   "from": "Victor SEBAG | Ouihelp",
+   "from_id": "user2072227027",
+   "text": "300 aujourd’hui. Et x1,5 a x2 par an",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "300 aujourd’hui. Et x1,5 a x2 par an"
+    }
+   ]
+  },
+  {
+   "id": 111,
+   "type": "message",
+   "date": "2023-03-14T19:50:33",
+   "date_unixtime": "1678819833",
+   "from": "Guillaume Fournier | Supervan",
+   "from_id": "user5387015265",
+   "text": "Hello les galions,\nauriez vous un avocat spécialiste en recouvrement à me recommander ? \nInjonction perdue, prochaine étape assignation au fond. \nMerci",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello les galions,\nauriez vous un avocat spécialiste en recouvrement à me recommander ? \nInjonction perdue, prochaine étape assignation au fond. \nMerci"
+    }
+   ]
+  },
+  {
+   "id": 112,
+   "type": "message",
+   "date": "2023-03-15T06:54:11",
+   "date_unixtime": "1678859651",
+   "from": "Francis LELONG",
+   "from_id": "user1176172391",
+   "reply_to_message_id": 110,
+   "text": [
+    "On serait à 66k$",
+    {
+     "type": "bot_command",
+     "text": "/an"
+    },
+    " avant nego pour 300 licences en plan enterprise. Est ce que tu veux que je t’introduise à la bonne personne chez eux ? Fait moi un MP si tu veux."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "On serait à 66k$"
+    },
+    {
+     "type": "bot_command",
+     "text": "/an"
+    },
+    {
+     "type": "plain",
+     "text": " avant nego pour 300 licences en plan enterprise. Est ce que tu veux que je t’introduise à la bonne personne chez eux ? Fait moi un MP si tu veux."
+    }
+   ]
+  },
+  {
+   "id": 114,
+   "type": "message",
+   "date": "2023-03-17T09:04:54",
+   "date_unixtime": "1679040294",
+   "edited": "2023-03-17T18:39:45",
+   "edited_unixtime": "1679074785",
+   "from": "Nicolas BOUVATTIER",
+   "from_id": "user5164969765",
+   "text": "hello, avez-vous un bon plombier à recomander ? :) merciiii",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "hello, avez-vous un bon plombier à recomander ? :) merciiii"
+    }
+   ]
+  },
+  {
+   "id": 115,
+   "type": "message",
+   "date": "2023-03-21T11:06:05",
+   "date_unixtime": "1679393165",
+   "from": "Nicolas BOUVATTIER",
+   "from_id": "user5164969765",
+   "reply_to_message_id": 114,
+   "text": "c'était pas une blague ahah on a eu un important dégât des eaux et notre bailleur ne veut pas le prendre en charge alors que c'est de sa faute..",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "c'était pas une blague ahah on a eu un important dégât des eaux et notre bailleur ne veut pas le prendre en charge alors que c'est de sa faute.."
+    }
+   ]
+  },
+  {
+   "id": 116,
+   "type": "message",
+   "date": "2023-03-21T11:06:53",
+   "date_unixtime": "1679393213",
+   "from": "Nicolas BOUVATTIER",
+   "from_id": "user5164969765",
+   "text": "Autre question \nEst-ce qu'un Galion bosse avec une SSII de dev web en Pologne / équivalent ? Je serais preneur d'un échange sur les tarifs obtenus",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Autre question \nEst-ce qu'un Galion bosse avec une SSII de dev web en Pologne / équivalent ? Je serais preneur d'un échange sur les tarifs obtenus"
+    }
+   ]
+  },
+  {
+   "id": 117,
+   "type": "message",
+   "date": "2023-03-23T11:11:26",
+   "date_unixtime": "1679566286",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "text": "hello all! \nNous travaillons avec Bold Avocat (cabinet généraliste, au forfait) depuis 4 ans. Nous avons maintenant des problématiques sur les contrats commerciaux où nous nous sentons pas très bien servis. Surtout lorsqu'il faut que l'avocat participe au call, car ils sont assez junior (ce qui n'est pas surprenant vu le prix qui reste très compétitif. \nLong story short : avez vous des bons cab pour les contrats commerciaux? idéalement qui parlent bien anglais. Merci!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "hello all! \nNous travaillons avec Bold Avocat (cabinet généraliste, au forfait) depuis 4 ans. Nous avons maintenant des problématiques sur les contrats commerciaux où nous nous sentons pas très bien servis. Surtout lorsqu'il faut que l'avocat participe au call, car ils sont assez junior (ce qui n'est pas surprenant vu le prix qui reste très compétitif. \nLong story short : avez vous des bons cab pour les contrats commerciaux? idéalement qui parlent bien anglais. Merci!"
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "type": "message",
+   "date": "2023-03-23T11:12:07",
+   "date_unixtime": "1679566327",
+   "from": "Paul-Adrien Menez - Smartway",
+   "from_id": "user396760856",
+   "text": "Obligatoirement sur Paris ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Obligatoirement sur Paris ?"
+    }
+   ]
+  },
+  {
+   "id": 119,
+   "type": "message",
+   "date": "2023-03-23T11:15:58",
+   "date_unixtime": "1679566558",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "reply_to_message_id": 117,
+   "text": [
+    "Désolé ça n'aide pas mais Bold (ancien 11-100-34l est un cabinet vraiment médiocre dès qu'il faut faire autre chose que du PV d'AGE. \n\nPour ta demande : tu peux contacter OYAT pour regarder (Guillaume Ledoux - ",
+    {
+     "type": "email",
+     "text": "g.ledoux@oyat.law"
+    },
+    "). Ils restent compétitifs et sont sérieux"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Désolé ça n'aide pas mais Bold (ancien 11-100-34l est un cabinet vraiment médiocre dès qu'il faut faire autre chose que du PV d'AGE. \n\nPour ta demande : tu peux contacter OYAT pour regarder (Guillaume Ledoux - "
+    },
+    {
+     "type": "email",
+     "text": "g.ledoux@oyat.law"
+    },
+    {
+     "type": "plain",
+     "text": "). Ils restent compétitifs et sont sérieux"
+    }
+   ]
+  },
+  {
+   "id": 120,
+   "type": "message",
+   "date": "2023-03-23T11:34:42",
+   "date_unixtime": "1679567682",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "reply_to_message_id": 118,
+   "text": "Nope!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Nope!"
+    }
+   ]
+  },
+  {
+   "id": 121,
+   "type": "message",
+   "date": "2023-03-23T11:36:33",
+   "date_unixtime": "1679567793",
+   "edited": "2023-03-23T11:38:35",
+   "edited_unixtime": "1679567915",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "reply_to_message_id": 119,
+   "text": "Merci! On va prendre contact",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci! On va prendre contact"
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "type": "message",
+   "date": "2023-03-23T11:38:24",
+   "date_unixtime": "1679567904",
+   "from": "Paul-Adrien Menez - Smartway",
+   "from_id": "user396760856",
+   "text": [
+    "Ok, tu peux contacter de ma part ",
+    {
+     "type": "email",
+     "text": "gstrugeon@parthema.fr"
+    },
+    " de Parthema (Nantes) qui est très très pragmatiques, pro, et réactif"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ok, tu peux contacter de ma part "
+    },
+    {
+     "type": "email",
+     "text": "gstrugeon@parthema.fr"
+    },
+    {
+     "type": "plain",
+     "text": " de Parthema (Nantes) qui est très très pragmatiques, pro, et réactif"
+    }
+   ]
+  },
+  {
+   "id": 123,
+   "type": "message",
+   "date": "2023-03-24T00:12:24",
+   "date_unixtime": "1679613144",
+   "edited": "2023-03-24T11:14:20",
+   "edited_unixtime": "1679652860",
+   "from": "Haïkel Balti - Faircraft",
+   "from_id": "user1162427137",
+   "reply_to_message_id": 117,
+   "text": [
+    "Je conseille le cabinet Plasseraud, ils sont excellents sur les contrats commerciaux (sur leur partie IP également, au passage). \nTu peux écrire à Charlotte Montaud de ma part : ",
+    {
+     "type": "email",
+     "text": "MONTAUD@plass.com"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je conseille le cabinet Plasseraud, ils sont excellents sur les contrats commerciaux (sur leur partie IP également, au passage). \nTu peux écrire à Charlotte Montaud de ma part : "
+    },
+    {
+     "type": "email",
+     "text": "MONTAUD@plass.com"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 124,
+   "type": "message",
+   "date": "2023-03-24T11:14:23",
+   "date_unixtime": "1679652863",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "text": "Merci!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci!"
+    }
+   ]
+  },
+  {
+   "id": 125,
+   "type": "message",
+   "date": "2023-03-24T12:02:16",
+   "date_unixtime": "1679655736",
+   "edited": "2023-03-24T13:54:16",
+   "edited_unixtime": "1679662456",
+   "from": "Raphaël LABBÉ FR",
+   "from_id": "user5210397240",
+   "text": [
+    "Bonjour à tous, j’accompagne un entrepreneur sur un pivot dans la veille et on a mis en place un outils STRAT pour comprendre son positionnement de marque et celui de ses concurrents. \n\nIl offre 5 abonnements de 3 mois et la première session stratégique avec lui a des entrepreneurs prêt à tester et faire des feedbacks. \n\nLa page de présentation :\n",
+    {
+     "type": "link",
+     "text": "https://www.datakudo.com/one-email-insights"
+    },
+    "\n\nVous pouvez lui dire que vous venez du galion par chat ou e-mail : ",
+    {
+     "type": "email",
+     "text": "octave@datakudo.com"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bonjour à tous, j’accompagne un entrepreneur sur un pivot dans la veille et on a mis en place un outils STRAT pour comprendre son positionnement de marque et celui de ses concurrents. \n\nIl offre 5 abonnements de 3 mois et la première session stratégique avec lui a des entrepreneurs prêt à tester et faire des feedbacks. \n\nLa page de présentation :\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.datakudo.com/one-email-insights"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nVous pouvez lui dire que vous venez du galion par chat ou e-mail : "
+    },
+    {
+     "type": "email",
+     "text": "octave@datakudo.com"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 126,
+   "type": "message",
+   "date": "2023-03-25T10:58:21",
+   "date_unixtime": "1679738301",
+   "from": "Nicolas BOUVATTIER",
+   "from_id": "user5164969765",
+   "text": "hello,",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "hello,"
+    }
+   ]
+  },
+  {
+   "id": 127,
+   "type": "message",
+   "date": "2023-03-25T10:58:43",
+   "date_unixtime": "1679738323",
+   "from": "Nicolas BOUVATTIER",
+   "from_id": "user5164969765",
+   "text": "avez-vous des recos pour un traiteur pour organiser un déjeuner au bureau ? (15 personne)\nMerci",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "avez-vous des recos pour un traiteur pour organiser un déjeuner au bureau ? (15 personne)\nMerci"
+    }
+   ]
+  },
+  {
+   "id": 128,
+   "type": "message",
+   "date": "2023-03-25T13:45:01",
+   "date_unixtime": "1679748301",
+   "edited": "2023-03-25T13:54:39",
+   "edited_unixtime": "1679748879",
+   "from": "Sophie Cahen (Ganymed Robotics)",
+   "from_id": "user1873042335",
+   "text": "Monbanquet, et très joli pour déjeuner buffet festif : meet my mamma",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Monbanquet, et très joli pour déjeuner buffet festif : meet my mamma"
+    }
+   ]
+  },
+  {
+   "id": 129,
+   "type": "message",
+   "date": "2023-03-25T18:19:09",
+   "date_unixtime": "1679764749",
+   "edited": "2023-03-25T18:38:50",
+   "edited_unixtime": "1679765930",
+   "from": "Camille Rumani - Eatwith",
+   "from_id": "user5713827217",
+   "reply_to_message_id": 127,
+   "text": "Les Cuistots Migrateurs, PichPich ou MaMi aussi.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Les Cuistots Migrateurs, PichPich ou MaMi aussi."
+    }
+   ]
+  },
+  {
+   "id": 130,
+   "type": "message",
+   "date": "2023-03-25T18:52:03",
+   "date_unixtime": "1679766723",
+   "edited": "2023-03-25T21:02:40",
+   "edited_unixtime": "1679774560",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "reply_to_message_id": 129,
+   "text": "Cuistots Migrateurs = parfait",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Cuistots Migrateurs = parfait"
+    }
+   ]
+  },
+  {
+   "id": 131,
+   "type": "message",
+   "date": "2023-03-25T18:52:38",
+   "date_unixtime": "1679766758",
+   "from": "Victor WACRENIER",
+   "from_id": "user741619138",
+   "text": "Et ça change des petits fours et menus que t'as vu 50x",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Et ça change des petits fours et menus que t'as vu 50x"
+    }
+   ]
+  },
+  {
+   "id": 133,
+   "type": "service",
+   "date": "2023-03-27T16:10:23",
+   "date_unixtime": "1679926223",
+   "actor": "Nicolas BENADY",
+   "actor_id": "user1390769290",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 134,
+   "type": "message",
+   "date": "2023-03-27T18:06:16",
+   "date_unixtime": "1679933176",
+   "edited": "2023-03-27T18:21:45",
+   "edited_unixtime": "1679934105",
+   "from": "Laure Betsch",
+   "from_id": "user6192547504",
+   "text": [
+    {
+     "type": "underline",
+     "text": "GROWTH AGENCY"
+    },
+    " : \nTAMLA => ",
+    {
+     "type": "link",
+     "text": "https://www.tamla.io/"
+    },
+    "\nSuper Agence de growth (4 good mais pas seulement !) qui aide les boites à mettre en place des stratégies de croissance en utilisant le framework AARRR et en implémentant la plateforme HubSpot et ses API. On a travaillé avec eux et on a une super retour sur expérience !"
+   ],
+   "text_entities": [
+    {
+     "type": "underline",
+     "text": "GROWTH AGENCY"
+    },
+    {
+     "type": "plain",
+     "text": " : \nTAMLA => "
+    },
+    {
+     "type": "link",
+     "text": "https://www.tamla.io/"
+    },
+    {
+     "type": "plain",
+     "text": "\nSuper Agence de growth (4 good mais pas seulement !) qui aide les boites à mettre en place des stratégies de croissance en utilisant le framework AARRR et en implémentant la plateforme HubSpot et ses API. On a travaillé avec eux et on a une super retour sur expérience !"
+    }
+   ]
+  },
+  {
+   "id": 135,
+   "type": "service",
+   "date": "2023-03-28T11:24:18",
+   "date_unixtime": "1679995458",
+   "actor": "Ning Li",
+   "actor_id": "user5581270096",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 136,
+   "type": "service",
+   "date": "2023-03-31T11:57:57",
+   "date_unixtime": "1680256677",
+   "actor": "Patrick Robinson",
+   "actor_id": "user6036577245",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 137,
+   "type": "message",
+   "date": "2023-03-31T15:52:54",
+   "date_unixtime": "1680270774",
+   "from": "Laure Betsch",
+   "from_id": "user6192547504",
+   "text": "Hello\nQuelqu’un a un REX Nomination à me faire ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello\nQuelqu’un a un REX Nomination à me faire ?"
+    }
+   ]
+  },
+  {
+   "id": 139,
+   "type": "message",
+   "date": "2023-04-03T17:21:43",
+   "date_unixtime": "1680535303",
+   "from": "Olivier LEVY",
+   "from_id": "user897479942",
+   "text": "Hello à toutes/tous, je cherche à challenger notre agence SEA (budget mensuel de ~5k€ en lissé), vous auriez des recommandations ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello à toutes/tous, je cherche à challenger notre agence SEA (budget mensuel de ~5k€ en lissé), vous auriez des recommandations ?"
+    }
+   ]
+  },
+  {
+   "id": 140,
+   "type": "message",
+   "date": "2023-04-03T19:38:17",
+   "date_unixtime": "1680543497",
+   "from": "Francis LELONG",
+   "from_id": "user1176172391",
+   "text": "Yes on travaille avec URoot. Je te fais une intro si tu veux",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes on travaille avec URoot. Je te fais une intro si tu veux"
+    }
+   ]
+  },
+  {
+   "id": 141,
+   "type": "message",
+   "date": "2023-04-03T20:11:39",
+   "date_unixtime": "1680545499",
+   "from": "Patrick Robinson",
+   "from_id": "user6036577245",
+   "text": "On est avec JVWeb.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "On est avec JVWeb."
+    }
+   ]
+  },
+  {
+   "id": 142,
+   "type": "message",
+   "date": "2023-04-04T20:12:47",
+   "date_unixtime": "1680631967",
+   "edited": "2023-04-04T20:15:30",
+   "edited_unixtime": "1680632130",
+   "from": "Emeric Ernoult | Agorapulse",
+   "from_id": "user1905249589",
+   "text": [
+    "Le sales coach avec qui on bosse organise un workshop sales le 17 avril au palais brognart. Je pose ça ici car si vous cherchez du sales coaching/training pour vos sales, c’est l’occasion de faire connaissance avec lui qui fait ça et de l’évaluer sans frais 😉\nIl vit entre Londres et Paris et est parfaitement bilingue.\n",
+    {
+     "type": "link",
+     "text": "https://www.eventbrite.ie/e/billets-les-10-erreurs-des-commerciaux-et-comment-eviter-quils-les-fassent-591471435987"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Le sales coach avec qui on bosse organise un workshop sales le 17 avril au palais brognart. Je pose ça ici car si vous cherchez du sales coaching/training pour vos sales, c’est l’occasion de faire connaissance avec lui qui fait ça et de l’évaluer sans frais 😉\nIl vit entre Londres et Paris et est parfaitement bilingue.\n"
+    },
+    {
+     "type": "link",
+     "text": "https://www.eventbrite.ie/e/billets-les-10-erreurs-des-commerciaux-et-comment-eviter-quils-les-fassent-591471435987"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 143,
+   "type": "message",
+   "date": "2023-04-04T20:18:05",
+   "date_unixtime": "1680632285",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "text": "Ah bah justement! J’en profite pour demander : je cherche un sales coach pour une équipe de 4 AE chez Pubstack. Vente SaaS B2B complexe, cycles > 4 mois, ACV>100k. Adtech. \nQuelqu’un connaît un magicien pour nous aider à retravailler notre process? (Très sensible au MEDDIC & Spin Selling méthodes notamment)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ah bah justement! J’en profite pour demander : je cherche un sales coach pour une équipe de 4 AE chez Pubstack. Vente SaaS B2B complexe, cycles > 4 mois, ACV>100k. Adtech. \nQuelqu’un connaît un magicien pour nous aider à retravailler notre process? (Très sensible au MEDDIC & Spin Selling méthodes notamment)"
+    }
+   ]
+  },
+  {
+   "id": 147,
+   "type": "message",
+   "date": "2023-04-05T16:54:09",
+   "date_unixtime": "1680706449",
+   "from": "Dorian CIAVARELLA",
+   "from_id": "user822615266",
+   "text": "Hello à tous, quelle top agence vous me recommandez pour un site internet ? Merci :)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello à tous, quelle top agence vous me recommandez pour un site internet ? Merci :)"
+    }
+   ]
+  },
+  {
+   "id": 149,
+   "type": "message",
+   "date": "2023-04-05T18:00:40",
+   "date_unixtime": "1680710440",
+   "from": "Philippe @Advitam",
+   "from_id": "user862522844",
+   "reply_to_message_id": 147,
+   "text": [
+    {
+     "type": "link",
+     "text": "https://pelo.studio/"
+    },
+    " ou ",
+    {
+     "type": "link",
+     "text": "https://callbruno.com/fr/"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://pelo.studio/"
+    },
+    {
+     "type": "plain",
+     "text": " ou "
+    },
+    {
+     "type": "link",
+     "text": "https://callbruno.com/fr/"
+    }
+   ]
+  },
+  {
+   "id": 151,
+   "type": "message",
+   "date": "2023-04-05T18:54:31",
+   "date_unixtime": "1680713671",
+   "edited": "2023-04-07T05:34:23",
+   "edited_unixtime": "1680838463",
+   "from": "Grace Mehrabe",
+   "from_id": "user5387183080",
+   "reply_to_message_id": 143,
+   "text": "Hello, on se fait coacher depuis peu par deux gars top - Thomas Rossi et Édouard Epaud de Mytraffic (VP Sales & Country Manager UK). Ils sont encore opérationnels chez Mytraffic mais font des missions à côté (soit à la journée soit quelques heures 2 fois par mois) et ils nous ont bien aidé - B2B SaaS avec cycles longs aussi. Je peux te faire l’intro si tu veux :)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello, on se fait coacher depuis peu par deux gars top - Thomas Rossi et Édouard Epaud de Mytraffic (VP Sales & Country Manager UK). Ils sont encore opérationnels chez Mytraffic mais font des missions à côté (soit à la journée soit quelques heures 2 fois par mois) et ils nous ont bien aidé - B2B SaaS avec cycles longs aussi. Je peux te faire l’intro si tu veux :)"
+    }
+   ]
+  },
+  {
+   "id": 159,
+   "type": "message",
+   "date": "2023-04-06T07:09:42",
+   "date_unixtime": "1680757782",
+   "edited": "2023-04-06T09:37:39",
+   "edited_unixtime": "1680766659",
+   "from": "Loic Sfiligoi - pubstack",
+   "from_id": "user5131320437",
+   "reply_to_message_id": 151,
+   "text": [
+    "hello Grace, cool, merci. Je prends l'intro stp! ",
+    {
+     "type": "email",
+     "text": "loic@pubstack.io"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "hello Grace, cool, merci. Je prends l'intro stp! "
+    },
+    {
+     "type": "email",
+     "text": "loic@pubstack.io"
+    }
+   ]
+  },
+  {
+   "id": 164,
+   "type": "service",
+   "date": "2023-04-06T16:39:22",
+   "date_unixtime": "1680791962",
+   "actor": "Arbia SMITI",
+   "actor_id": "user855871661",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 165,
+   "type": "message",
+   "date": "2023-04-07T11:17:48",
+   "date_unixtime": "1680859068",
+   "from": "Alyssa EMMUNGIL",
+   "from_id": "user1850788525",
+   "text": "Hello les galions ! \nAuriez vous une reco de community manager free-lance ? \n(pour un ami dans le mobilier design pour hôtels/restau luxe)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello les galions ! \nAuriez vous une reco de community manager free-lance ? \n(pour un ami dans le mobilier design pour hôtels/restau luxe)"
+    }
+   ]
+  },
+  {
+   "id": 166,
+   "type": "service",
+   "date": "2023-04-07T12:20:41",
+   "date_unixtime": "1680862841",
+   "actor": "Jean De Rauglaudre",
+   "actor_id": "user5115105982",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 167,
+   "type": "message",
+   "date": "2023-04-07T12:48:28",
+   "date_unixtime": "1680864508",
+   "from": "Laure Betsch",
+   "from_id": "user6192547504",
+   "text": "Hello, \nQuelqu'un serait dispo pour un REX de 5 min au tel sur Nomination? \nUn grand merci !",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello, \nQuelqu'un serait dispo pour un REX de 5 min au tel sur Nomination? \nUn grand merci !"
+    }
+   ]
+  },
+  {
+   "id": 168,
+   "type": "message",
+   "date": "2023-04-07T12:49:51",
+   "date_unixtime": "1680864591",
+   "from": "Cyril PIERRE DE GEYER",
+   "from_id": "user840572794",
+   "text": "Hello, j'ai besoin d'outsourcer une partie administrative. Est-ce que l'un d'entre vous a déjà travaillé avec Maurice/Mada et des conseils d'entreprises a qui faire appel ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello, j'ai besoin d'outsourcer une partie administrative. Est-ce que l'un d'entre vous a déjà travaillé avec Maurice/Mada et des conseils d'entreprises a qui faire appel ?"
+    }
+   ]
+  },
+  {
+   "id": 169,
+   "type": "message",
+   "date": "2023-04-07T18:35:47",
+   "date_unixtime": "1680885347",
+   "from": "Isabelle MASHOLA",
+   "from_id": "user928624707",
+   "reply_to_message_id": 168,
+   "text": "Hello ! Cela dépend de ce que tu souhaites outsourcer mais on peut peut-être t’aider ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hello ! Cela dépend de ce que tu souhaites outsourcer mais on peut peut-être t’aider ?"
+    }
+   ]
+  },
+  {
+   "id": 170,
+   "type": "message",
+   "date": "2023-04-07T19:07:27",
+   "date_unixtime": "1680887247",
+   "from": "Arnaud De La Taille",
+   "from_id": "user701001873",
+   "reply_to_message_id": 168,
+   "text": "Yes, Maurice. On a fini par internaliser là bas, mais j'ai des contacts de prestas.\n\nAppelle moi quand tu veux et on voit ensemble ce qui est pertinent.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yes, Maurice. On a fini par internaliser là bas, mais j'ai des contacts de prestas.\n\nAppelle moi quand tu veux et on voit ensemble ce qui est pertinent."
+    }
+   ]
+  },
+  {
+   "id": 171,
+   "type": "message",
+   "date": "2023-04-07T19:13:44",
+   "date_unixtime": "1680887624",
+   "edited": "2023-04-10T21:30:13",
+   "edited_unixtime": "1681155013",
+   "from": "Annie Silkpay",
+   "from_id": "user1651578488",
+   "text": "Je cherche une solution pour remplacer Google authentificator pour authentification forte de nos utilisateurs. Vous connaissez une solution française b2b? Notre régulateur (nous sommes une  fintech)veut qu’on remplace la solution Google par un autre acteur français ou européen…Merci",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je cherche une solution pour remplacer Google authentificator pour authentification forte de nos utilisateurs. Vous connaissez une solution française b2b? Notre régulateur (nous sommes une  fintech)veut qu’on remplace la solution Google par un autre acteur français ou européen…Merci"
+    }
+   ]
+  },
+  {
+   "id": 172,
+   "type": "message",
+   "date": "2023-04-07T19:26:44",
+   "date_unixtime": "1680888404",
+   "edited": "2023-04-07T19:40:25",
+   "edited_unixtime": "1680889225",
+   "from": "Nicolas Davoust - Gens de Confiance",
+   "from_id": "user5070574498",
+   "reply_to_message_id": 171,
+   "text": "1Password ou Authy",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "1Password ou Authy"
+    }
+   ]
+  },
+  {
+   "id": 173,
+   "type": "message",
+   "date": "2023-04-07T20:45:48",
+   "date_unixtime": "1680893148",
+   "from": "Annie Silkpay",
+   "from_id": "user1651578488",
+   "reply_to_message_id": 172,
+   "text": "Merci",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci"
+    }
+   ]
+  },
+  {
+   "id": 174,
+   "type": "service",
+   "date": "2023-04-10T13:00:43",
+   "date_unixtime": "1681124443",
+   "actor": "Antoine CARDOSO",
+   "actor_id": "user484189048",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 175,
+   "type": "service",
+   "date": "2023-04-10T21:40:00",
+   "date_unixtime": "1681155600",
+   "actor": "Axel Poitral | Qobra",
+   "actor_id": "user5297479957",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 176,
+   "type": "message",
+   "date": "2023-04-11T08:18:56",
+   "date_unixtime": "1681193936",
+   "from": "Nicolas BENADY",
+   "from_id": "user1390769290",
+   "reply_to_message_id": 171,
+   "text": "Ta question est trop spécialisé Fintech. Il faut être super expert pour répondre 😁 et se poser plein de questions (uniquement des virements ? Du paiement par carte ?) \n\nJe suis très surpris que l'Acpr t'impose une nationalité pour un fournisseur (a la rigueur européen, mais français !!?)\n\nTu trouveras plein de fournisseurs à un salon comme Money2020. \n\nSi tu veux un 100% Francais, ce sera probablement Idemia, Thalès, ou peut être worldline.\nOu tu peux aussi le développer en interne. C'est ce qu'on a fait chez Swan et c'est ce qu'ont fait  la plupart des neobanques.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ta question est trop spécialisé Fintech. Il faut être super expert pour répondre 😁 et se poser plein de questions (uniquement des virements ? Du paiement par carte ?) \n\nJe suis très surpris que l'Acpr t'impose une nationalité pour un fournisseur (a la rigueur européen, mais français !!?)\n\nTu trouveras plein de fournisseurs à un salon comme Money2020. \n\nSi tu veux un 100% Francais, ce sera probablement Idemia, Thalès, ou peut être worldline.\nOu tu peux aussi le développer en interne. C'est ce qu'on a fait chez Swan et c'est ce qu'ont fait  la plupart des neobanques."
+    }
+   ]
+  },
+  {
+   "id": 177,
+   "type": "message",
+   "date": "2023-04-11T08:18:56",
+   "date_unixtime": "1681193936",
+   "from": "Nicolas BENADY",
+   "from_id": "user1390769290",
+   "forwarded_from": "Annie Silkpay",
+   "text": "Je cherche une solution pour remplacer Google authentificator pour authentification forte de nos utilisateurs. Vous connaissez une solution française b2b? Notre régulateur (nous sommes une  fintech)veut qu’on remplace la solution Google par un autre acteur français ou européen…Merci",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Je cherche une solution pour remplacer Google authentificator pour authentification forte de nos utilisateurs. Vous connaissez une solution française b2b? Notre régulateur (nous sommes une  fintech)veut qu’on remplace la solution Google par un autre acteur français ou européen…Merci"
+    }
+   ]
+  },
+  {
+   "id": 178,
+   "type": "message",
+   "date": "2023-04-11T08:36:51",
+   "date_unixtime": "1681195011",
+   "edited": "2023-04-11T09:07:56",
+   "edited_unixtime": "1681196876",
+   "from": "Annie Silkpay",
+   "from_id": "user1651578488",
+   "reply_to_message_id": 176,
+   "text": "Merci, j’ai dit Francais ou européen pour la clause d’audit. Un fournisseur français comprendra ou acceptera une telle exigence… merci pour tes conseils. J’irai au money2020 mais c’est en juin. Je contacterai Idemia…",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci, j’ai dit Francais ou européen pour la clause d’audit. Un fournisseur français comprendra ou acceptera une telle exigence… merci pour tes conseils. J’irai au money2020 mais c’est en juin. Je contacterai Idemia…"
+    }
+   ]
+  },
+  {
+   "id": 179,
+   "type": "message",
+   "date": "2023-04-11T09:48:25",
+   "date_unixtime": "1681199305",
+   "from": "Annie Silkpay",
+   "from_id": "user1651578488",
+   "reply_to_message_id": 177,
+   "text": "T’as raison. On va finalement le developper à l’interne. C’est plus simple.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "T’as raison. On va finalement le developper à l’interne. C’est plus simple."
+    }
+   ]
+  },
+  {
+   "id": 180,
+   "type": "message",
+   "date": "2023-04-11T16:20:44",
+   "date_unixtime": "1681222844",
+   "edited": "2023-04-11T16:23:00",
+   "edited_unixtime": "1681222980",
+   "from": "Philippe @Advitam",
+   "from_id": "user862522844",
+   "reply_to_message_id": 179,
+   "text": [
+    "Si c'est juste la génération d'un code roulant unique que tu cherches, il existe des solutions open source (bitwarden, ",
+    {
+     "type": "link",
+     "text": "https://github.com/google/google-authenticator"
+    },
+    ", ",
+    {
+     "type": "link",
+     "text": "https://alternativeto.net/software/google-authenticator/?license=opensource"
+    },
+    ", ....)"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Si c'est juste la génération d'un code roulant unique que tu cherches, il existe des solutions open source (bitwarden, "
+    },
+    {
+     "type": "link",
+     "text": "https://github.com/google/google-authenticator"
+    },
+    {
+     "type": "plain",
+     "text": ", "
+    },
+    {
+     "type": "link",
+     "text": "https://alternativeto.net/software/google-authenticator/?license=opensource"
+    },
+    {
+     "type": "plain",
+     "text": ", ....)"
+    }
+   ]
+  },
+  {
+   "id": 181,
+   "type": "message",
+   "date": "2023-04-11T20:02:19",
+   "date_unixtime": "1681236139",
+   "from": "Adrien",
+   "from_id": "user858862797",
+   "text": [
+    {
+     "type": "mention",
+     "text": "@Annieguo"
+    },
+    " ",
+    {
+     "type": "link",
+     "text": "https://www.privacyidea.org"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "mention",
+     "text": "@Annieguo"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "link",
+     "text": "https://www.privacyidea.org"
+    }
+   ]
+  },
+  {
+   "id": 182,
+   "type": "message",
+   "date": "2023-04-11T21:27:09",
+   "date_unixtime": "1681241229",
+   "from": "Annie Silkpay",
+   "from_id": "user1651578488",
+   "reply_to_message_id": 181,
+   "text": "Merci",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Merci"
+    }
+   ]
+  },
+  {
+   "id": 183,
+   "type": "service",
+   "date": "2023-04-12T08:51:06",
+   "date_unixtime": "1681282266",
+   "actor": "Jean-Charles VARLET",
+   "actor_id": "user835317565",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 184,
+   "type": "service",
+   "date": "2023-04-12T10:59:25",
+   "date_unixtime": "1681289965",
+   "actor": "Yves de Montcheuil",
+   "actor_id": "user5713926066",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 185,
+   "type": "message",
+   "date": "2023-04-12T11:30:51",
+   "date_unixtime": "1681291851",
+   "from": "Laure Betsch",
+   "from_id": "user6192547504",
+   "reply_to_message_id": 167,
+   "text": "UP :)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "UP :)"
+    }
+   ]
+  }
+ ]
+}
