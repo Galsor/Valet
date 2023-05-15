@@ -5,7 +5,6 @@ import streamlit as st
 from src.app.ask_page import display_ask_tab
 from src.app.model_card_page import display_model_card_tab
 from src.app.validation_page import display_validation_tab
-from src.pipeline.qa_pipeline import load_QA_pipeline
 
 st.title("The Galion's project")
 

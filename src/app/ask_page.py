@@ -1,6 +1,6 @@
 import logging
 import re
-from typing import List
+import pprint 
 
 import streamlit as st
 from haystack import Document
@@ -58,7 +58,7 @@ def format_answer_in_markdown(answer: str) -> str:
 
 def display_recommended_document(doc: Document):
     doc_content = reverse_formatting(doc.content)
-    logger.info("Document retrieved:\n" + doc_content)
+    logger.info("Document retrieved:\n" + pprint.pformat(doc_content))
     with st.expander("📰 " + doc_content["from"]):
         del doc_content["from"]
         for key, value in doc_content.items():
