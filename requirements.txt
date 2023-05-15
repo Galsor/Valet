@@ -144,7 +144,7 @@ six==1.16.0
 smart-open==6.3.0
 smmap==5.0.0
 spacy==3.5.2
-fr_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.4.0/fr_core_news_sm-3.4.0-py3-none-any.whl
+fr_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.5.0/fr_core_news_sm-3.5.0-py3-none-any.whl
 spacy-legacy==3.0.12
 spacy-loggers==1.0.4
 SQLAlchemy==2.0.10
