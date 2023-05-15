@@ -45,10 +45,8 @@ def display_model_answer_and_sources(query: str):
             st.markdown(f"> 💬 {format_answer_in_markdown(answer)}")
         with sources_col:
             st.markdown("#### Documents")
-            doc_names = []
             for doc in sources_documents:
-                display_recommended_document(doc, doc_names)
-        logger.info(f"Document retrieved: {', '.join(doc_names)}")
+                display_recommended_document(doc)
 
     except Exception as e:
         st.error(repr(e))
@@ -58,9 +56,9 @@ def format_answer_in_markdown(answer: str) -> str:
     return re.sub(r"\s?(\[.*\])$", r"  \n   > _\1_", answer.rstrip())
 
 
-def display_recommended_document(doc: Document, doc_names: List[str]):
+def display_recommended_document(doc: Document):
     doc_content = reverse_formatting(doc.content)
-    doc_names.append(doc_content["from"])
+    logger.info("Document retrieved:\n" + doc_content)
     with st.expander("📰 " + doc_content["from"]):
         del doc_content["from"]
         for key, value in doc_content.items():

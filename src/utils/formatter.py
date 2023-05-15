@@ -70,7 +70,6 @@ def format_messages(conversations: MessageList) -> Dict[int, str]:
 def reverse_formatting(content: str) -> Message:
     message = {}
     lines = content.split("\n|")
-    print(content)
     for line in lines:
         dict_item = line.split(":")
         key = dict_item[0].replace("|", "").replace("- ", "").strip().lower()
@@ -79,5 +78,4 @@ def reverse_formatting(content: str) -> Message:
         else:
             body = dict_item[1].strip()
         message[key] = body
-    print(message)
     return message
