@@ -1,13 +1,19 @@
+import glob
 import json
-from typing import Tuple
+import logging
+import os
+from typing import Dict, List, Optional, Tuple
 
 import pandas as pd
 
 from src.utils.constants import (ARCHIVE_FILE_NAME, DOC_STORE_SIZE,
-                                 TEST_SET_SIZE)
-from src.utils.type import MessageList
-from src.utils.nlp import is_question
+                                 TEST_SET_SIZE, VALIDATION_FOLDER)
 from src.utils.formatter import get_raw_text
+from src.utils.nlp import is_question
+from src.utils.type import MessageList
+
+logger = logging.getLogger(__name__)
+
 
 def get_conversations(filename: str = ARCHIVE_FILE_NAME) -> MessageList:
     raw_data = get_raw_conversations(filename)
@@ -94,3 +100,25 @@ def get_test_conversations() -> MessageList:
     conversations = get_conversations()
     _, test_set = split_store_test_set(conversations)
     return test_set
+
+
+def get_last_validation_data() -> Optional[List[Dict]]:
+    # Get the list of JSON files in the folder
+    file_pattern = os.path.join(VALIDATION_FOLDER, "validation_*.json")
+    json_files = glob.glob(file_pattern)
+
+    # Sort the JSON files by modification time in descending order
+    sorted_files = sorted(json_files, key=os.path.getmtime, reverse=True)
+
+    # Check if any JSON files exist
+    if sorted_files:
+        # Get the path of the most recently edited file
+        most_recent_file = sorted_files[0]
+
+        # Read the data from the JSON file
+        with open(most_recent_file, "r") as file:
+            data = json.load(file)
+        return data
+    else:
+        logger.warning("No validation files found.")
+        return None

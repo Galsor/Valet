@@ -9,7 +9,8 @@ from haystack.document_stores import InMemoryDocumentStore
 
 from src.pipeline.data import get_raw_conversation_store
 from src.pipeline.retriever import get_retriever
-from src.utils.constants import DOCUMENT_STORE_PICKLE_PATH, EMBEDDING_DIM
+from src.utils.constants import (DOCUMENT_STORE_PICKLE_PATH, EMBEDDING_DIM,
+                                 SIMILARITY_METRIC)
 from src.utils.formatter import format_messages
 
 logger = logging.getLogger(__name__)
@@ -30,7 +31,7 @@ def build_document_store() -> InMemoryDocumentStore:
     messages = get_raw_conversation_store()
     formated_messages = format_messages(messages)
     document_store = InMemoryDocumentStore(
-        similarity="dot_product", embedding_dim=EMBEDDING_DIM
+        similarity=SIMILARITY_METRIC, embedding_dim=EMBEDDING_DIM
     )
     document_store.write_documents(
         [

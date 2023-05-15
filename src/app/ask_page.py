@@ -4,7 +4,6 @@ from typing import List
 
 import streamlit as st
 from haystack import Document
-from PIL import Image
 
 from src.pipeline.qa_pipeline import load_QA_pipeline
 from src.utils.formatter import reverse_formatting
@@ -19,6 +18,7 @@ def clear_submit():
 def display_ask_tab():
     query = st.text_area(
         "**Ask any question to the Galion's Community:**",
+        help="Ask a question as if you were writing in a Telegram conversation. French is highly recommended.",
         on_change=clear_submit,
     )
     button = st.button("🧠 Generate anwser")
