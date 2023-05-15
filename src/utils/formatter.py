@@ -28,11 +28,11 @@ def get_raw_text(message: Message) -> str:
 
 
 def format_context_message(message: Message) -> str:
-    return f"{message['from']}: {get_raw_text(message)}"
+    return f"[{message['id']} {message['from']}: {get_raw_text(message)}"
 
 
 def stringify_message(message: Message) -> str:
-    return f"|- From: {message['from']}\n|- Date: {message['date']}\n|- In response to: {message.get('context', 'nothing')}\n|- Message: {message['text']}"
+    return f"|- From: {message['from']}\n|- ID: {message['id']}\n|- Date: {message['date']}\n|- In response to: {message.get('context', 'nothing')}\n|- Message: {message['text']}"
 
 
 def format_messages(conversations: MessageList) -> Dict[int, str]:
@@ -70,8 +70,14 @@ def format_messages(conversations: MessageList) -> Dict[int, str]:
 def reverse_formatting(content: str) -> Message:
     message = {}
     lines = content.split("\n|")
+    print(content)
     for line in lines:
         dict_item = line.split(":")
         key = dict_item[0].replace("|", "").replace("- ", "").strip().lower()
-        message[key] = dict_item[1].strip()
+        if len(dict_item) > 2:
+            body = ":".join(dict_item[1:]).strip()
+        else:
+            body = dict_item[1].strip()
+        message[key] = body
+    print(message)
     return message
