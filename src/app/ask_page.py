@@ -1,6 +1,6 @@
 import logging
+import pprint
 import re
-import pprint 
 
 import streamlit as st
 from haystack import Document
