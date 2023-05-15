@@ -3,6 +3,8 @@ import logging
 from datetime import datetime
 from typing import Any, Dict, List, Optional, Union
 
+import pandas as pd
+
 from src.pipeline.data import get_test_conversations
 from src.pipeline.qa_pipeline import load_QA_pipeline
 from src.utils.constants import ROOT_FOLDER
@@ -19,6 +21,20 @@ def is_json_serializable(obj: Any) -> bool:
         return True
     except TypeError:
         return False
+
+
+def handle_timeout(pipeline, query: str):
+    """Query QA pipeline by handling timeout"""
+    for retry in range(3):
+        try:
+            response = pipeline.run(query)
+            break
+        except TimeoutError as te:
+            if retry == 2:
+                raise te
+            else:
+                continue
+    return response
 
 
 def prepare_results_for_json(
@@ -63,7 +79,8 @@ def collect_results(
             i += 1
             logger.info(f"[{i}] Processing: {raw_message}")
             try:
-                answer = pipeline.run(raw_message)
+                answer = handle_timeout(pipeline, raw_message)
+                logger.info("Response: " + answer["answers"][0].answer)
                 results.append(answer)
             except Exception as e:
                 if save:
@@ -81,3 +98,22 @@ def build_validation_results(
     pipeline = load_QA_pipeline()
     results = collect_results(pipeline, test_set, save, label)
     return results
+
+
+def build_validation_base_de_test():
+    pipeline = load_QA_pipeline()
+
+    def answer_question(row: pd.Series) -> str:
+        response = handle_timeout(pipeline=pipeline, query=row["question"])
+        answer = response["answers"][0].answer
+        return answer
+
+    df = (
+        pd.read_excel("data/validation/Base de test Galion bot.xlsx")
+        .drop(columns=[0])
+        .rename(columns={"Questions": "question", "REPONSES": "base_response"})
+    )
+    df["response"] = df.apply(answer_question, axis=1)
+
+    filename = f"data/validation/base_de_test_validation_{datetime.now().strftime('%Y%m%d_%H_%M')}.xlsx"
+    df.to_excel(filename)

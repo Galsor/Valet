@@ -7,7 +7,8 @@ from typing import Dict, List, Optional, Tuple
 import pandas as pd
 
 from src.utils.constants import (ARCHIVE_FILE_NAME, DOC_STORE_SIZE,
-                                 TEST_SET_SIZE, VALIDATION_FOLDER)
+                                 PRESTA_ARCHIVE_FILE_NAME, TEST_SET_SIZE,
+                                 VALIDATION_FOLDER)
 from src.utils.formatter import get_raw_text
 from src.utils.nlp import is_question
 from src.utils.type import MessageList
@@ -24,8 +25,7 @@ def get_conversations(filename: str = ARCHIVE_FILE_NAME) -> MessageList:
 def get_raw_conversations(
     filename: str = ARCHIVE_FILE_NAME,
 ) -> MessageList:
-    conversations_path = filename
-    with open(conversations_path, "r") as f:
+    with open(filename, "r") as f:
         data = json.load(f)
     return data["messages"]
 
@@ -85,13 +85,15 @@ def get_store_indexes(
 ) -> Tuple[int, int]:
     last_store_conversion_index = len(conversations) - i
     if store_size > last_store_conversion_index:
-        raise ValueError(f" Max store_size is {last_store_conversion_index}")
+        store_size = last_store_conversion_index
     first_store_conversation_index = last_store_conversion_index - store_size
     return first_store_conversation_index, last_store_conversion_index
 
 
 def get_raw_conversation_store() -> MessageList:
-    conversations = get_conversations()
+    # presta_conversation = get_conversations(PRESTA_ARCHIVE_FILE_NAME)
+    # TODO merge the two
+    conversations = get_conversations(ARCHIVE_FILE_NAME)
     raw_conversation_store, _ = split_store_test_set(conversations)
     return raw_conversation_store
 
