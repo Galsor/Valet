@@ -91,11 +91,12 @@ def get_store_indexes(
 
 
 def get_raw_conversation_store() -> MessageList:
-    # presta_conversation = get_conversations(PRESTA_ARCHIVE_FILE_NAME)
-    # TODO merge the two
     conversations = get_conversations(ARCHIVE_FILE_NAME)
     raw_conversation_store, _ = split_store_test_set(conversations)
-    return raw_conversation_store
+    
+    # Append presta data (excluded from tests)
+    presta_conversation = get_conversations(PRESTA_ARCHIVE_FILE_NAME)
+    return presta_conversation + raw_conversation_store
 
 
 def get_test_conversations() -> MessageList:
