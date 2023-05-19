@@ -28,11 +28,12 @@ def get_raw_text(message: Message) -> str:
 
 
 def format_context_message(message: Message) -> str:
-    return f"[{message['id']} {message['from']}: {get_raw_text(message)}"
+    return f"[{message['id']}] {message['from']}: {get_raw_text(message)}"
 
 
 def stringify_message(message: Message) -> str:
-    return f"|- From: {message['from']}\n|- ID: {message['id']}\n|- Date: {message['date']}\n|- In response to: {message.get('context', 'nothing')}\n|- Message: {message['text']}"
+    in_response = '- In response to: ' + message.get('context')+ '\n' if 'context' in message else ''
+    return f"- From: {message['from']}\n- ID: {message['id']}\n {in_response}- Message: {message['text']}\n---\n"
 
 
 def format_messages(conversations: MessageList) -> Dict[int, str]:

@@ -3,7 +3,7 @@ from typing import Dict, List
 import pandas as pd
 import streamlit as st
 
-from src.pipeline.data import get_last_validation_data
+from src.pipeline.data import get_last_blind_validation_data, get_last_cherry_validation_data
 
 
 def display_validation_tab():
@@ -16,11 +16,22 @@ The mention `<no response>` indicates that the model deliberately did not want t
 - Lack of information present in previous messages
 - The question does not call for an answer (retoric question, question in response to a question, onomatopoeia etc.)"""
         )
-    display_validation_data()
+    blind_val_tab, cherry_val_tab = st.tabs(
+        ["🎲 Last 30 messages validation", "🍒 Cherry picked questions"]
+    )
+    with blind_val_tab:
+        display_validation_data()
+    with cherry_val_tab:
+        display_cherry_validation_data()
+
+
+def display_cherry_validation_data():
+    last_validation_data = get_last_cherry_validation_data()
+    st.table(last_validation_data)
 
 
 def display_validation_data():
-    last_validation_data = get_last_validation_data()
+    last_validation_data = get_last_blind_validation_data()
     formatted_data = get_question_and_answer_from_validation_data(last_validation_data)
     st.table(formatted_data)
 

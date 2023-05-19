@@ -20,7 +20,7 @@ def get_model_card() -> str:
                 "embedding dimensions": EMBEDDING_DIM,
             },
             "Vectors storage": {
-                "db": "In Memory",
+                "db": DOCUMENT_STORE_TYPE.value,
                 "similarity_metric": SIMILARITY_METRIC,
                 "retrieved documents": RETRIEVED_DOCUMENTS,
             },
