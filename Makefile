@@ -1,7 +1,10 @@
 SHELL := /bin/bash
 
-document_store:
+local_document_store:
 	python -c "from src.pipeline.document_store import save_document_store; save_document_store()"
+
+pinecone:
+	python -c "from src.pipeline.document_store import build_document_store; build_document_store(doc_store_type ='pinecone')"
 
 lint:
 	python -m black .

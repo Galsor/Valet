@@ -2,7 +2,7 @@ import glob
 import json
 import logging
 import os
-from typing import Dict, List, Optional, Tuple
+from typing import Tuple, Any, Callable
 
 import pandas as pd
 
@@ -93,7 +93,7 @@ def get_store_indexes(
 def get_raw_conversation_store() -> MessageList:
     conversations = get_conversations(ARCHIVE_FILE_NAME)
     raw_conversation_store, _ = split_store_test_set(conversations)
-    
+
     # Append presta data (excluded from tests)
     presta_conversation = get_conversations(PRESTA_ARCHIVE_FILE_NAME)
     return presta_conversation + raw_conversation_store
@@ -105,9 +105,11 @@ def get_test_conversations() -> MessageList:
     return test_set
 
 
-def get_last_validation_data() -> Optional[List[Dict]]:
+def get_last_validation_data(
+    path: os.PathLike, filename_template: str, file_reader: Callable[[os.PathLike], Any]
+) -> Any:
     # Get the list of JSON files in the folder
-    file_pattern = os.path.join(VALIDATION_FOLDER, "validation_*.json")
+    file_pattern = os.path.join(path, filename_template)
     json_files = glob.glob(file_pattern)
 
     # Sort the JSON files by modification time in descending order
@@ -118,10 +120,29 @@ def get_last_validation_data() -> Optional[List[Dict]]:
         # Get the path of the most recently edited file
         most_recent_file = sorted_files[0]
 
-        # Read the data from the JSON file
-        with open(most_recent_file, "r") as file:
-            data = json.load(file)
-        return data
+        return file_reader(most_recent_file)
     else:
         logger.warning("No validation files found.")
         return None
+
+
+def read_json(most_recent_file):
+    with open(most_recent_file, "r") as file:
+        data = json.load(file)
+    return data
+
+
+def get_last_blind_validation_data():
+    return get_last_validation_data(
+        path=VALIDATION_FOLDER,
+        filename_template="validation_*.json",
+        file_reader=read_json,
+    )
+
+
+def get_last_cherry_validation_data():
+    return get_last_validation_data(
+        path=VALIDATION_FOLDER,
+        filename_template="base_de_test_validation_*.xlsx",
+        file_reader=pd.read_excel,
+    )

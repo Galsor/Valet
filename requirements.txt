@@ -28,16 +28,20 @@ databricks-cli==0.17.6
 debugpy==1.6.7
 decorator==5.1.1
 dill==0.3.6
+dnspython==2.3.0
 docker==6.0.1
 docopt==0.6.2
 elasticsearch==7.17.9
 entrypoints==0.4
+et-xmlfile==1.1.0
 Events==0.4
+exceptiongroup==1.1.1
 executing==1.2.0
 farm-haystack==1.15.1
 filelock==3.12.0
 Flask==2.2.3
 fonttools==4.39.3
+fr-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.5.0/fr_core_news_sm-3.5.0-py3-none-any.whl#sha256=632607dab3a5253e5079e1b1a094cedc87185c2930e4405080d2e1810fbf9800
 fsspec==2023.4.0
 gitdb==4.0.10
 GitPython==3.1.31
@@ -47,6 +51,7 @@ huggingface-hub==0.14.0
 idna==3.4
 importlib-metadata==6.6.0
 inflect==6.0.4
+iniconfig==2.0.0
 ipykernel==6.22.0
 ipython==8.12.0
 isodate==0.6.1
@@ -63,6 +68,7 @@ kiwisolver==1.4.4
 langcodes==3.3.0
 langdetect==1.0.9
 lit==16.0.1
+loguru==0.7.0
 lxml==4.9.2
 Mako==1.2.4
 Markdown==3.4.3
@@ -96,6 +102,7 @@ nvidia-cusparse-cu11==11.7.4.91
 nvidia-nccl-cu11==2.14.3
 nvidia-nvtx-cu11==11.7.91
 oauthlib==3.2.2
+openpyxl==3.1.2
 packaging==23.1
 pandas==1.5.3
 parso==0.8.3
@@ -104,12 +111,15 @@ pathy==0.10.1
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.5.0
+pinecone-client==2.2.1
 platformdirs==3.2.0
+pluggy==1.0.0
 posthog==3.0.1
 preshed==3.0.8
 prompt-toolkit==3.0.38
 protobuf==3.20.2
 psutil==5.9.5
+psycopg2-binary==2.9.6
 ptyprocess==0.7.0
 pure-eval==0.2.2
 pyarrow==11.0.0
@@ -120,6 +130,7 @@ PyJWT==2.6.0
 Pympler==1.0.1
 pyparsing==3.0.9
 pyrsistent==0.19.3
+pytest==7.3.1
 python-dateutil==2.8.2
 python-docx==0.8.11
 python-dotenv==1.0.0
@@ -144,10 +155,10 @@ six==1.16.0
 smart-open==6.3.0
 smmap==5.0.0
 spacy==3.5.2
-fr_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.5.0/fr_core_news_sm-3.5.0-py3-none-any.whl
 spacy-legacy==3.0.12
 spacy-loggers==1.0.4
-SQLAlchemy==2.0.10
+SQLAlchemy==1.4.48
+SQLAlchemy-Utils==0.41.1
 sqlparse==0.4.4
 srsly==2.4.6
 sseclient-py==1.7.2

@@ -1,5 +1,6 @@
 import json
 import logging
+import time
 from datetime import datetime
 from typing import Any, Dict, List, Optional, Union
 
@@ -29,10 +30,12 @@ def handle_timeout(pipeline, query: str):
         try:
             response = pipeline.run(query)
             break
-        except TimeoutError as te:
+        except Exception as te:
             if retry == 2:
                 raise te
             else:
+                logger.warning(f"Timeout issue occured (retry: {retry+1}) ")
+                time.sleep(retry)
                 continue
     return response
 
@@ -103,9 +106,15 @@ def build_validation_results(
 def build_validation_base_de_test():
     pipeline = load_QA_pipeline()
 
-    def answer_question(row: pd.Series) -> str:
-        response = handle_timeout(pipeline=pipeline, query=row["question"])
-        answer = response["answers"][0].answer
+    def answer_question(row: pd.Series) -> Optional[str]:
+        try:            
+            logger.info(f"[{row.name}] Processing: {row['question']}")
+            response = handle_timeout(pipeline=pipeline, query=row["question"])
+            answer = response["answers"][0].answer
+            logger.info("Response: " + answer)
+        except Exception:
+            logger.error(f"Failed to process row {row.name}")
+            answer = None
         return answer
 
     df = (
@@ -116,4 +125,4 @@ def build_validation_base_de_test():
     df["response"] = df.apply(answer_question, axis=1)
 
     filename = f"data/validation/base_de_test_validation_{datetime.now().strftime('%Y%m%d_%H_%M')}.xlsx"
-    df.to_excel(filename)
+    df.to_excel(filename, index=False)
