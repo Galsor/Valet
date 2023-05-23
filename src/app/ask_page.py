@@ -68,4 +68,4 @@ def display_recommended_document(doc: Document):
         del doc_content["from"]
         for key, value in doc_content.items():
             st.markdown(f"**{key.capitalize()}**:")
-            st.text(value)
+            st.markdown(f"""{value}""")

@@ -75,7 +75,7 @@ def reverse_formatting(document: str)-> Message:
         pattern = r'{}:(.*?)(?=-\s|$)'.format(key)
         match = re.search(pattern, document, re.DOTALL)
         if match:
-            value = match.group(1).strip().replace("---", "")
+            value = match.group(1).strip().replace("--", "")
             extracted_values[key.lower()] = value
 
     return extracted_values

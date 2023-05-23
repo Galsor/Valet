@@ -40,11 +40,10 @@ PROMPT_TEMPLATE = """Consignes:
 - Ne répond à cette demande que si elle est adressée à l'entièreté du groupe.
 - Ta réponse doit être factuelle et n'utiliser que les informations contenues dans les messages retrouvés.
 - Tu mentionneras les utilisateurs qui auront fournit les éléments de réponse.
-- Si les informations présentes dans les messages retrouvés ne permettent pas de fournir une réponse précise, répond: <no response>.
+- Si les informations présentes dans les messages retrouvés ne permettent pas de fournir une réponse précise, répond impérativement et uniquement la mention suivante: <no response>.
 - Ne prend pas en compte les examples ci dessous dans ta réponse
-EXAMPLES
+EXAMPLE
 ========
-
 Messages:
 --------
 - From: Yohan BENTOLILA
@@ -69,7 +68,9 @@ Hello les Galion, Est-ce que vous auriez des outils de roadmap produit à me con
 Réponse:
 --------
 Voici quelques outils de roadmap produit recommandés par les membres du Galion:- Jira propose une option roadmap (@Yohan BENTOLILA)- Cycle (@Virgile RAINGEARD)- Harvestr (@Alexis TEPLITCHI)
-
+========
+EXAMPLE
+========
 Messages:
 --------
 - From: John CIAVARELLA
@@ -87,7 +88,6 @@ Réponse:
 --------
 <no response>
 ========
-
 Messages:
 --------
 {join(documents)}
