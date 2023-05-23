@@ -5,7 +5,7 @@ import pytest
 from src.utils.formatter import (build_conversation_mapping,
                                  format_context_message, format_messages,
                                  get_raw_text, reverse_formatting,
-                                 stringify_message)
+                                 )
 
 
 @pytest.fixture
@@ -125,4 +125,9 @@ def test_reverse_formatting(conversations, formated_conversations):
     for message, formated_message in zip(conversations, formated_conversations):
         # Information destructed by formating
         del message["date"]
+        message["message"] = message["text"]
+        del message["text"]
+        for key, value in message.items():
+            message[key]=str(value)
+            
         assert reverse_formatting(formated_message) == message

@@ -1,7 +1,7 @@
 import logging
 import pprint
 import re
-
+import traceback
 import streamlit as st
 from haystack import Document
 
@@ -36,6 +36,7 @@ def display_model_answer_and_sources(query: str):
         pipe = load_QA_pipeline()
         logger.info(f"Question asked: {query}")
         results = pipe.run(query)
+        logger.info(pprint.pformat(results))
         answer = results["answers"][0].answer
         logger.info(f"Generated answer: {answer}")
         sources_documents = results["documents"]
@@ -49,7 +50,11 @@ def display_model_answer_and_sources(query: str):
                 display_recommended_document(doc)
 
     except Exception as e:
-        st.error(repr(e))
+        st.error("Sorry. We faced an issue while processing your question.")
+        with st.expander("Error Details"):
+            st.error(traceback.format_exc())
+        logger.exception(e)
+
 
 
 def format_answer_in_markdown(answer: str) -> str:
@@ -62,4 +67,5 @@ def display_recommended_document(doc: Document):
     with st.expander("📰 " + doc_content["from"]):
         del doc_content["from"]
         for key, value in doc_content.items():
-            st.markdown(f"**{key.capitalize()}**: {value}")
+            st.markdown(f"**{key.capitalize()}**:")
+            st.text(value)

@@ -16,4 +16,4 @@ def get_answer_generator() -> PromptNode:
         prompt_text=PROMPT_TEMPLATE,
         output_parser=AnswerParser(),
     )
-    return PromptNode(prompt_open_ai, default_prompt_template=lfqa_prompt, output_variable="generated_answers")
+    return PromptNode(prompt_open_ai, default_prompt_template=lfqa_prompt)
