@@ -1,6 +1,8 @@
-from haystack.nodes.prompt import AnswerParser, PromptNode, PromptModel, PromptTemplate
-from src.utils.vault import get_openai_secret
+from haystack.nodes.prompt import (AnswerParser, PromptModel, PromptNode,
+                                   PromptTemplate)
+
 from src.utils.constants import GENERATIVE_MODEL, MAX_LENGTH, REPHRASE_TEMPLATE
+from src.utils.vault import get_openai_secret
 
 
 def get_answer_rephraser_node() -> PromptNode:

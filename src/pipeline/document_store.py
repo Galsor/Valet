@@ -63,10 +63,11 @@ def build_document_store(
         [
             Document(id=id, content=message, id_hash_keys=["content"])
             for id, message in formated_messages.items()
-        ], duplicate_documents="skip"
+        ],
+        duplicate_documents="skip",
     )
     retriever = get_retriever(document_store)
-    document_store.update_embeddings(retriever,update_existing_embeddings=False)
+    document_store.update_embeddings(retriever, update_existing_embeddings=False)
     return document_store
 
 

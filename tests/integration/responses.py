@@ -107,7 +107,7 @@ def build_validation_base_de_test():
     pipeline = load_QA_pipeline()
 
     def answer_question(row: pd.Series) -> Optional[str]:
-        try:            
+        try:
             logger.info(f"[{row.name}] Processing: {row['question']}")
             response = handle_timeout(pipeline=pipeline, query=row["question"])
             answer = response["answers"][0].answer

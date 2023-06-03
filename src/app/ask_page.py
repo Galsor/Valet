@@ -2,6 +2,7 @@ import logging
 import pprint
 import re
 import traceback
+
 import streamlit as st
 from haystack import Document
 
@@ -54,7 +55,6 @@ def display_model_answer_and_sources(query: str):
         with st.expander("Error Details"):
             st.error(traceback.format_exc())
         logger.exception(e)
-
 
 
 def format_answer_in_markdown(answer: str) -> str:

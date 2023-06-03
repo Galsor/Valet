@@ -4,8 +4,7 @@ import pytest
 
 from src.utils.formatter import (build_conversation_mapping,
                                  format_context_message, format_messages,
-                                 get_raw_text, reverse_formatting,
-                                 )
+                                 get_raw_text, reverse_formatting)
 
 
 @pytest.fixture
@@ -36,13 +35,15 @@ def conversations():
         },
     ]
 
+
 @pytest.fixture
 def formated_conversations():
-    return [ 
+    return [
         "- From: John\n- ID: 1\n- Message: Hello world!\n---\n",
         "- From: Alice\n- ID: 2\n- In response to: [1] John: Hello world!\n- Message: Hi, how are you? I hope you are doing well!\n---\n",
         "- From: Bob\n- ID: 3\n- In response to: [2] Alice: Hi, how are you? I hope you are doing well!\n- Message: I'm doing great! Thanks for asking. How about you?\n---\n",
     ]
+
 
 def test_build_conversation_mapping(conversations):
     expected = {
@@ -117,9 +118,12 @@ def test_format_messages(conversations, formated_conversations):
 
     result = format_messages(conversations)
 
-    for (res_key, res_val), (exp_key, exp_val) in zip(result.items(), expected_result.items()):
+    for (res_key, res_val), (exp_key, exp_val) in zip(
+        result.items(), expected_result.items()
+    ):
         assert res_key == exp_key
         assert res_val == exp_val
+
 
 def test_reverse_formatting(conversations, formated_conversations):
     for message, formated_message in zip(conversations, formated_conversations):
@@ -128,6 +132,6 @@ def test_reverse_formatting(conversations, formated_conversations):
         message["message"] = message["text"]
         del message["text"]
         for key, value in message.items():
-            message[key]=str(value)
-            
+            message[key] = str(value)
+
         assert reverse_formatting(formated_message) == message
