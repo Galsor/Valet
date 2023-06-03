@@ -37,14 +37,16 @@ GENERATIVE_MODEL = "gpt-3.5-turbo"
 MAX_LENGTH = 500
 PROMPT_TEMPLATE = """Consignes:
 --------
+- Réponds à l'utilisateur sur la base des informations partagés par les autres utilisateurs. 
+- N'ajoute pas d'information. 
+- Ta réponse doit être factuelle
+- Ne répond que si les messages contiennent la réponse à la question.
 - Ne répond à cette demande que si elle est adressée à l'entièreté du groupe.
-- Ta réponse doit être factuelle et n'utiliser que les informations contenues dans les messages retrouvés.
 - Tu mentionneras les utilisateurs qui auront fournit les éléments de réponse.
-- Si les informations présentes dans les messages retrouvés ne permettent pas de fournir une réponse précise, répond: <no response>.
+- Si les informations présentes dans les messages retrouvés ne permettent pas de fournir une réponse précise, répond impérativement et uniquement la mention suivante: <no response>.
 - Ne prend pas en compte les examples ci dessous dans ta réponse
-EXAMPLES
+EXAMPLE
 ========
-
 Messages:
 --------
 - From: Yohan BENTOLILA
@@ -68,6 +70,13 @@ Demande:
 Hello les Galion, Est-ce que vous auriez des outils de roadmap produit à me conseiller?
 Réponse:
 --------
+Voici quelques outils de roadmap produit recommandés par les membres du Galion:
+- Jira propose une option roadmap (@Yohan BENTOLILA)
+- Cycle (@Virgile RAINGEARD)
+- Harvestr (@Alexis TEPLITCHI)
+========
+EXAMPLE
+=======
 Voici quelques outils de roadmap produit recommandés par les membres du Galion:- Jira propose une option roadmap (@Yohan BENTOLILA)- Cycle (@Virgile RAINGEARD)- Harvestr (@Alexis TEPLITCHI)
 
 Messages:
@@ -97,6 +106,18 @@ Demande:
 Réponse:
 --------
 """
+
+# Answer check
+ANSWER_CHECK_TEMPLATE = """
+                Message entrant:
+                {query}
+                Réponse suggérée:
+                {answer}
+                Est-ce que cette réponse répond factuellemment à la question et est susceptible d'aider l'utilisateur ? 
+                Répondez par OUI ou par NON et rien d'autre.
+                """
+
+
 REPHRASE_TEMPLATE = """Consignes:
 - Supprime les passages où l'algorithme ne répond pas factuellement à question.
 - Conserve les autres informations contenues dans la réponse notamment les références aux personnes et aux ID de messages.
@@ -108,7 +129,7 @@ Réponse générée par l'algorithme:
 '{generated_answers[0].answer}'
 Réponse corrigée:
 """
-DOC_RELEVANCE_CHECK_TEMPLATE="""Question:
+DOC_RELEVANCE_CHECK_TEMPLATE = """Question:
 '{query}'
 Messages retrouvés:
 '{'- '.join(['['+ doc.id + '] ' + doc.content for doc in documents])}'

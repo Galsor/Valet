@@ -1,3 +1,4 @@
+import re
 from typing import Dict
 
 from src.utils.type import Message, MessageList
@@ -32,8 +33,13 @@ def format_context_message(message: Message) -> str:
 
 
 def stringify_message(message: Message) -> str:
-    in_response = '- In response to: ' + message.get('context')+ '\n' if 'context' in message else ''
-    return f"- From: {message['from']}\n- ID: {message['id']}\n {in_response}- Message: {message['text']}\n---\n"
+    in_response = (
+        "- In response to: " + message.get("context") + "\n"
+        if "context" in message
+        else ""
+    )
+    return f"- From: {message['from']}\n- ID: {message['id']}\n{in_response}- Message: {message['text']}\n---\n"
+
 
 
 def format_messages(conversations: MessageList) -> Dict[int, str]:
@@ -68,15 +74,14 @@ def format_messages(conversations: MessageList) -> Dict[int, str]:
     return formated_messages
 
 
-def reverse_formatting(content: str) -> Message:
-    message = {}
-    lines = content.split("\n|")
-    for line in lines:
-        dict_item = line.split(":")
-        key = dict_item[0].replace("|", "").replace("- ", "").strip().lower()
-        if len(dict_item) > 2:
-            body = ":".join(dict_item[1:]).strip()
-        else:
-            body = dict_item[1].strip()
-        message[key] = body
-    return message
+def reverse_formatting(document: str) -> Message:
+    keys = ["From", "ID", "In response to", "message"]
+    extracted_values = {}
+    for key in keys:
+        pattern = r"{}:(.*?)(?=-\s|$)".format(key)
+        match = re.search(pattern, document, re.DOTALL)
+        if match:
+            value = match.group(1).strip().replace("--", "")
+            extracted_values[key.lower()] = value
+
+    return extracted_values

@@ -2,7 +2,8 @@ import glob
 import json
 import logging
 import os
-from typing import Tuple, Any, Callable
+from typing import Any, Callable, Tuple
+
 
 import pandas as pd
 
