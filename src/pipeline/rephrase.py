@@ -17,3 +17,4 @@ def get_answer_rephraser_node() -> PromptNode:
         output_parser=AnswerParser(),
     )
     return PromptNode(prompt_open_ai, default_prompt_template=rephrase_prompt)
+

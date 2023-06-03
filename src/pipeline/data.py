@@ -4,6 +4,7 @@ import logging
 import os
 from typing import Any, Callable, Tuple
 
+
 import pandas as pd
 
 from src.utils.constants import (ARCHIVE_FILE_NAME, DOC_STORE_SIZE,

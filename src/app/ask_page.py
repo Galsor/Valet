@@ -1,7 +1,6 @@
 import logging
 import pprint
 import re
-import traceback
 
 import streamlit as st
 from haystack import Document

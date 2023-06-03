@@ -39,10 +39,12 @@ def conversations():
 @pytest.fixture
 def formated_conversations():
     return [
+
         "- From: John\n- ID: 1\n- Message: Hello world!\n---\n",
         "- From: Alice\n- ID: 2\n- In response to: [1] John: Hello world!\n- Message: Hi, how are you? I hope you are doing well!\n---\n",
         "- From: Bob\n- ID: 3\n- In response to: [2] Alice: Hi, how are you? I hope you are doing well!\n- Message: I'm doing great! Thanks for asking. How about you?\n---\n",
     ]
+
 
 
 def test_build_conversation_mapping(conversations):

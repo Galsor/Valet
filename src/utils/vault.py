@@ -7,3 +7,4 @@ def get_openai_secret():
 
 def get_pinecone_secret():
     return os.getenv("PINECONE_API_KEY")
+

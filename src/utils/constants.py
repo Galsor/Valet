@@ -76,7 +76,9 @@ Voici quelques outils de roadmap produit recommandés par les membres du Galion:
 - Harvestr (@Alexis TEPLITCHI)
 ========
 EXAMPLE
-========
+=======
+Voici quelques outils de roadmap produit recommandés par les membres du Galion:- Jira propose une option roadmap (@Yohan BENTOLILA)- Cycle (@Virgile RAINGEARD)- Harvestr (@Alexis TEPLITCHI)
+
 Messages:
 --------
 - From: John CIAVARELLA
@@ -94,6 +96,7 @@ Réponse:
 --------
 <no response>
 ========
+
 Messages:
 --------
 {join(documents)}
@@ -113,6 +116,7 @@ ANSWER_CHECK_TEMPLATE = """
                 Est-ce que cette réponse répond factuellemment à la question et est susceptible d'aider l'utilisateur ? 
                 Répondez par OUI ou par NON et rien d'autre.
                 """
+
 
 REPHRASE_TEMPLATE = """Consignes:
 - Supprime les passages où l'algorithme ne répond pas factuellement à question.

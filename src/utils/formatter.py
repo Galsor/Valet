@@ -41,6 +41,7 @@ def stringify_message(message: Message) -> str:
     return f"- From: {message['from']}\n- ID: {message['id']}\n{in_response}- Message: {message['text']}\n---\n"
 
 
+
 def format_messages(conversations: MessageList) -> Dict[int, str]:
     """Destructive formating"""
     conv_mapping = build_conversation_mapping(conversations)
