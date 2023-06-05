@@ -35,6 +35,7 @@ SPACY_MODEL = "fr_core_news_sm"
 # Answer generation
 GENERATIVE_MODEL = "gpt-3.5-turbo"
 MAX_LENGTH = 500
+GENERATION_TEMPERATURE = 0.5
 PROMPT_TEMPLATE = """Consignes:
 --------
 - Réponds à l'utilisateur sur la base des informations partagés par les autres utilisateurs. 
@@ -108,14 +109,26 @@ Réponse:
 """
 
 # Answer check
+ANSWER_CHECK_TEMPERATURE = 0.1
 ANSWER_CHECK_TEMPLATE = """
                 Message entrant:
                 {query}
                 Réponse suggérée:
                 {answer}
+                Tache:
                 Est-ce que cette réponse répond factuellemment à la question et est susceptible d'aider l'utilisateur ? 
                 Répondez par OUI ou par NON et rien d'autre.
+                Réponse:
                 """
+
+ANSWER_THE_QUESTION_TEMPLATE = """Message entrant:
+                {query}
+                Réponse suggérée:
+                {answer}
+                Tache:
+                L'auteur de la réponse a-t-il trouvé une réponse à la question posée ?
+                Répondez par OUI ou par NON et rien d'autre.
+                Réponse:"""
 
 
 REPHRASE_TEMPLATE = """Consignes:

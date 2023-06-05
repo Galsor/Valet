@@ -1,6 +1,7 @@
 import logging
 import pprint
 import re
+import traceback
 
 import streamlit as st
 from haystack import Document
@@ -52,7 +53,7 @@ def display_model_answer_and_sources(query: str):
     except Exception as e:
         st.error("Sorry. We faced an issue while processing your question.")
         with st.expander("Error Details"):
-            st.error(traceback.format_exc())
+            st.error(traceback.format_exception(e))
         logger.exception(e)
 
 

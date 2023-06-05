@@ -3,7 +3,7 @@ from typing import Dict, List, Optional, Union
 from haystack import Answer, BaseComponent
 from haystack.nodes import PromptModel, PromptNode
 
-from src.utils.constants import GENERATIVE_MODEL, ANSWER_CHECK_TEMPLATE
+from src.utils.constants import GENERATIVE_MODEL, ANSWER_CHECK_TEMPLATE, ANSWER_CHECK_TEMPERATURE, ANSWER_THE_QUESTION_TEMPLATE
 from src.utils.vault import get_openai_secret
 
 
@@ -104,10 +104,12 @@ class VeracityNode(BaseComponent):
             checked_answer.answer = self.override_answer
             return checked_answer
         else:
-            result_from_prompt_node = self.zero_shot_answer_check(query, answer)
-            checked_answer.meta["veracity"] = result_from_prompt_node[0]
+            has_found_answer = self.zero_shot_has_found_an_answer(query, answer)
+            checked_answer.meta["has_found_answer"] = has_found_answer
+            is_answering = self.zero_shot_answering_the_question(query, answer)
+            checked_answer.meta["is_anwersing"] = is_answering
             
-            if "oui" in result_from_prompt_node[0].lower():
+            if has_found_answer and is_answering:
                 # No transformation needed
                 return checked_answer
             else:
@@ -115,7 +117,7 @@ class VeracityNode(BaseComponent):
                 checked_answer.answer = self.override_answer
                 return checked_answer
 
-    def zero_shot_answer_check(self, query, answer):
+    def zero_shot_answering_the_question(self, query: str, answer: Answer)-> str:
         """
         Use generative model to check whether the given answer is correct for the given query.
 
@@ -123,14 +125,32 @@ class VeracityNode(BaseComponent):
         :param answer: The answer to check
         :return: The answer of the model, expected to be either 'OUI' or 'NON'.
         """
-        prompt = ANSWER_CHECK_TEMPLATE.format(query=query, answer=answer.answer)
+        result_from_prompt_node = self.zero_shot_task(ANSWER_CHECK_TEMPLATE, query, answer)
+        return "oui" in result_from_prompt_node.lower()
+        
+
+    def zero_shot_has_found_an_answer(self, query: str, answer: Answer) -> str:
+        """
+        Use generative model to check whether the the model found an answer to the question.
+
+        :param query: The query to answer
+        :param answer: The answer to check
+        :return: The answer of the model, expected to be either 'OUI' or 'NON'.
+        """
+        result_from_prompt_node = self.zero_shot_task(ANSWER_THE_QUESTION_TEMPLATE, query, answer)
+        return "oui" in result_from_prompt_node.lower()
+
+    
+
+    def zero_shot_task(self, prompt_template: str, query: str, answer: Answer) -> str:
+        prompt = prompt_template.format(query=query, answer=answer.answer)
         prompt_node = PromptNode(
             model_name_or_path=self.model_name_or_path,
             api_key=self.api_key,
             model_kwargs=self.model_kwargs,
         )
-        result_from_prompt_node = prompt_node(prompt)
-        return result_from_prompt_node
+        result_from_prompt_node: List[str] = prompt_node(prompt)
+        return result_from_prompt_node[0]
     
 
 
@@ -139,5 +159,5 @@ def get_veracity_node() -> VeracityNode:
     Returns a VeracityNode with the default model.
     """
     return VeracityNode(
-        model_name_or_path=GENERATIVE_MODEL, api_key=get_openai_secret()
+        model_name_or_path=GENERATIVE_MODEL, api_key=get_openai_secret(), model_kwargs={"temperature": ANSWER_CHECK_TEMPERATURE}
     )

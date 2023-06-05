@@ -11,7 +11,7 @@ from src.pipeline.rephrase import get_answer_rephraser_node
 from src.pipeline.retriever import get_retriever
 from src.pipeline.rephrase import get_answer_rephraser_node
 from src.pipeline.check import get_validate_documents_node
-
+from src.pipeline.doc_duplicate import DuplicateDocQueryNode
 
 @st.cache_resource
 def load_QA_pipeline() -> Pipeline:
@@ -24,6 +24,7 @@ def load_QA_pipeline() -> Pipeline:
 
     pipe = Pipeline()
     pipe.add_node(component=retriever, name="Retriever", inputs=["Query"])
-    pipe.add_node(component=generator, name="Generator", inputs=["Retriever"])
+    pipe.add_node(component=DuplicateDocQueryNode(), name="DuplicateDocQuery", inputs=["Retriever"])
+    pipe.add_node(component=generator, name="Generator", inputs=["DuplicateDocQuery"])
     pipe.add_node(component=veracity, name="Veracity", inputs=["Generator"])
     return pipe
